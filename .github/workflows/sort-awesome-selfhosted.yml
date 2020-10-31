@@ -22,6 +22,7 @@ jobs:
 
     - name: Sort awesome list
       run: |-
+        rm -f awesome-selfhosted.md
         chmod +x ./sort-awesome-lists
         ./sort-awesome-lists -t "${{ secrets.GITHUB_TOKEN }}" -o "awesome-selfhosted.md" "https://raw.githubusercontent.com/awesome-selfhosted/awesome-selfhosted/master/README.md"
 
