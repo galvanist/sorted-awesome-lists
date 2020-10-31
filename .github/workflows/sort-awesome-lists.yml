@@ -3,7 +3,7 @@ name: Build sort-awesome-lists
 on:
   push:
     branches: [ main ]
-    paths: ['.github/workflows/**']
+    paths: ['.github/workflows/sort-awesome-lists.yml']
 
 jobs:
   build:
