@@ -1,9 +1,10 @@
 name: Build sort-awesome-lists
 
 on:
+  workflow_dispatch:
   push:
     branches: [ main ]
-    paths: ['.github/workflows/sort-awesome-lists.yml']
+    paths: ['.github/workflows/build-sort-awesome-lists.yml']
 
 jobs:
   build:
