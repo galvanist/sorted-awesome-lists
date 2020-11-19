@@ -78,18 +78,18 @@
 
 ## Platforms
 
-	- **<code>&nbsp;39872</code>** [Apps](https://github.com/jaywcjlove/awesome-mac#readme)
+	- **<code>&nbsp;39873</code>** [Apps](https://github.com/jaywcjlove/awesome-mac#readme)
 - **<code>&nbsp;38806</code>** [Node.js](https://github.com/sindresorhus/awesome-nodejs#readme) - Async non-blocking event-driven JavaScript runtime built on Chrome's V8 JavaScript engine.
-- **<code>&nbsp;36025</code>** [iOS](https://github.com/vsouza/awesome-ios#readme) - Mobile operating system for Apple phones and tablets.
+- **<code>&nbsp;36026</code>** [iOS](https://github.com/vsouza/awesome-ios#readme) - Mobile operating system for Apple phones and tablets.
 - **<code>&nbsp;32034</code>** [Flutter](https://github.com/Solido/awesome-flutter#readme) - Google's mobile SDK for building native iOS and Android apps from a single codebase written in Dart.
-- **<code>&nbsp;28482</code>** [React Native](https://github.com/jondot/awesome-react-native#readme) - JavaScript framework for writing natively rendering mobile apps for iOS and Android.
+- **<code>&nbsp;28483</code>** [React Native](https://github.com/jondot/awesome-react-native#readme) - JavaScript framework for writing natively rendering mobile apps for iOS and Android.
 - **<code>&nbsp;27858</code>** [Frontend Development](https://github.com/dypsilon/frontend-dev-bookmarks#readme)
-	- **<code>&nbsp;24125</code>** [Command-Line](https://github.com/herrbischoff/awesome-macos-command-line#readme)
-	- **<code>&nbsp;23911</code>** [Open Source Apps](https://github.com/serhii-londar/open-source-mac-os-apps#readme)
-- **<code>&nbsp;20621</code>** [Electron](https://github.com/sindresorhus/awesome-electron#readme) - Cross-platform native desktop apps using JavaScript/HTML/CSS.
-- **<code>&nbsp;14886</code>** [Windows](https://github.com/Awesome-Windows/Awesome#readme)
+	- **<code>&nbsp;24127</code>** [Command-Line](https://github.com/herrbischoff/awesome-macos-command-line#readme)
+	- **<code>&nbsp;23912</code>** [Open Source Apps](https://github.com/serhii-londar/open-source-mac-os-apps#readme)
+- **<code>&nbsp;20622</code>** [Electron](https://github.com/sindresorhus/awesome-electron#readme) - Cross-platform native desktop apps using JavaScript/HTML/CSS.
+- **<code>&nbsp;14887</code>** [Windows](https://github.com/Awesome-Windows/Awesome#readme)
 	- **<code>&nbsp;13470</code>** [Core](https://github.com/thangchung/awesome-dotnet-core#readme)
-- **<code>&nbsp;12202</code>** [.NET](https://github.com/quozd/awesome-dotnet#readme)
+- **<code>&nbsp;12204</code>** [.NET](https://github.com/quozd/awesome-dotnet#readme)
 - **<code>&nbsp;11425</code>** [macOS](https://github.com/iCHAIT/awesome-macOS#readme) - Operating system for Apple's Mac computers.
 - **<code>&nbsp;&nbsp;8669</code>** [Amazon Web Services](https://github.com/donnemartin/awesome-aws#readme)
 - **<code>&nbsp;&nbsp;8148</code>** [Android](https://github.com/JStumpp/awesome-android#readme) - Mobile operating system developed by Google.
@@ -130,21 +130,21 @@
 
 ## Programming Languages
 
-- **<code>&nbsp;88876</code>** [Python](https://github.com/vinta/awesome-python#readme) - General-purpose programming language designed for readability.
+- **<code>&nbsp;88877</code>** [Python](https://github.com/vinta/awesome-python#readme) - General-purpose programming language designed for readability.
 	- **<code>&nbsp;65532</code>** [30 Seconds of Code](https://github.com/30-seconds/30-seconds-of-code#readme) - Code snippets you can understand in 30 seconds.
 - **<code>&nbsp;59143</code>** [Go](https://github.com/avelino/awesome-go#readme)
 - **<code>&nbsp;28333</code>** [C/C++](https://github.com/fffaraz/awesome-cpp#readme) - General-purpose language with a bias toward system programming and embedded, resource-constrained software.
 - **<code>&nbsp;26667</code>** [Java](https://github.com/akullpp/awesome-java#readme) - Popular secure object-oriented language designed for flexibility to "write once, run anywhere".
-- **<code>&nbsp;24485</code>** [PHP](https://github.com/ziadoz/awesome-php#readme) - Server-side scripting language.
+- **<code>&nbsp;24486</code>** [PHP](https://github.com/ziadoz/awesome-php#readme) - Server-side scripting language.
 - **<code>&nbsp;21921</code>** [JavaScript](https://github.com/sorrycc/awesome-javascript#readme)
 - **<code>&nbsp;19975</code>** [Swift](https://github.com/matteocrippa/awesome-swift#readme) - Apple's compiled programming language that is secure, modern, programmer-friendly, and fast.
 - **<code>&nbsp;17598</code>** [Rust](https://github.com/rust-unofficial/awesome-rust#readme)
 	- **<code>&nbsp;12326</code>** [Must Watch Talks](https://github.com/bolshchikov/js-must-watch#readme)
-	- **<code>&nbsp;11237</code>** [Tips](https://github.com/loverajoel/jstips#readme)
-- **<code>&nbsp;11216</code>** [Ruby](https://github.com/markets/awesome-ruby#readme)
+	- **<code>&nbsp;11236</code>** [Tips](https://github.com/loverajoel/jstips#readme)
+- **<code>&nbsp;11217</code>** [Ruby](https://github.com/markets/awesome-ruby#readme)
 - **<code>&nbsp;10328</code>** [Elixir](https://github.com/h4cc/awesome-elixir#readme)
-- **<code>&nbsp;&nbsp;9090</code>** [Kotlin](https://github.com/KotlinBy/awesome-kotlin#readme)
-- **<code>&nbsp;&nbsp;7712</code>** [Scala](https://github.com/lauris/awesome-scala#readme)
+- **<code>&nbsp;&nbsp;9091</code>** [Kotlin](https://github.com/KotlinBy/awesome-kotlin#readme)
+- **<code>&nbsp;&nbsp;7714</code>** [Scala](https://github.com/lauris/awesome-scala#readme)
 	- **<code>&nbsp;&nbsp;5391</code>** [Education](https://github.com/hsavit1/Awesome-Swift-Education#readme)
 	- **<code>&nbsp;&nbsp;5026</code>** [Functional Programming](https://github.com/stoeffel/awesome-fp-js#readme)
 - **<code>&nbsp;&nbsp;4312</code>** [R](https://github.com/qinwf/awesome-R#readme) - Functional programming language and environment for statistical computing and graphics.
@@ -153,7 +153,7 @@
 - **<code>&nbsp;&nbsp;3302</code>** [CMake](https://github.com/onqtam/awesome-cmake#readme) - Build, test, and package software.
 	- **<code>&nbsp;&nbsp;3277</code>** [Playgrounds](https://github.com/uraimo/Awesome-Swift-Playgrounds#readme)
 - **<code>&nbsp;&nbsp;3263</code>** [Elm](https://github.com/sporto/awesome-elm#readme)
-	- **<code>&nbsp;&nbsp;2655</code>** [Asyncio](https://github.com/timofurrer/awesome-asyncio#readme) - Asynchronous I/O in Python 3.
+	- **<code>&nbsp;&nbsp;2656</code>** [Asyncio](https://github.com/timofurrer/awesome-asyncio#readme) - Asynchronous I/O in Python 3.
 - **<code>&nbsp;&nbsp;2628</code>** [Crystal](https://github.com/veelenga/awesome-crystal#readme)
 - **<code>&nbsp;&nbsp;2487</code>** [Lua](https://github.com/LewisJEllis/awesome-lua#readme)
 - **<code>&nbsp;&nbsp;2285</code>** [C](https://github.com/aleksandar-todorovic/awesome-c#readme)
@@ -176,7 +176,7 @@
 - **<code>&nbsp;&nbsp;&nbsp;596</code>** [Groovy](https://github.com/kdabir/awesome-groovy#readme)
 - **<code>&nbsp;&nbsp;&nbsp;595</code>** [V](https://github.com/vlang/awesome-v#readme) - Simple, fast, safe, compiled language for developing maintainable software.
 	- **<code>&nbsp;&nbsp;&nbsp;584</code>** [Typing](https://github.com/typeddjango/awesome-python-typing#readme) - Optional static typing for Python.
-	- **<code>&nbsp;&nbsp;&nbsp;568</code>** [npm scripts](https://github.com/RyanZim/awesome-npm-scripts#readme) - Task runner.
+	- **<code>&nbsp;&nbsp;&nbsp;569</code>** [npm scripts](https://github.com/RyanZim/awesome-npm-scripts#readme) - Task runner.
 - **<code>&nbsp;&nbsp;&nbsp;507</code>** [Perl](https://github.com/hachiojipm/awesome-perl#readme)
 	- **<code>&nbsp;&nbsp;&nbsp;469</code>** [Network Layer](https://github.com/Kikobeats/awesome-network-js#readme)
 - **<code>&nbsp;&nbsp;&nbsp;459</code>** [D](https://github.com/zhaopuming/awesome-d#readme)
@@ -207,18 +207,18 @@
 
 ## Front-End Development
 
-- **<code>&nbsp;57439</code>** [Vue.js](https://github.com/vuejs/awesome-vue#readme) - App framework.
+- **<code>&nbsp;57441</code>** [Vue.js](https://github.com/vuejs/awesome-vue#readme) - App framework.
 - **<code>&nbsp;40227</code>** [React](https://github.com/enaqx/awesome-react#readme) - App framework.
 - **<code>&nbsp;39244</code>** [Android UI](https://github.com/wasabeef/awesome-android-ui#readme)
 	- **<code>&nbsp;14778</code>** [Protips](https://github.com/AllThingsSmitty/css-protips#readme)
 - **<code>&nbsp;10847</code>** [iOS UI](https://github.com/cjwirth/awesome-ios-ui#readme)
 - **<code>&nbsp;&nbsp;7576</code>** [Angular](https://github.com/PatrickJS/awesome-angular#readme) - App framework.
 - **<code>&nbsp;&nbsp;7029</code>** [Web Performance Optimization](https://github.com/davidsonfellipe/awesome-wpo#readme)
-- **<code>&nbsp;&nbsp;4557</code>** [Next.js](https://github.com/unicodeveloper/awesome-nextjs#readme) - Framework for server-rendered React apps.
-- **<code>&nbsp;&nbsp;4524</code>** [D3](https://github.com/wbkd/awesome-d3#readme) - Library for producing dynamic, interactive data visualizations.
+- **<code>&nbsp;&nbsp;4559</code>** [Next.js](https://github.com/unicodeveloper/awesome-nextjs#readme) - Framework for server-rendered React apps.
+- **<code>&nbsp;&nbsp;4525</code>** [D3](https://github.com/wbkd/awesome-d3#readme) - Library for producing dynamic, interactive data visualizations.
 - **<code>&nbsp;&nbsp;4420</code>** [Blazor](https://github.com/AdrienTorris/awesome-blazor#readme) - .NET web framework using C#/Razor and HTML that runs in the browser with WebAssembly.
 - **<code>&nbsp;&nbsp;4375</code>** [Chrome DevTools](https://github.com/ChromeDevTools/awesome-chrome-devtools#readme)
-- **<code>&nbsp;&nbsp;4209</code>** [Tailwind CSS](https://github.com/aniftyco/awesome-tailwindcss#readme) - Utility-first CSS framework for rapid UI development.
+- **<code>&nbsp;&nbsp;4211</code>** [Tailwind CSS](https://github.com/aniftyco/awesome-tailwindcss#readme) - Utility-first CSS framework for rapid UI development.
 - **<code>&nbsp;&nbsp;4203</code>** [webpack](https://github.com/webpack-contrib/awesome-webpack#readme) - Module bundler.
 	- **<code>&nbsp;&nbsp;4146</code>** [Tips](https://github.com/AllThingsSmitty/jquery-tips-everyone-should-know#readme)
 - **<code>&nbsp;&nbsp;4080</code>** [SVG](https://github.com/willianjusten/awesome-svg#readme) - XML-based vector image format.
@@ -237,19 +237,19 @@
 - **<code>&nbsp;&nbsp;1412</code>** [Meteor](https://github.com/Urigo/awesome-meteor#readme)
 - **<code>&nbsp;&nbsp;1408</code>** [Progressive Web Apps](https://github.com/TalAter/awesome-progressive-web-apps#readme)
 	- **<code>&nbsp;&nbsp;1364</code>** [Scalability](https://github.com/davidtheclark/scalable-css-reading-list#readme)
-- **<code>&nbsp;&nbsp;1336</code>** [Static Website Services](https://github.com/agarrharr/awesome-static-website-services#readme)
+- **<code>&nbsp;&nbsp;1337</code>** [Static Website Services](https://github.com/agarrharr/awesome-static-website-services#readme)
 - **<code>&nbsp;&nbsp;1298</code>** [Emails](https://github.com/jonathandion/awesome-emails#readme)
 - **<code>&nbsp;&nbsp;1149</code>** [Web Accessibility](https://github.com/brunopulis/awesome-a11y#readme)
 	- **<code>&nbsp;&nbsp;1075</code>** [Critical-Path Tools](https://github.com/addyosmani/critical-path-css-tools#readme)
 - **<code>&nbsp;&nbsp;1040</code>** [Mobile Web Development](https://github.com/myshov/awesome-mobile-web-development#readme) - Creating a great mobile web experience.
 - **<code>&nbsp;&nbsp;1021</code>** [Flexbox](https://github.com/afonsopacifer/awesome-flexbox#readme)
 - **<code>&nbsp;&nbsp;&nbsp;908</code>** [JAMstack](https://github.com/automata/awesome-jamstack#readme) - Modern web development architecture based on client-side JavaScript, reusable APIs, and prebuilt markup.
-	- **<code>&nbsp;&nbsp;&nbsp;900</code>** [React Hooks](https://github.com/glauberfc/awesome-react-hooks#readme) - A new feature that lets you use state and other React features without writing a class.
+	- **<code>&nbsp;&nbsp;&nbsp;901</code>** [React Hooks](https://github.com/glauberfc/awesome-react-hooks#readme) - A new feature that lets you use state and other React features without writing a class.
 - **<code>&nbsp;&nbsp;&nbsp;888</code>** [Canvas](https://github.com/raphamorim/awesome-canvas#readme)
 - **<code>&nbsp;&nbsp;&nbsp;849</code>** [Web Animation](https://github.com/sergey-pimenov/awesome-web-animation#readme) - Animations in the browser with JavaScript, CSS, SVG, etc.
 - **<code>&nbsp;&nbsp;&nbsp;831</code>** [Inspiration](https://github.com/NoahBuscher/Inspire#readme)
 - **<code>&nbsp;&nbsp;&nbsp;816</code>** [Cycle.js](https://github.com/cyclejs-community/awesome-cyclejs#readme) - Functional and reactive JavaScript framework.
-- **<code>&nbsp;&nbsp;&nbsp;789</code>** [Ionic Framework 2](https://github.com/candelibas/awesome-ionic#readme)
+- **<code>&nbsp;&nbsp;&nbsp;790</code>** [Ionic Framework 2](https://github.com/candelibas/awesome-ionic#readme)
 - **<code>&nbsp;&nbsp;&nbsp;775</code>** [WebGL](https://github.com/sjfricke/awesome-webgl#readme) - JavaScript API for rendering 3D graphics.
 - **<code>&nbsp;&nbsp;&nbsp;750</code>** [jQuery](https://github.com/petk/awesome-jquery#readme) - Easy to use JavaScript library for DOM manipulation.
 - **<code>&nbsp;&nbsp;&nbsp;652</code>** [Motion UI Design](https://github.com/fliptheweb/motion-ui-design#readme)
@@ -273,7 +273,7 @@
 - **<code>&nbsp;&nbsp;&nbsp;170</code>** [WordPress-Gatsby](https://github.com/henrikwirth/awesome-wordpress-gatsby#readme) - Web development technology stack with WordPress as a back end and Gatsby as a front end.
 - **<code>&nbsp;&nbsp;&nbsp;167</code>** [Text Editing](https://github.com/dok/awesome-text-editing#readme)
 - **<code>&nbsp;&nbsp;&nbsp;151</code>** [Marionette.js](https://github.com/sadcitizen/awesome-marionette#readme) - App framework.
-- **<code>&nbsp;&nbsp;&nbsp;149</code>** [Storybook](https://github.com/lauthieb/awesome-storybook#readme) - Development environment for UI components.
+- **<code>&nbsp;&nbsp;&nbsp;150</code>** [Storybook](https://github.com/lauthieb/awesome-storybook#readme) - Development environment for UI components.
 - **<code>&nbsp;&nbsp;&nbsp;137</code>** [Ember](https://github.com/ember-community-russia/awesome-ember#readme) - App framework.
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;88</code>** [KnockoutJS](https://github.com/dnbard/awesome-knockout#readme) - JavaScript library.
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;82</code>** [Seed](https://github.com/seed-rs/awesome-seed-rs#readme) - Rust framework for creating web apps running in WebAssembly.
@@ -287,11 +287,11 @@
 
 ## Back-End Development
 
-- **<code>&nbsp;18839</code>** [Docker](https://github.com/veggiemonk/awesome-docker#readme)
+- **<code>&nbsp;18840</code>** [Docker](https://github.com/veggiemonk/awesome-docker#readme)
 - **<code>&nbsp;11519</code>** [Useful `.htaccess` Snippets](https://github.com/phanan/htaccess#readme)
 - **<code>&nbsp;10789</code>** [Kubernetes](https://github.com/ramitsurana/awesome-kubernetes#readme) - Open-source platform that automates Linux container operations.
 - **<code>&nbsp;&nbsp;9470</code>** [Laravel](https://github.com/chiraggude/awesome-laravel#readme) - PHP framework.
-- **<code>&nbsp;&nbsp;9381</code>** [Flask](https://github.com/humiaozuzu/awesome-flask#readme) - Python framework.
+- **<code>&nbsp;&nbsp;9380</code>** [Flask](https://github.com/humiaozuzu/awesome-flask#readme) - Python framework.
 - **<code>&nbsp;&nbsp;2762</code>** [nginx](https://github.com/fcambus/nginx-resources#readme) - Web server.
 	- **<code>&nbsp;&nbsp;2695</code>** [Gems](https://github.com/hothero/awesome-rails-gem#readme) - Packages.
 - **<code>&nbsp;&nbsp;2423</code>** [Rails](https://github.com/gramantin/awesome-rails#readme) - Web app framework for Ruby.
@@ -316,8 +316,8 @@
 
 ## Computer Science
 
-- **<code>&nbsp;68589</code>** [Open Source Society University](https://github.com/ossu/computer-science#readme)
-- **<code>&nbsp;47355</code>** [Machine Learning](https://github.com/josephmisiti/awesome-machine-learning#readme)
+- **<code>&nbsp;68597</code>** [Open Source Society University](https://github.com/ossu/computer-science#readme)
+- **<code>&nbsp;47356</code>** [Machine Learning](https://github.com/josephmisiti/awesome-machine-learning#readme)
 - **<code>&nbsp;35525</code>** [University Courses](https://github.com/prakhar1989/awesome-courses#readme)
 	- **<code>&nbsp;22235</code>** [Papers](https://github.com/terryum/awesome-deep-learning-papers#readme) - The most cited deep learning papers.
 - **<code>&nbsp;16175</code>** [Deep Learning](https://github.com/ChristosChristofidis/awesome-deep-learning#readme) - Neural networks.
@@ -332,7 +332,7 @@
 - **<code>&nbsp;&nbsp;1996</code>** [Speech and Natural Language Processing](https://github.com/edobashira/speech-language-processing#readme)
 	- **<code>&nbsp;&nbsp;1541</code>** [ML with Ruby](https://github.com/arbox/machine-learning-with-ruby#readme) - Learning, implementing, and applying Machine Learning using Ruby.
 	- **<code>&nbsp;&nbsp;1359</code>** [Education](https://github.com/guillaume-chevalier/awesome-deep-learning-resources#readme)
-- **<code>&nbsp;&nbsp;1189</code>** [Quantum Computing](https://github.com/desireevl/awesome-quantum-computing#readme) - Computing which utilizes quantum mechanics and qubits on quantum computers.
+- **<code>&nbsp;&nbsp;1190</code>** [Quantum Computing](https://github.com/desireevl/awesome-quantum-computing#readme) - Computing which utilizes quantum mechanics and qubits on quantum computers.
 	- **<code>&nbsp;&nbsp;&nbsp;924</code>** [Papers](https://github.com/pFarb/awesome-crypto-papers#readme) - Theory basics for using cryptography by non-cryptographers.
 	- **<code>&nbsp;&nbsp;&nbsp;897</code>** [NLP with Ruby](https://github.com/arbox/nlp-with-ruby#readme)
 	- **<code>&nbsp;&nbsp;&nbsp;719</code>** [AI in Finance](https://github.com/georgezouq/awesome-ai-in-finance#readme) - Solving problems in finance with machine learning.
@@ -350,7 +350,7 @@
 
 ## Big Data
 
-- **<code>&nbsp;41957</code>** [Public Datasets](https://github.com/awesomedata/awesome-public-datasets#readme)
+- **<code>&nbsp;41958</code>** [Public Datasets](https://github.com/awesomedata/awesome-public-datasets#readme)
 - **<code>&nbsp;&nbsp;9450</code>** [Big Data](https://github.com/onurakpolat/awesome-bigdata#readme)
 - **<code>&nbsp;&nbsp;3192</code>** [Data Engineering](https://github.com/igorbarinov/awesome-data-engineering#readme)
 - **<code>&nbsp;&nbsp;1592</code>** [Streaming](https://github.com/manuzhang/awesome-streaming#readme)
@@ -361,11 +361,11 @@
 
 ## Theory
 
-- **<code>&nbsp;43593</code>** [Papers We Love](https://github.com/papers-we-love/papers-we-love#readme)
+- **<code>&nbsp;43594</code>** [Papers We Love](https://github.com/papers-we-love/papers-we-love#readme)
 - **<code>&nbsp;&nbsp;7983</code>** [Algorithms](https://github.com/tayllan/awesome-algorithms#readme)
 - **<code>&nbsp;&nbsp;7117</code>** [Competitive Programming](https://github.com/lnishan/awesome-competitive-programming#readme)
 - **<code>&nbsp;&nbsp;5787</code>** [Artificial Intelligence](https://github.com/owainlewis/awesome-artificial-intelligence#readme)
-- **<code>&nbsp;&nbsp;4026</code>** [Math](https://github.com/rossant/awesome-math#readme)
+- **<code>&nbsp;&nbsp;4027</code>** [Math](https://github.com/rossant/awesome-math#readme)
 - **<code>&nbsp;&nbsp;3019</code>** [Talks](https://github.com/JanVanRyswyck/awesome-talks#readme)
 - **<code>&nbsp;&nbsp;1532</code>** [Search Engine Optimization](https://github.com/marcobiedermann/search-engine-optimization#readme)
 - **<code>&nbsp;&nbsp;1208</code>** [Algorithm Visualizations](https://github.com/enjalot/algovis#readme)
@@ -374,7 +374,7 @@
 
 ## Books
 
-- **<code>165763</code>** [Free Programming Books](https://github.com/EbookFoundation/free-programming-books#readme)
+- **<code>165764</code>** [Free Programming Books](https://github.com/EbookFoundation/free-programming-books#readme)
 - **<code>&nbsp;&nbsp;8517</code>** [Go Books](https://github.com/dariubs/GoBooks#readme)
 - **<code>&nbsp;&nbsp;5944</code>** [Mind Expanding Books](https://github.com/hackerkid/Mind-Expanding-Books#readme)
 - **<code>&nbsp;&nbsp;1900</code>** [Free Software Testing Books](https://github.com/ligurio/awesome-software-quality#readme)
@@ -393,7 +393,7 @@
 ## Gaming
 
 - **<code>&nbsp;15090</code>** [Open Source Games](https://github.com/leereilly/games#readme)
-- **<code>&nbsp;&nbsp;7682</code>** [Game Development](https://github.com/ellisonleao/magictools#readme)
+- **<code>&nbsp;&nbsp;7683</code>** [Game Development](https://github.com/ellisonleao/magictools#readme)
 - **<code>&nbsp;&nbsp;3872</code>** [Unity](https://github.com/RyanNielson/awesome-unity#readme) - Game engine.
 - **<code>&nbsp;&nbsp;2564</code>** [Game Boy Development](https://github.com/gbdev/awesome-gbdev#readme)
 - **<code>&nbsp;&nbsp;2256</code>** [Godot](https://github.com/Calinou/awesome-godot#readme) - Game engine.
@@ -416,15 +416,15 @@
 ## Development Environment
 
 	- **<code>&nbsp;30984</code>** [Cheat Sheet](https://github.com/tiimgreen/github-cheat-sheet#readme)
-- **<code>&nbsp;20350</code>** [Shell](https://github.com/alebcay/awesome-shell#readme)
-- **<code>&nbsp;16804</code>** [Git Tips](https://github.com/git-tips/tips#readme)
+- **<code>&nbsp;20351</code>** [Shell](https://github.com/alebcay/awesome-shell#readme)
+- **<code>&nbsp;16805</code>** [Git Tips](https://github.com/git-tips/tips#readme)
 - **<code>&nbsp;15403</code>** [Quick Look Plugins](https://github.com/sindresorhus/quick-look-plugins#readme) - For macOS.
 - **<code>&nbsp;11494</code>** [GitHub Actions](https://github.com/sdras/awesome-actions#readme) - Create tasks to automate your workflow and share them with others on GitHub.
 - **<code>&nbsp;&nbsp;9561</code>** [Terminals Are Sexy](https://github.com/k4m4/terminals-are-sexy#readme)
 - **<code>&nbsp;&nbsp;9189</code>** [Hyper](https://github.com/bnb/awesome-hyper#readme) - Cross-platform terminal app built on web technologies.
 - **<code>&nbsp;&nbsp;8522</code>** [ZSH Plugins](https://github.com/unixorn/awesome-zsh-plugins#readme)
 - **<code>&nbsp;&nbsp;6692</code>** [Command-Line Apps](https://github.com/agarrharr/awesome-cli-apps#readme)
-- **<code>&nbsp;&nbsp;5270</code>** [Dotfiles](https://github.com/webpro/awesome-dotfiles#readme)
+- **<code>&nbsp;&nbsp;5271</code>** [Dotfiles](https://github.com/webpro/awesome-dotfiles#readme)
 - **<code>&nbsp;&nbsp;2907</code>** [Git Cheat Sheet & Git Flow](https://github.com/arslanbilal/git-cheat-sheet#readme)
 - **<code>&nbsp;&nbsp;2232</code>** [PowerShell](https://github.com/janikvonrotz/awesome-powershell#readme) - Cross-platform object-oriented shell.
 - **<code>&nbsp;&nbsp;2159</code>** [Fish](https://github.com/jorgebucaran/awesome-fish#readme) - User-friendly shell.
@@ -466,7 +466,7 @@
 ## Media
 
 - **<code>&nbsp;&nbsp;9445</code>** [Stock Resources](https://github.com/neutraltone/awesome-stock-resources#readme)
-- **<code>&nbsp;&nbsp;5370</code>** [Codeface](https://github.com/chrissimpkins/codeface#readme) - Text editor fonts.
+- **<code>&nbsp;&nbsp;5371</code>** [Codeface](https://github.com/chrissimpkins/codeface#readme) - Text editor fonts.
 - **<code>&nbsp;&nbsp;3415</code>** [Audio Visualization](https://github.com/willianjusten/awesome-audio-visualization#readme)
 - **<code>&nbsp;&nbsp;1603</code>** [Open Source Documents](https://github.com/hubtee/awesome-opensource-documents#readme)
 - **<code>&nbsp;&nbsp;&nbsp;856</code>** [Broadcasting](https://github.com/ebu/awesome-broadcasting#readme)
@@ -481,7 +481,7 @@
 
 ## Learn
 
-- **<code>&nbsp;10232</code>** [Dive into Machine Learning](https://github.com/hangtwenty/dive-into-machine-learning#readme)
+- **<code>&nbsp;10231</code>** [Dive into Machine Learning](https://github.com/hangtwenty/dive-into-machine-learning#readme)
 - **<code>&nbsp;&nbsp;2359</code>** [JavaScript Learning](https://github.com/micromata/awesome-javascript-learning#readme)
 - **<code>&nbsp;&nbsp;1879</code>** [Computer History](https://github.com/watson/awesome-computer-history#readme)
 - **<code>&nbsp;&nbsp;1067</code>** [Speaking](https://github.com/matteofigus/awesome-speaking#readme)
@@ -497,10 +497,10 @@
 ## Security
 
 - **<code>&nbsp;&nbsp;6715</code>** [Malware Analysis](https://github.com/rshipp/awesome-malware-analysis#readme)
-- **<code>&nbsp;&nbsp;6538</code>** [Hacking](https://github.com/carpedm20/awesome-hacking#readme)
-- **<code>&nbsp;&nbsp;6227</code>** [Security](https://github.com/sbilly/awesome-security#readme)
+- **<code>&nbsp;&nbsp;6539</code>** [Hacking](https://github.com/carpedm20/awesome-hacking#readme)
+- **<code>&nbsp;&nbsp;6228</code>** [Security](https://github.com/sbilly/awesome-security#readme)
 - **<code>&nbsp;&nbsp;5471</code>** [Web Security](https://github.com/qazbnm456/awesome-web-security#readme) - Security of web apps & services.
-- **<code>&nbsp;&nbsp;5153</code>** [CTF](https://github.com/apsdehal/awesome-ctf#readme) - Capture The Flag.
+- **<code>&nbsp;&nbsp;5154</code>** [CTF](https://github.com/apsdehal/awesome-ctf#readme) - Capture The Flag.
 - **<code>&nbsp;&nbsp;4991</code>** [Android Security](https://github.com/ashishb/android-security-awesome#readme)
 - **<code>&nbsp;&nbsp;4578</code>** [Honeypots](https://github.com/paralax/awesome-honeypots#readme) - Deception trap, designed to entice an attacker into attempting to compromise the information systems in an organization.
 - **<code>&nbsp;&nbsp;4330</code>** [Application Security](https://github.com/paragonie/awesome-appsec#readme)
@@ -557,7 +557,7 @@
 
 ## Networking
 
-- **<code>&nbsp;&nbsp;2102</code>** [Network Analysis](https://github.com/briatte/awesome-network-analysis#readme)
+- **<code>&nbsp;&nbsp;2103</code>** [Network Analysis](https://github.com/briatte/awesome-network-analysis#readme)
 - **<code>&nbsp;&nbsp;2063</code>** [PCAPTools](https://github.com/caesar0301/awesome-pcaptools#readme)
 - **<code>&nbsp;&nbsp;&nbsp;793</code>** [Software-Defined Networking](https://github.com/sdnds-tw/awesome-sdn#readme)
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;61</code>** [Real-Time Communications](https://github.com/rtckit/awesome-rtc#readme) - Network protocols for near simultaneous exchange of media and data.
@@ -600,16 +600,16 @@
 
 ## Miscellaneous
 
-- **<code>146129</code>** [Awesome](https://github.com/sindresorhus/awesome#readme) - Recursion illustrated.
+- **<code>146132</code>** [Awesome](https://github.com/sindresorhus/awesome#readme) - Recursion illustrated.
 - **<code>&nbsp;50186</code>** [Self Hosted](https://github.com/awesome-selfhosted/awesome-selfhosted#readme)
-- **<code>&nbsp;40397</code>** [Free for Developers](https://github.com/ripienaar/free-for-dev#readme)
-- **<code>&nbsp;25329</code>** [Beginner-Friendly Projects](https://github.com/MunGell/awesome-for-beginners#readme)
+- **<code>&nbsp;40399</code>** [Free for Developers](https://github.com/ripienaar/free-for-dev#readme)
+- **<code>&nbsp;25331</code>** [Beginner-Friendly Projects](https://github.com/MunGell/awesome-for-beginners#readme)
 - **<code>&nbsp;17546</code>** [Software Engineering Blogs](https://github.com/kilimchoi/engineering-blogs#readme)
-- **<code>&nbsp;14959</code>** [Falsehood](https://github.com/kdeldycke/awesome-falsehood#readme) - Falsehoods programmers believe in.
+- **<code>&nbsp;14960</code>** [Falsehood](https://github.com/kdeldycke/awesome-falsehood#readme) - Falsehoods programmers believe in.
 - **<code>&nbsp;12097</code>** [GraphQL](https://github.com/chentsulin/awesome-graphql#readme)
 - **<code>&nbsp;11245</code>** [Sysadmin](https://github.com/n1trux/awesome-sysadmin#readme)
 - **<code>&nbsp;&nbsp;9389</code>** [Microservices](https://github.com/mfornos/awesome-microservices#readme)
-- **<code>&nbsp;&nbsp;8210</code>** [Readme](https://github.com/matiassingers/awesome-readme#readme)
+- **<code>&nbsp;&nbsp;8211</code>** [Readme](https://github.com/matiassingers/awesome-readme#readme)
 - **<code>&nbsp;&nbsp;7059</code>** [Creative Coding](https://github.com/terkelg/awesome-creative-coding#readme) - Programming something expressive instead of something functional.
 - **<code>&nbsp;&nbsp;6492</code>** [Domain-Driven Design](https://github.com/heynickc/awesome-ddd#readme) - Software development approach for complex needs by connecting the implementation to an evolving model.
 - **<code>&nbsp;&nbsp;5707</code>** [Site Reliability Engineering](https://github.com/dastergon/awesome-sre#readme)
@@ -619,7 +619,7 @@
 - **<code>&nbsp;&nbsp;2629</code>** [REST](https://github.com/marmelab/awesome-rest#readme)
 - **<code>&nbsp;&nbsp;2362</code>** [Stacks](https://github.com/stackshareio/awesome-stacks#readme) - Tech stacks for building different apps and features.
 	- **<code>&nbsp;&nbsp;2140</code>** [Datasets](https://github.com/jdorfman/awesome-json-datasets#readme)
-- **<code>&nbsp;&nbsp;1962</code>** [Jupyter](https://github.com/markusschanta/awesome-jupyter#readme) - Create and share documents that contain code, equations, visualizations and narrative text.
+- **<code>&nbsp;&nbsp;1963</code>** [Jupyter](https://github.com/markusschanta/awesome-jupyter#readme) - Create and share documents that contain code, equations, visualizations and narrative text.
 - **<code>&nbsp;&nbsp;1900</code>** [Discounts for Student Developers](https://github.com/AchoArnold/discount-for-student-dev#readme)
 - **<code>&nbsp;&nbsp;1882</code>** [Vulkan](https://github.com/vinjn/awesome-vulkan#readme) - Low-overhead, cross-platform 3D graphics and compute API.
 - **<code>&nbsp;&nbsp;1861</code>** [Mental Health](https://github.com/dreamingechoes/awesome-mental-health#readme) - Mental health awareness and self-care in the software industry.
@@ -628,16 +628,16 @@
 - **<code>&nbsp;&nbsp;1572</code>** [Web Design](https://github.com/nicolesaidy/awesome-web-design#readme) - For digital designers.
 - **<code>&nbsp;&nbsp;1520</code>** [Product Design](https://github.com/teoga/awesome-product-design#readme) - Design a product from the initial concept to production.
 	- **<code>&nbsp;&nbsp;1438</code>** [GeoJSON](https://github.com/tmcw/awesome-geojson#readme)
-- **<code>&nbsp;&nbsp;1419</code>** [Healthcare](https://github.com/kakoni/awesome-healthcare#readme) - Open source healthcare software for facilities, providers, developers, policy experts, and researchers.
+- **<code>&nbsp;&nbsp;1425</code>** [Healthcare](https://github.com/kakoni/awesome-healthcare#readme) - Open source healthcare software for facilities, providers, developers, policy experts, and researchers.
 - **<code>&nbsp;&nbsp;1393</code>** [MQTT](https://github.com/hobbyquaker/awesome-mqtt#readme) - "Internet of Things" connectivity protocol.
-- **<code>&nbsp;&nbsp;1356</code>** [OpenGL](https://github.com/eug/awesome-opengl#readme) - Cross-platform API for rendering 2D and 3D graphics.
+- **<code>&nbsp;&nbsp;1357</code>** [OpenGL](https://github.com/eug/awesome-opengl#readme) - Cross-platform API for rendering 2D and 3D graphics.
 - **<code>&nbsp;&nbsp;1260</code>** [Katas](https://github.com/gamontal/awesome-katas#readme)
 - **<code>&nbsp;&nbsp;1250</code>** [AMA](https://github.com/sindresorhus/amas#readme) - Ask Me Anything.
 - **<code>&nbsp;&nbsp;1213</code>** [No-Login Web Apps](https://github.com/aviaryan/awesome-no-login-web-apps#readme) - Web apps that work without login.
 - **<code>&nbsp;&nbsp;1197</code>** [Continuous Integration and Continuous Delivery](https://github.com/cicdops/awesome-ciandcd#readme)
 - **<code>&nbsp;&nbsp;1163</code>** [Bioinformatics](https://github.com/danielecook/Awesome-Bioinformatics#readme)
 - **<code>&nbsp;&nbsp;1138</code>** [Humane Technology](https://github.com/humanetech-community/awesome-humane-tech#readme) - Open source projects that help improve society.
-- **<code>&nbsp;&nbsp;1086</code>** [Quantified Self](https://github.com/woop/awesome-quantified-self#readme) - Self-tracking through technology.
+- **<code>&nbsp;&nbsp;1087</code>** [Quantified Self](https://github.com/woop/awesome-quantified-self#readme) - Self-tracking through technology.
 - **<code>&nbsp;&nbsp;1050</code>** [Research Tools](https://github.com/emptymalei/awesome-research#readme)
 - **<code>&nbsp;&nbsp;&nbsp;966</code>** [Open Source Maintainers](https://github.com/nayafia/awesome-maintainers#readme) - The experience of being an open source maintainer.
 - **<code>&nbsp;&nbsp;&nbsp;926</code>** [Bots](https://github.com/hackerkid/bots#readme) - Building bots.
@@ -655,7 +655,7 @@
 - **<code>&nbsp;&nbsp;&nbsp;706</code>** [LaTeX](https://github.com/egeerardyn/awesome-LaTeX#readme) - Typesetting language.
 - **<code>&nbsp;&nbsp;&nbsp;698</code>** [Prometheus](https://github.com/roaldnefs/awesome-prometheus#readme) - Open-source monitoring system.
 - **<code>&nbsp;&nbsp;&nbsp;688</code>** [Neuroscience](https://github.com/analyticalmonk/awesome-neuroscience#readme) - Study of the nervous system and brain.
-- **<code>&nbsp;&nbsp;&nbsp;677</code>** [Software Architecture](https://github.com/simskij/awesome-software-architecture#readme) - The discipline of designing and building software.
+- **<code>&nbsp;&nbsp;&nbsp;678</code>** [Software Architecture](https://github.com/simskij/awesome-software-architecture#readme) - The discipline of designing and building software.
 - **<code>&nbsp;&nbsp;&nbsp;668</code>** [Transit](https://github.com/CUTR-at-USF/awesome-transit#readme)
 - **<code>&nbsp;&nbsp;&nbsp;665</code>** [Answers](https://github.com/cyberglot/awesome-answers#readme) - Stack Overflow, Quora, etc.
 - **<code>&nbsp;&nbsp;&nbsp;662</code>** [Colorful](https://github.com/Siddharth11/Colorful#readme) - Choose your next color scheme.
@@ -718,7 +718,7 @@
 
 ## Related
 
-- **<code>146129</code>** [Awesome Search](https://awesomelists.top) - Quick search for Awesome lists.
+- **<code>146132</code>** [Awesome Search](https://awesomelists.top) - Quick search for Awesome lists.
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;82</code>** [Awesome CLI](https://github.com/umutphp/awesome-cli) - A simple command-line tool to dive into Awesome lists.
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;63</code>** [StumbleUponAwesome](https://github.com/basharovV/StumbleUponAwesome) - Discover random pages from the Awesome dataset using a browser extension.
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Awesome Indexed](https://awesome-indexed.mathew-davies.co.uk) - Search the Awesome dataset.
