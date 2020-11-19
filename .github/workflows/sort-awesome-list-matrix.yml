@@ -17,8 +17,6 @@ jobs:
             mdfile: awesome-lists.md
           - url: https://raw.githubusercontent.com/awesome-selfhosted/awesome-selfhosted/master/README.md
             mdfile: awesome-selfhosted.md
-          - url: https://raw.githubusercontent.com/alebcay/awesome-shell/blob/master/README.md
-            mdfile: awesome-shell.md
 
     steps:
       - name: Check out this repo
