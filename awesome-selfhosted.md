@@ -10,156 +10,171 @@ See [Contributing](.github/CONTRIBUTING.md).
 
 --------------------
 
-- List of Software
-  - [Analytics](#analytics)
-  - [Archiving and Digital Preservation (DP)](#archiving-and-digital-preservation-dp)
-  - [Automation](#automation)
-  - [Blogging Platforms](#blogging-platforms)
-  - [Bookmarks and Link Sharing](#bookmarks-and-link-sharing)
-  - [Calendaring and Contacts Management](#calendaring-and-contacts-management)
-  - [Communication systems](#communication-systems)
-    - [Custom communication systems](#custom-communication-systems)
-    - [Email](#email)
-      - [Complete solutions](#complete-solutions)
-      - [Mail Transfer Agents](#mail-transfer-agents)
-      - [Mail Delivery Agents](#mail-delivery-agents)
-      - [Mailing lists and newsletters](#mailing-lists-and-newsletters)
-      - [Webmail clients](#webmail-clients)
-    - [IRC](#irc)
-    - [SIP/IPBX](#sip)
-    - [Social Networks and Forums](#social-networks-and-forums)
-    - [XMPP](#xmpp)
-      - [XMPP Servers](#xmpp-servers)
-      - [XMPP Web Clients](#xmpp-web-clients)
-  - [Conference Management](#conference-management)
-  - [Content Management Systems (CMS)](#content-management-systems-cms)
+## Table of contents
+
+<!-- TOC -->
+
+- [Table of contents](#table-of-contents)
+- [Software](#software)
+    - [Analytics](#analytics)
+    - [Archiving and Digital Preservation (DP)](#archiving-and-digital-preservation-dp)
+    - [Automation](#automation)
+    - [Blogging Platforms](#blogging-platforms)
+    - [Bookmarks and Link Sharing](#bookmarks-and-link-sharing)
+    - [Calendar & Contacts](#calendar--contacts)
+    - [Calendar & Contacts - CalDAV or CardDAV Servers](#calendar--contacts---caldav-or-carddav-servers)
+    - [Calendar & Contacts - CalDAV or CardDAV Web-based Clients](#calendar--contacts---caldav-or-carddav-web-based-clients)
+    - [Communication](#communication)
+    - [Communication - Custom Communication Systems](#communication---custom-communication-systems)
+    - [Communication - Email](#communication---email)
+    - [Communication - Email - Complete Solutions](#communication---email---complete-solutions)
+    - [Communication - Email - Mail Transfer Agents](#communication---email---mail-transfer-agents)
+    - [Communication - Email - Mail Delivery Agents](#communication---email---mail-delivery-agents)
+    - [Communication - Email - Mailing Lists and Newsletters](#communication---email---mailing-lists-and-newsletters)
+    - [Communication - Email - Webmail Clients](#communication---email---webmail-clients)
+    - [Communication - IRC](#communication---irc)
+    - [Communication - SIP](#communication---sip)
+    - [Communication - Social Networks and Forums](#communication---social-networks-and-forums)
+    - [Communication - XMPP](#communication---xmpp)
+    - [Communication - XMPP - Servers](#communication---xmpp---servers)
+    - [Communication - XMPP - Web Clients](#communication---xmpp---web-clients)
+    - [Conference Management](#conference-management)
+    - [Content Management Systems (CMS)](#content-management-systems-cms)
+    - [Recipe Management](#recipe-management)
     - [E-commerce](#e-commerce)
-  - [DNS](#dns)
-  - [Document Management](#document-management)
-  - [E-books and Integrated Library Systems (ILS)](#e-books-and-integrated-library-systems-ils)
-  - [Federated Identity/Authentication](#federated-identityauthentication)
-  - [Feed Readers](#feed-readers)
-  - [File Sharing and Synchronization](#file-sharing-and-synchronization)
-    - [Distributed filesystems](#distributed-filesystems)
-    - [File transfer/synchronization](#file-transfersynchronization)
-    - [Peer-to-peer filesharing](#peer-to-peer-filesharing)
-    - [Object storage/file servers](#object-storagefile-servers)
-    - [Single-click/drag-n-drop upload](#single-clickdrag-n-drop-upload)
-    - [Web based file managers](#web-based-file-managers)
-  - [Games](#games)
-  - [Gateways and terminal sharing](#gateways-and-terminal-sharing)
-  - [Genealogy](#genealogy)
-  - [Groupware](#groupware)
-  - [Human Resources Management (HRM)](#human-resources-management-hrm)
-  - [Internet of Things (IoT)](#internet-of-things-iot)
-  - [Knowledge Management Tools](#knowledge-management-tools)
-  - [Learning and Courses](#learning-and-courses)
-  - [Maps and Global Positioning System (GPS)](#maps-and-global-positioning-system-gps)
-  - [Media Streaming](#media-streaming)
-    - [Multimedia Streaming](#multimedia-streaming)
-    - [Audio Streaming](#audio-streaming)
-    - [Video Streaming](#video-streaming)
-  - [Misc/Other](#miscother)
-  - [Money, Budgeting and Management](#money-budgeting-and-management)
-  - [Monitoring](#monitoring)
-  - [Note-taking and Editors](#note-taking-and-editors)
-  - [Office Suites](#office-suites)
-  - [Password Managers](#password-managers)
-  - [Pastebins](#pastebins)
-  - [Personal Dashboards](#personal-dashboards)
-  - [Photo and Video Galleries](#photo-and-video-galleries)
-  - [Polls and Events](#polls-and-events)
+    - [DNS](#dns)
+    - [Document Management](#document-management)
+    - [Document Management - E-books](#document-management---e-books)
+    - [Document Management - Integrated Library Systems (ILS)](#document-management---integrated-library-systems-ils)
+    - [Document Management - Institutional Repository and Digital Library Software](#document-management---institutional-repository-and-digital-library-software)
+    - [Federated Identity & Authentication](#federated-identity--authentication)
+    - [Feed Readers](#feed-readers)
+    - [Distributed Filesystems](#distributed-filesystems)
+    - [File Transfer & Synchronization](#file-transfer--synchronization)
+    - [File Transfer - Peer-to-peer Filesharing](#file-transfer---peer-to-peer-filesharing)
+    - [File Transfer - Object Storage & File Servers](#file-transfer---object-storage--file-servers)
+    - [File Transfer - Single-click & Drag-n-drop Upload](#file-transfer---single-click--drag-n-drop-upload)
+    - [File Transfer - Command-line File Upload](#file-transfer---command-line-file-upload)
+    - [File Transfer - Web-based File Managers](#file-transfer---web-based-file-managers)
+    - [Games](#games)
+    - [Gateways and Terminal Sharing](#gateways-and-terminal-sharing)
+    - [Genealogy](#genealogy)
+    - [Groupware](#groupware)
+    - [Human Resources Management (HRM)](#human-resources-management-hrm)
+    - [Internet of Things IoT](#internet-of-things-iot)
+    - [Knowledge Management Tools](#knowledge-management-tools)
+    - [Learning and Courses](#learning-and-courses)
+    - [Maps and Global Positioning System (GPS)](#maps-and-global-positioning-system-gps)
+    - [Media Streaming](#media-streaming)
+    - [Media Streaming - Multimedia Streaming](#media-streaming---multimedia-streaming)
+    - [Media Streaming - Audio Streaming](#media-streaming---audio-streaming)
+    - [Media Streaming - Video Streaming](#media-streaming---video-streaming)
+    - [Miscellaneous](#miscellaneous)
+    - [Money, Budgeting & Management](#money-budgeting--management)
+    - [Monitoring](#monitoring)
+    - [Note-taking & Editors](#note-taking--editors)
+    - [Office Suites](#office-suites)
+    - [Password Managers](#password-managers)
+    - [Pastebins](#pastebins)
+    - [Personal Dashboards](#personal-dashboards)
+    - [Photo and Video Galleries](#photo-and-video-galleries)
+    - [Polls and Events](#polls-and-events)
     - [Booking and Scheduling](#booking-and-scheduling)
-  - [Proxy](#proxy)
-  - [Read it Later Lists](#read-it-later-lists)
-  - [Resource Planning](#resource-planning)
-    - [Enterprise Resource Planning](#enterprise-resource-planning)
-  - [Search Engines](#search-engines)
-  - [Software Development](#software-development)
-    - [Project Management](#project-management)
-    - [Bug Trackers](#bug-trackers)
-    - [IDE/Tools](#idetools)
-    - [Continuous Integration](#continuous-integration)
-    - [UX testing](#ux-testing)
-    - [FaaS/Serverless](#faasserverless)
-    - [API Management](#api-management)
-    - [Documentation Generators](#documentation-generators)
-    - [Localization](#localization)
-  - [Static site generators](#static-site-generators)
-  - [Task management/To-do lists](#task-managementto-do-lists)
-  - [Ticketing](#ticketing)
-  - [URL Shorteners](#url-shorteners)
-  - [VPN](#vpn)
-  - [Web servers](#web-servers)
-  - [Wikis](#wikis)
-- [Self-hosting Solutions](#self-hosting-solutions)
+    - [Proxy](#proxy)
+    - [Read-it-later Lists](#read-it-later-lists)
+    - [Resource Planning](#resource-planning)
+    - [Resource Planning - Enterprise Resource Planning](#resource-planning---enterprise-resource-planning)
+    - [Search Engines](#search-engines)
+    - [Software Development](#software-development)
+    - [Software Development - Project Management](#software-development---project-management)
+    - [Software Development - Bug Trackers](#software-development---bug-trackers)
+    - [Software Development - IDE & Tools](#software-development---ide--tools)
+    - [Software Development - Continuous Integration & Deployment](#software-development---continuous-integration--deployment)
+    - [Software Development - UX Testing](#software-development---ux-testing)
+    - [Software Development - FaaS & Serverless](#software-development---faas--serverless)
+    - [Software Development - API Management](#software-development---api-management)
+    - [Software Development - Documentation Generators](#software-development---documentation-generators)
+    - [Software Development - Localization](#software-development---localization)
+    - [Static Site Generators](#static-site-generators)
+    - [Task Management & To-do Lists](#task-management--to-do-lists)
+    - [Ticketing](#ticketing)
+    - [URL Shorteners](#url-shorteners)
+    - [VPN](#vpn)
+    - [Web Servers](#web-servers)
+    - [Wikis](#wikis)
+    - [Self-hosting Solutions](#self-hosting-solutions)
 - [List of Licenses](#list-of-licenses)
-- [External links](#external-links)
+- [External Links](#external-links)
 - [Contributing](#contributing)
+- [Authors](#authors)
 - [License](#license)
+
+<!-- /TOC -->
 
 --------------------
 
+## Software
+
 <!-- BEGIN SOFTWARE LIST -->
 
-## Analytics
+### Analytics
 
 **[`^        back to top        ^`](#)**
 
-_For personal analytics/dashboards, see [Personal Dashboards](#personal-dashboards)_
+**Please visit [Awesome Analytics](https://github.com/0xnr/awesome-analytics)**
 
-_For everything else, see [Awesome Analytics](https://github.com/0xnr/awesome-analytics)_
+_Related: [Personal Dashboards](#personal-dashboards)_
 
 
-## Archiving and Digital Preservation (DP)
+### Archiving and Digital Preservation (DP)
 
 **[`^        back to top        ^`](#)**
 
 _Some [Content Management System](#content-management-systems-cms) solutions also feature archiving and digital preservation._
 
-- **<code>&nbsp;&nbsp;9656</code>** [ArchiveBox](https://archivebox.io/) - Self-hosted _wayback machine_ that creates HTML & screenshot archives of sites from your bookmarks, browsing history, RSS feeds, or other sources. ([Source Code](https://github.com/ArchiveBox/ArchiveBox)) `MIT` `Python`
+- **<code>&nbsp;&nbsp;9669</code>** [ArchiveBox](https://archivebox.io/) - Self-hosted _wayback machine_ that creates HTML & screenshot archives of sites from your bookmarks, browsing history, RSS feeds, or other sources. ([Source Code](https://github.com/ArchiveBox/ArchiveBox)) `MIT` `Python`
 - **<code>&nbsp;&nbsp;3051</code>** [CKAN](https://ckan.org) - CKAN is a tool for making open data websites. ([Source Code](https://github.com/ckan/ckan)) `AGPL-3.0` `Python`
 - **<code>&nbsp;&nbsp;&nbsp;255</code>** [Archivematica](https://www.archivematica.org/) - Mature digital preservation system designed to maintain standards-based, long-term access to collections of digital objects. ([Demo](http://sandbox.archivematica.org/administration/accounts/login/), [Source Code](https://github.com/artefactual/archivematica)) `AGPL-3.0-only` `Python`
 - **<code>&nbsp;&nbsp;&nbsp;239</code>** [ArchivesSpace](https://archivesspace.org/) - Archives information management application for managing and providing Web access to archives, manuscripts and digital objects. ([Demo](https://archivesspace.org/application/demo/), [Source Code](https://github.com/archivesspace/archivesspace)) `ECL-2.0` `Ruby`
-- **<code>&nbsp;&nbsp;&nbsp;193</code>** [Collective Access - Providence](http://collectiveaccess.org/) - Highly configurable Web-based framework for management, description, and discovery of digital and physical collections supporting a variety of metadata standards, data types, and media formats. ([Source Code](https://github.com/collectiveaccess/providence)) `GPL-3.0-only` `PHP`
+- **<code>&nbsp;&nbsp;&nbsp;194</code>** [Collective Access - Providence](http://collectiveaccess.org/) - Highly configurable Web-based framework for management, description, and discovery of digital and physical collections supporting a variety of metadata standards, data types, and media formats. ([Source Code](https://github.com/collectiveaccess/providence)) `GPL-3.0-only` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;156</code>** [Access to Memory (AtoM)](https://www.accesstomemory.org/) - Web-based, open source application for standards-based archival description and access in a multilingual, multi-repository environment. ([Demo](https://demo.accesstomemory.org/), [Source Code](https://github.com/artefactual/atom)) `AGPL-3.0-only` `PHP`
-- **<code>&nbsp;&nbsp;&nbsp;145</code>** [Horahora](https://github.com/horahoradev/horahora) - Video hosting website and video archival manager for Niconico, Bilibili, and Youtube. `MIT` `Go`
+- **<code>&nbsp;&nbsp;&nbsp;148</code>** [Horahora](https://github.com/horahoradev/horahora) - Video hosting website and video archival manager for Niconico, Bilibili, and Youtube. `MIT` `Go`
 
-## Automation
+### Automation
 
 **[`^        back to top        ^`](#)**
 
-_See also [Internet of Things (IoT)](#internet-of-things-iot)_
+_Related: [Internet of Things (IoT)](#internet-of-things-iot)_
 
-- **<code>&nbsp;31795</code>** [Huginn](https://github.com/huginn/huginn) - Allows you to build agents that monitor and act on your behalf. `MIT` `Ruby`
-- **<code>&nbsp;16466</code>** [n8n](https://n8n.io/) - Free node based Workflow Automation Tool. Easily automate tasks across different services. ([Source Code](https://github.com/n8n-io/n8n)) `Apache-2.0` `Nodejs`
-- **<code>&nbsp;&nbsp;8295</code>** [WebUI-aria2](https://github.com/ziahamza/webui-aria2) - Interface to interact with the aria2 downloader. Very simple to use, just download and open index.html in any web browser. ([Demo](http://ziahamza.github.io/webui-aria2/)) `MIT` `HTML5`
-- **<code>&nbsp;&nbsp;7778</code>** [Zenbot](https://github.com/DeviaVir/zenbot) - Zenbot is a lightweight, extendable, artificially intelligent trading bot for Bitcoin, Ether, Litecoin, and more. `MIT` `Nodejs`
-- **<code>&nbsp;&nbsp;7663</code>** [Leon](https://getleon.ai) - Open-source personal assistant who can live on your server. ([Source Code](https://github.com/leon-ai/leon)) `MIT` `Nodejs`
-- **<code>&nbsp;&nbsp;6461</code>** [Sonarr](https://sonarr.tv/) - Automatic TV Shows downloader and manager for Usenet and BitTorrent. It can grab, sort and rename new episodes and automatically upgrade the quality of files already downloaded when a better quality format becomes available. ([Source Code](https://github.com/Sonarr/Sonarr)) `GPL-3.0` `C#`
+- **<code>&nbsp;31803</code>** [Huginn](https://github.com/huginn/huginn) - Allows you to build agents that monitor and act on your behalf. `MIT` `Ruby`
+- **<code>&nbsp;16490</code>** [n8n](https://n8n.io/) - Free node based Workflow Automation Tool. Easily automate tasks across different services. ([Source Code](https://github.com/n8n-io/n8n)) `Apache-2.0` `Nodejs`
+- **<code>&nbsp;&nbsp;8294</code>** [WebUI-aria2](https://github.com/ziahamza/webui-aria2) - Interface to interact with the aria2 downloader. Very simple to use, just download and open index.html in any web browser. ([Demo](http://ziahamza.github.io/webui-aria2/)) `MIT` `HTML5`
+- **<code>&nbsp;&nbsp;7777</code>** [Zenbot](https://github.com/DeviaVir/zenbot) - Zenbot is a lightweight, extendable, artificially intelligent trading bot for Bitcoin, Ether, Litecoin, and more. `MIT` `Nodejs`
+- **<code>&nbsp;&nbsp;7667</code>** [Leon](https://getleon.ai) - Open-source personal assistant who can live on your server. ([Source Code](https://github.com/leon-ai/leon)) `MIT` `Nodejs`
+- **<code>&nbsp;&nbsp;6463</code>** [Sonarr](https://sonarr.tv/) - Automatic TV Shows downloader and manager for Usenet and BitTorrent. It can grab, sort and rename new episodes and automatically upgrade the quality of files already downloaded when a better quality format becomes available. ([Source Code](https://github.com/Sonarr/Sonarr)) `GPL-3.0` `C#`
 - **<code>&nbsp;&nbsp;5266</code>** [Radarr](https://radarr.video/) - Radarr is an independent fork of Sonarr reworked for automatically downloading movies via Usenet and BitTorrent, à la Couchpotato. ([Source Code](https://github.com/Radarr/Radarr)) `GPL-3.0` `C#`
-- **<code>&nbsp;&nbsp;5088</code>** [Beehive](https://github.com/muesli/beehive) - Flexible event and agent system, which allows you to create your own agents that perform automated tasks triggered by events and filters. `AGPL-3.0` `Go`
-- **<code>&nbsp;&nbsp;4378</code>** [StackStorm](https://stackstorm.com) - StackStorm (aka _IFTTT for Ops_) is event-driven automation for auto-remediation, security responses, troubleshooting, deployments, and more. Includes rules engine, workflow, 160 integration packs with 6000+ actions and ChatOps. ([Source Code](https://github.com/StackStorm/st2)) `Apache-2.0` `Python`
-- **<code>&nbsp;&nbsp;3903</code>** [Healthchecks](https://healthchecks.io/) - Django app which listens for pings and sends alerts when pings are late. ([Source Code](https://github.com/healthchecks/healthchecks)) `BSD-3-Clause` `Python`
+- **<code>&nbsp;&nbsp;5090</code>** [Beehive](https://github.com/muesli/beehive) - Flexible event and agent system, which allows you to create your own agents that perform automated tasks triggered by events and filters. `AGPL-3.0` `Go`
+- **<code>&nbsp;&nbsp;4379</code>** [StackStorm](https://stackstorm.com) - StackStorm (aka _IFTTT for Ops_) is event-driven automation for auto-remediation, security responses, troubleshooting, deployments, and more. Includes rules engine, workflow, 160 integration packs with 6000+ actions and ChatOps. ([Source Code](https://github.com/StackStorm/st2)) `Apache-2.0` `Python`
+- **<code>&nbsp;&nbsp;3906</code>** [Healthchecks](https://healthchecks.io/) - Django app which listens for pings and sends alerts when pings are late. ([Source Code](https://github.com/healthchecks/healthchecks)) `BSD-3-Clause` `Python`
 - **<code>&nbsp;&nbsp;3819</code>** [CouchPotato](https://couchpota.to/) - CouchPotato is an automatic Video Library Manager for Movies. Automatic torrent/nzb searching, downloading, and processing at the qualities you want. ([Source Code](https://github.com/CouchPotato/CouchPotatoServer)) `GPL-3.0` `Python`
-- **<code>&nbsp;&nbsp;3740</code>** [feed2toot](https://feed2toot.readthedocs.io/) - Feed2toot parses a RSS feed, extracts the last entries and sends them to Mastodon. ([Source Code](https://gitlab.com/chaica/feed2toot)) `GPL-3.0` `Python`
+- **<code>&nbsp;&nbsp;3741</code>** [feed2toot](https://feed2toot.readthedocs.io/) - Feed2toot parses a RSS feed, extracts the last entries and sends them to Mastodon. ([Source Code](https://gitlab.com/chaica/feed2toot)) `GPL-3.0` `Python`
 - **<code>&nbsp;&nbsp;3018</code>** [Headphones](https://github.com/rembo10/headphones) - Automated music downloader for NZB and Torrent, written in Python. It supports SABnzbd, NZBget, Transmission, µTorrent, Deluge and Blackhole. `GPL-3.0` `Python`
 - **<code>&nbsp;&nbsp;2261</code>** [pyLoad](https://pyload.net/) - Lightweight, customizable and remotely manageable downloader for 1-click-hosting sites like rapidshare.com or uploaded.to. ([Source Code](https://github.com/pyload/pyload)) `GPL-3.0` `Python`
-- **<code>&nbsp;&nbsp;1996</code>** [Lidarr](https://lidarr.audio/) - Lidarr is a music collection manager for Usenet and BitTorrent users. ([Source Code](https://github.com/Lidarr/Lidarr)) `GPL-3.0` `C#`
-- **<code>&nbsp;&nbsp;1981</code>** [Actionsflow](https://github.com/actionsflow/actionsflow) `⚠` - The free Zapier/IFTTT alternative for developers to automate your workflows based on Github actions. `MIT` `Docker/Nodejs`
-- **<code>&nbsp;&nbsp;1684</code>** [Alltube](http://www.alltubedownload.net) - Web interface for [youtube-dl](https://github.com/ytdl-org/youtube-dl), a program to download videos and audio from [more than 100 websites](http://ytdl-org.github.io/youtube-dl/supportedsites.html). ([Source Code](https://github.com/Rudloff/alltube)) `GPL-3.0` `PHP`
-- **<code>&nbsp;&nbsp;1523</code>** [SickRage](http://sickrage.github.io/) - SickRage is an automatic Video Library Manager for TV Shows. Automatic torrent/nzb searching, downloading, and processing at the qualities you want. ([Source Code](https://github.com/SickRage/SickRage)) `GPL-3.0` `Python`
-- **<code>&nbsp;&nbsp;1308</code>** [Medusa](https://pymedusa.com/) - Automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic. ([Source Code](https://github.com/pymedusa/Medusa)) `GPL-3.0` `Python`
-- **<code>&nbsp;&nbsp;&nbsp;874</code>** [YoutubeDL-Material](https://github.com/Tzahi12345/YoutubeDL-Material) - Material Design inspired YouTube downloader, based on youtube-dl. Supports playlists, quality select, search, dark mode and much more, all with a clean and modern design. `MIT` `Nodejs`
+- **<code>&nbsp;&nbsp;1997</code>** [Lidarr](https://lidarr.audio/) - Lidarr is a music collection manager for Usenet and BitTorrent users. ([Source Code](https://github.com/Lidarr/Lidarr)) `GPL-3.0` `C#`
+- **<code>&nbsp;&nbsp;1983</code>** [Actionsflow](https://github.com/actionsflow/actionsflow) `⚠` - The free Zapier/IFTTT alternative for developers to automate your workflows based on Github actions. `MIT` `Docker/Nodejs`
+- **<code>&nbsp;&nbsp;1683</code>** [Alltube](http://www.alltubedownload.net) - Web interface for [youtube-dl](https://github.com/ytdl-org/youtube-dl), a program to download videos and audio from [more than 100 websites](http://ytdl-org.github.io/youtube-dl/supportedsites.html). ([Source Code](https://github.com/Rudloff/alltube)) `GPL-3.0` `PHP`
+- **<code>&nbsp;&nbsp;1524</code>** [SickRage](http://sickrage.github.io/) - SickRage is an automatic Video Library Manager for TV Shows. Automatic torrent/nzb searching, downloading, and processing at the qualities you want. ([Source Code](https://github.com/SickRage/SickRage)) `GPL-3.0` `Python`
+- **<code>&nbsp;&nbsp;1309</code>** [Medusa](https://pymedusa.com/) - Automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic. ([Source Code](https://github.com/pymedusa/Medusa)) `GPL-3.0` `Python`
+- **<code>&nbsp;&nbsp;&nbsp;877</code>** [YoutubeDL-Material](https://github.com/Tzahi12345/YoutubeDL-Material) - Material Design inspired YouTube downloader, based on youtube-dl. Supports playlists, quality select, search, dark mode and much more, all with a clean and modern design. `MIT` `Nodejs`
 - **<code>&nbsp;&nbsp;&nbsp;598</code>** [AmIUnique](https://amiunique.org/) - Learn how identifiable you are on the Internet (browser fingerprinting tool). ([Source Code](https://github.com/DIVERSIFY-project/amiunique)) `MIT` `Java`
-- **<code>&nbsp;&nbsp;&nbsp;464</code>** [ActiveWorkflow](https://github.com/automaticmode/active_workflow) - An intelligent process and workflow automation platform based on software agents. `MIT` `Ruby`
+- **<code>&nbsp;&nbsp;&nbsp;465</code>** [ActiveWorkflow](https://github.com/automaticmode/active_workflow) - An intelligent process and workflow automation platform based on software agents. `MIT` `Ruby`
 - **<code>&nbsp;&nbsp;&nbsp;459</code>** [µTask](https://github.com/ovh/utask) - µTask is an automation engine that models and executes business processes declared in yaml. `BSD-3-Clause` `Go`
 - **<code>&nbsp;&nbsp;&nbsp;427</code>** [nefarious](https://github.com/lardbit/nefarious) - Web application that automates downloading Movies and TV Shows. `GPL-3.0` `Python`
 - **<code>&nbsp;&nbsp;&nbsp;400</code>** [Patrowl](https://github.com/Patrowl/PatrowlManager) - Open Source, Smart and Scalable Security Operations Orchestration Platform. `AGPL-3.0` `Python`
 - **<code>&nbsp;&nbsp;&nbsp;387</code>** [Kibitzr](https://kibitzr.github.io) - Lightweight personal web assistant with powerful integrations. ([Source Code](https://github.com/kibitzr/kibitzr)) `MIT` `Python`
 - **<code>&nbsp;&nbsp;&nbsp;345</code>** [Podgrab](https://github.com/akhilrex/podgrab) - Lightweight podcast manager and automatic podcast episode downloader. It will monitor podcasts for your and download them automatically whenever a new episode goes live. `GPL-3.0` `Docker/Go`
 - **<code>&nbsp;&nbsp;&nbsp;310</code>** [Accelerated Text](https://github.com/tokenmill/accelerated-text) - Automatically generate multiple natural language descriptions of your data varying in wording and structure. `Apache-2.0` `Java`
-- **<code>&nbsp;&nbsp;&nbsp;198</code>** [MeTube](https://github.com/alexta69/metube) - Web GUI for youtube-dl, with playlist support. Allows downloading videos from dozens of websites. `AGPL-3.0` `Python/Nodejs/Docker`
+- **<code>&nbsp;&nbsp;&nbsp;200</code>** [MeTube](https://github.com/alexta69/metube) - Web GUI for youtube-dl, with playlist support. Allows downloading videos from dozens of websites. `AGPL-3.0` `Python/Nodejs/Docker`
 - **<code>&nbsp;&nbsp;&nbsp;165</code>** [Episodes](https://github.com/guptachetan1997/Episodes) `⚠` - Self Hosted TV show Episode tracker and recommender built using django, bootstrap4. `MIT` `Python`
 - **<code>&nbsp;&nbsp;&nbsp;154</code>** [HRConvert2](https://github.com/zelon88/HRConvert2) - Drag-and-drop file conversion server with session based authentication, automatic temporary file maintenance, and logging capability. `GPL-3.0` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;145</code>** [OliveTin](https://github.com/OliveTin/OliveTin) - OliveTin is a web interface for running Linux shell commands. `AGPL-3.0` `Go`
@@ -169,23 +184,25 @@ _See also [Internet of Things (IoT)](#internet-of-things-iot)_
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;73</code>** [SiteInspector](https://www.getsiteinspector.com/) - Web-based tool for catching spelling errors, grammatical errors, broken links, and other errors on websites. ([Demo](https://demo.getsiteinspector.com/reports), [Source Code](https://github.com/siteinspector/siteinspector)) `AGPL-3.0` `Ruby`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;59</code>** [feedmixer](https://github.com/cristoper/feedmixer) - FeedMixer is a WSGI (Python3) micro web service which takes a list of feed URLs and returns a new feed consisting of the most recent n entries from each given feed(Returns Atom, RSS, or JSON). ([Demo](https://mretc.net/feedmixer/json?f=http://hnrss.org/newest&f=http://americancynic.net/atom.xml&n=1)) `WTFPL` `Python`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;27</code>** [homebank-converter](https://github.com/Binnette/homebank-converter) - Web app to convert an export bank file to compatible Homebank csv. ([Demo](http://binnette.github.io/homebank-converter/)) `AGPL-3.0` `HTML5`
-- **<code>&nbsp;&nbsp;&nbsp;&nbsp;18</code>** [ydl_api](https://github.com/Totonyus/ydl_api) - Simple youtube-dl REST API to launch downloads on a distant server. `Unlicense` `Python`
+- **<code>&nbsp;&nbsp;&nbsp;&nbsp;19</code>** [ydl_api](https://github.com/Totonyus/ydl_api) - Simple youtube-dl REST API to launch downloads on a distant server. `Unlicense` `Python`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [LazyLibrarian](https://gitlab.com/LazyLibrarian/LazyLibrarian) `⚠` - LazyLibrarian is a program to follow authors and grab metadata for all your digital reading needs. It uses a combination of Goodreads Librarything and optionally GoogleBooks as sources for author info and book info. `GPL-3.0` `Python`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Baserow](https://baserow.io/) - Open source online database tool and Airtable alternative. Create your own database without technical experience. ([Source Code](https://gitlab.com/bramw/baserow)) `MIT` `Python/Nodejs`
 
-## Blogging Platforms
+### Blogging Platforms
 
 **[`^        back to top        ^`](#)**
 
-_See also [Static Site Generators](#static-site-generators), [Content Management Systems](#content-management-systems-cms) and [WeblogMatrix](http://www.weblogmatrix.org/)_
+_Related: [Static Site Generators](#static-site-generators), [Content Management Systems](#content-management-systems-cms)_
 
-- **<code>&nbsp;37930</code>** [Ghost](https://ghost.org/) - Just a blogging platform. ([Source Code](https://github.com/TryGhost/Ghost)) `MIT` `Nodejs`
-- **<code>&nbsp;33087</code>** [Hexo](https://hexo.io/) - Fast, simple and powerful blog framework, powered by Node.js. ([Source Code](https://github.com/hexojs/hexo)) `MIT` `Nodejs`
-- **<code>&nbsp;&nbsp;2711</code>** [Canvas](https://trycanvas.app/) - A Laravel publishing platform. ([Source Code](https://github.com/austintoddj/canvas)) `MIT` `PHP`
-- **<code>&nbsp;&nbsp;1543</code>** [Plume](https://joinplu.me/) - Federated blogging engine, based on ActivityPub. ([Source Code](https://github.com/Plume-org/Plume)) `AGPL-3.0` `Rust`
+_See also: [WeblogMatrix](http://www.weblogmatrix.org/)_
+
+- **<code>&nbsp;37935</code>** [Ghost](https://ghost.org/) - Just a blogging platform. ([Source Code](https://github.com/TryGhost/Ghost)) `MIT` `Nodejs`
+- **<code>&nbsp;33087</code>** [Hexo](https://hexo.io/) - Fast, simple and powerful blog framework. ([Source Code](https://github.com/hexojs/hexo)) `MIT` `Nodejs`
+- **<code>&nbsp;&nbsp;2712</code>** [Canvas](https://trycanvas.app/) - A Laravel publishing platform. ([Source Code](https://github.com/austintoddj/canvas)) `MIT` `PHP`
+- **<code>&nbsp;&nbsp;1544</code>** [Plume](https://joinplu.me/) - Federated blogging engine, based on ActivityPub. ([Source Code](https://github.com/Plume-org/Plume)) `AGPL-3.0` `Rust`
 - **<code>&nbsp;&nbsp;&nbsp;891</code>** [Known](https://withknown.com/) - A collaborative social publishing platform. ([Source Code](https://github.com/idno/known)) `Apache-2.0` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;875</code>** [Bludit](https://www.bludit.com/) `⚠` - Simple application to build a site or blog in seconds. Bludit uses flat-files (text files in JSON format) to store posts and pages. ([Demo](https://demo.bludit.com/), [Source Code](https://github.com/bludit/bludit)) `MIT` `PHP`
-- **<code>&nbsp;&nbsp;&nbsp;711</code>** [htmly](https://www.htmly.com/) - Databaseless Blogging Platform (Flat-File Blog). ([Demo](https://demo.htmly.com/), [Source Code](https://github.com/danpros/htmly)) `GPL-2.0` `PHP`
+- **<code>&nbsp;&nbsp;&nbsp;712</code>** [htmly](https://www.htmly.com/) - Databaseless Blogging Platform (Flat-File Blog). ([Demo](https://demo.htmly.com/), [Source Code](https://github.com/danpros/htmly)) `GPL-2.0` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;389</code>** [Dante Stories](https://dante-stories.herokuapp.com/) - Self hosted Medium platform built with Ruby on Rails. ([Source Code](https://github.com/michelson/dante-stories)) `MIT` `Ruby`
 - **<code>&nbsp;&nbsp;&nbsp;173</code>** [PluXml](http://www.pluxml.org/) - XML-based blog/CMS platform. ([Source Code](https://github.com/pluxml/PluXml)) `GPL-1.0` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;154</code>** [Hotglue](https://hotglue.me/) - Freehand CMS which allows to construct websites directly in a web-browser. It uses flat files for storage and provides an intuitive GUI. ([Demo](https://hotglue.me/demo/), [Source Code](https://github.com/k0a1a/hotglue2)) `GPL-3.0` `PHP`
@@ -199,75 +216,76 @@ _See also [Static Site Generators](#static-site-generators), [Content Management
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Formtools](https://formtools.org/) - Powerful, flexible, free and open source PHP/MySQL script to manage your forms and data. ([Source Code](https://github.com/formtools)) `GPL-2.0` `PHP`
 
 
-## Bookmarks and Link Sharing
+### Bookmarks and Link Sharing
 
 **[`^        back to top        ^`](#)**
 
-- **<code>&nbsp;&nbsp;4992</code>** [Shiori](https://github.com/go-shiori/shiori) - Simple bookmark manager built with Go. `MIT` `Go`
-- **<code>&nbsp;&nbsp;2297</code>** [Shaarli](https://github.com/shaarli/Shaarli) - Personal, minimalist, super-fast, no-database bookmarking and link sharing platform. ([Demo](https://demo.shaarli.org)) `Zlib` `PHP`
+- **<code>&nbsp;&nbsp;4994</code>** [Shiori](https://github.com/go-shiori/shiori) - Simple bookmark manager built with Go. `MIT` `Go`
+- **<code>&nbsp;&nbsp;2299</code>** [Shaarli](https://github.com/shaarli/Shaarli) - Personal, minimalist, super-fast, no-database bookmarking and link sharing platform. ([Demo](https://demo.shaarli.org)) `Zlib` `PHP`
 - **<code>&nbsp;&nbsp;1755</code>** [Pinry](http://getpinry.com/) - The tiling image board system for people who want to save, tag, and share images, videos, and webpages. ([Source Code](https://github.com/pinry/pinry)) `BSD-2-Clause` `Python`
 - **<code>&nbsp;&nbsp;1471</code>** [unmark](https://unmark.it/) - Open source to do app for links. ([Source Code](https://github.com/cdevroe/unmark)) `MIT` `PHP`
   - **<code>&nbsp;&nbsp;1399</code>** [Firefox Sync Server](https://github.com/mozilla-services/syncserver) - Sync Firefox bookmarks, passwords, history, tabs, preferences. `MPL-2.0` `Python`
-- **<code>&nbsp;&nbsp;1367</code>** [Reminiscence](https://github.com/kanishka-linux/reminiscence) - Self-Hosted Bookmark And Archive Manager. `AGPL-3.0` `Python`
+- **<code>&nbsp;&nbsp;1368</code>** [Reminiscence](https://github.com/kanishka-linux/reminiscence) - Self-Hosted Bookmark And Archive Manager. `AGPL-3.0` `Python`
 - **<code>&nbsp;&nbsp;&nbsp;817</code>** [LinkAce](https://www.linkace.org/) - A bookmark archive with automatic backups to the Internet Archive, link monitoring, and a full REST API. Installation is done via Docker, or as a simple PHP application. ([Demo](https://demo.linkace.org/), [Source Code](https://github.com/Kovah/LinkAce/)) `GPL-3.0` `PHP`
-- **<code>&nbsp;&nbsp;&nbsp;764</code>** [linkding](https://github.com/sissbruecker/linkding) - Minimal bookmark management with a fast and clean UI. Simple installation through Docker and can run on your Raspberry Pi. ([Demo](https://demo.linkding.link/)) `MIT` `Docker/Python/Nodejs`
-- **<code>&nbsp;&nbsp;&nbsp;525</code>** [Geekmarks](https://geekmarks.dmitryfrank.com/) - Personal bookmarking service focused on speed and organization using hierarchical tags. ([Source Code](https://github.com/dimonomid/geekmarks)) `BSD-2-Clause` `Go`
+- **<code>&nbsp;&nbsp;&nbsp;802</code>** [Lobsters](https://lobste.rs) - Run your own link aggregation site. ([Source Code](https://github.com/jcs/lobsters)) `BSD-3-Clause` `Ruby`
+- **<code>&nbsp;&nbsp;&nbsp;765</code>** [linkding](https://github.com/sissbruecker/linkding) - Minimal bookmark management with a fast and clean UI. Simple installation through Docker and can run on your Raspberry Pi. ([Demo](https://demo.linkding.link/)) `MIT` `Docker/Python/Nodejs`
+- **<code>&nbsp;&nbsp;&nbsp;526</code>** [Geekmarks](https://geekmarks.dmitryfrank.com/) - Personal bookmarking service focused on speed and organization using hierarchical tags. ([Source Code](https://github.com/dimonomid/geekmarks)) `BSD-2-Clause` `Go`
 - **<code>&nbsp;&nbsp;&nbsp;411</code>** [Espial](https://github.com/jonschoning/espial) - An open-source, web-based bookmarking server. `AGPL-3.0` `Haskell`
 - **<code>&nbsp;&nbsp;&nbsp;225</code>** [Hackershare](https://github.com/hackershare/hackershare) - Social bookmarks website for hackers. ([Demo](https://hackershare.dev)) `MIT` `Ruby`
 - **<code>&nbsp;&nbsp;&nbsp;117</code>** [dyu bookmarks](https://github.com/dyu/bookmarks) - Single-threaded/process bookmark app powered by leveldb and uWebSockets. Supports importing from Delicious and Chrome. ([Demo](https://dyuproject.com/bookmarks/)) `Apache-2.0` `Java`
 - **<code>&nbsp;&nbsp;&nbsp;117</code>** [Firefox Account Server](https://mozilla-services.readthedocs.io/en/latest/howtos/run-fxa.html) - This allows you to host your own Firefox accounts server. ([Source Code](https://github.com/mozilla/fxa)) `MPL-2.0` `Nodejs, Java`
 - **<code>&nbsp;&nbsp;&nbsp;108</code>** [No Fuss Bookmarks](http://nofussbm.herokuapp.com/signup.html) - Very simple software and service to store bookmarks especially designed for hackers (that don't need fancy interfaces, but nice API). ([Source Code](https://github.com/mapio/nofussbm)) `GPL-3.0` `Python`
-- **<code>&nbsp;&nbsp;&nbsp;101</code>** [Lobsters](https://lobste.rs) - Run your own link aggregation site. ([Source Code](https://github.com/jcs/lobsters)) `BSD-3-Clause` `Ruby`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [ubookmark](https://ungleich.ch/u/projects/ubookmark/) - LDAP enabled bookmarking service. ([Demo](https://ipv6.blog), [Source Code](https://code.ungleich.ch/ungleich-public/ubookmark/)) `GPL-2.0` `Python`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [xBrowserSync](https://www.xbrowsersync.org) - Open source tool for syncing browser data between browsers and devices. ([Source Code](https://github.com/xBrowserSync)) `MIT` `Nodejs`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [golinks](https://github.com/prologic/golinks) - Web application that allows you to create smart bookmarks, commands and aliases by pointing your web browser's default search engine at a running instance. Similar to bunny1 or yubnub. ([Demo](https://search.mills.io)) `MIT` `Go`
 
-## Calendaring and Contacts Management
+### Calendar & Contacts
 
 **[`^        back to top        ^`](#)**
 
-_Some [Groupware](#groupware) solutions also feature calendar/address book editing and synchronization._
+_Related: [Groupware](#groupware)_
 
-_See https://en.wikipedia.org/wiki/Comparison_of_CalDAV_and_CardDAV_implementations_
+_See also: [Comparison of CalDAV and CardDAV implementations - Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_CalDAV_and_CardDAV_implementations)_
 
-### CalDAV or CardDAV servers
 
-- **<code>&nbsp;&nbsp;9361</code>** [Etebase (EteSync)](https://www.etebase.com/) - End-to-end encrypted and journaled personal information server supporting calendar and contact data, offering its own clients. ([Source Code](https://github.com/etesync/server)) `AGPL-3.0` `Python/Django`
-- **<code>&nbsp;&nbsp;2139</code>** [Radicale](http://radicale.org/) - Simple calendar and contact server with extremely low administrative overhead. ([Source Code](https://github.com/Kozea/Radicale)) `GPL-3.0` `Python`
+### Calendar & Contacts - CalDAV or CardDAV Servers
+
+- **<code>&nbsp;&nbsp;9363</code>** [Etebase (EteSync)](https://www.etebase.com/) - End-to-end encrypted and journaled personal information server supporting calendar and contact data, offering its own clients. ([Source Code](https://github.com/etesync/server)) `AGPL-3.0` `Python/Django`
+- **<code>&nbsp;&nbsp;2140</code>** [Radicale](http://radicale.org/) - Simple calendar and contact server with extremely low administrative overhead. ([Source Code](https://github.com/Kozea/Radicale)) `GPL-3.0` `Python`
 - **<code>&nbsp;&nbsp;1804</code>** [Baïkal](http://sabre.io/baikal/) - Lightweight CalDAV and CardDAV server based on sabre/dav. ([Source Code](https://github.com/sabre-io/Baikal)) `GPL-3.0` `PHP`
-- **<code>&nbsp;&nbsp;1592</code>** [Xandikos](https://www.xandikos.org/) - Open source CardDAV and CalDAV server with minimal administrative overhead, backed by a Git repository. ([Source Code](https://github.com/jelmer/xandikos)) `GPL-3.0` `Python`
+- **<code>&nbsp;&nbsp;1593</code>** [Xandikos](https://www.xandikos.org/) - Open source CardDAV and CalDAV server with minimal administrative overhead, backed by a Git repository. ([Source Code](https://github.com/jelmer/xandikos)) `GPL-3.0` `Python`
 - **<code>&nbsp;&nbsp;1147</code>** [SabreDAV](http://sabre.io/) - Open source CardDAV, CalDAV, and WebDAV framework and server. ([Source Code](https://github.com/sabre-io/dav)) `MIT` `PHP`
-- **<code>&nbsp;&nbsp;&nbsp;292</code>** [DecSync CC](https://f-droid.org/packages/org.decsync.cc/) - Serverless contacts, calendar synchronization using your own file syncing method i.e Syncthing, Nextcloud etc. ([Source Code](https://github.com/39aldo39/DecSyncCC)) `GPL-3.0` `Kotlin`
+- **<code>&nbsp;&nbsp;&nbsp;293</code>** [DecSync CC](https://f-droid.org/packages/org.decsync.cc/) - Serverless contacts, calendar synchronization using your own file syncing method i.e Syncthing, Nextcloud etc. ([Source Code](https://github.com/39aldo39/DecSyncCC)) `GPL-3.0` `Kotlin`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;54</code>** [Davis](https://github.com/tchapi/davis/) - A simple, dockerizable and fully translatable admin interface for sabre/dav based on Symfony 5 and Bootstrap 4, largely inspired by Baïkal. `MIT` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [calypso](https://keithp.com/calypso/) - Python-based CalDAV and CardDAV server, forked from Radicale. ([Source Code](https://keithp.com/git/calypso.git)) `GPL-3.0` `Python`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [DAViCal](https://www.davical.org/) - Server for calendar sharing (CalDAV) that uses a PostgreSQL database as a data store. ([Source Code](https://gitlab.com/davical-project/davical)) `GPL-2.0` `PHP`
 
-### CalDAV or CardDAV web-based clients
+### Calendar & Contacts - CalDAV or CardDAV Web-based Clients
 
 - **<code>&nbsp;&nbsp;&nbsp;422</code>** [AgenDAV](http://agendav.org/) - Multilanguage CalDAV web client with a rich AJAX interface and shared calendars support. ([Source Code](https://github.com/agendav/agendav)) `GPL-3.0` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;195</code>** [EteSync Web](https://www.etesync.com/faq/#web-client) - EteSync's official Web-based client (i.e., their Web app). ([Demo](https://client.etesync.com/), [Source Code](https://github.com/etesync/etesync-web)) `AGPL-3.0` `Javascript`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [InfCloud](https://www.inf-it.com/open-source/clients/infcloud/) - Open source CalDAV/CardDAV web client implementation. ([Demo](https://www.inf-it.com/infcloud/), [Source Code](https://www.inf-it.com/InfCloud_0.13.1.zip)) `AGPL-3.0` `Javascript`
 
-## Communication systems
+### Communication
 
 **[`^        back to top        ^`](#)**
 
-### Custom communication systems
+### Communication - Custom Communication Systems
 
 - **<code>&nbsp;30424</code>** [Rocket.Chat](https://rocket.chat/) - Teamchat solution similar to Gitter.im or Slack. ([Source Code](https://github.com/RocketChat/Rocket.Chat)) `MIT` `Nodejs`
-- **<code>&nbsp;20599</code>** [Mattermost](http://www.mattermost.org/) - Open-source, on-prem Slack-alternative. It can be integrated with Gitlab. ([Source Code](https://github.com/mattermost/mattermost-server)) `AGPL-3.0/Apache-2.0` `Go`
-- **<code>&nbsp;16421</code>** [Jitsi Meet](https://jitsi.org/Projects/JitsiMeet) - Jitsi Meet is an OpenSource (MIT) WebRTC Javascript application that uses Jitsi Videobridge to provide high quality, scalable video conferences. ([Source Code](https://github.com/jitsi/jitsi-meet)) `MIT` `Javascript`
-- **<code>&nbsp;13914</code>** [Zulip](https://zulip.org) - Zulip is a powerful, open source group chat application. ([Source Code](https://github.com/zulip/zulip)) `Apache-2.0/Other` `Python`
-- **<code>&nbsp;&nbsp;9540</code>** [Chatwoot](https://www.chatwoot.com) - Self-hosted customer communication platform, an alternative to Intercom & Zendesk. ([Source Code](https://github.com/chatwoot/chatwoot)) `MIT` `Ruby`
-- **<code>&nbsp;&nbsp;8069</code>** [Synapse](http://matrix.org/docs/projects/server/synapse.html) - Server for [Matrix](https://matrix.org/), an open standard for decentralized persistent communication. ([Source Code](https://github.com/matrix-org/synapse)) `Apache-2.0` `Python`
-  - **<code>&nbsp;&nbsp;6835</code>** [Element](https://element.io) - Fully-featured Matrix client for Web, iOS & Android. ([Source Code](https://github.com/vector-im/element-web)) `Apache-2.0` `Javascript`
-- **<code>&nbsp;&nbsp;5946</code>** [Gotify](https://gotify.net/) - Self-hosted notification server with Android and CLI clients, similar to PushBullet. ([Source Code](https://github.com/gotify/server), [Clients](https://github.com/gotify/android)) `MIT` `Go`
-- **<code>&nbsp;&nbsp;5524</code>** [Tinode](https://github.com/tinode) - Instant messaging platform. Backend in Go. Clients: Swift iOS, Java Android, JS webapp, scriptable command line; chatbots. ([Demo](https://sandbox.tinode.co/), [Source Code](https://github.com/tinode/chat), [Clients](https://github.com/tinode/webapp)) `GPL-3.0` `Go`
-- **<code>&nbsp;&nbsp;5132</code>** [Centrifugo](https://github.com/centrifugal/centrifugo) - Language-agnostic real-time messaging (Websocket or SockJS) server. ([Demo](https://github.com/centrifugal/centrifugo#demo)) `MIT` `Go`
-- **<code>&nbsp;&nbsp;4290</code>** [Papercups](https://papercups.io/) - An open source live customer chat web app written in Elixir. ([Demo](https://app.papercups.io/demo), [Source Code](https://github.com/papercups-io/papercups)) `MIT` `Elixir`
+- **<code>&nbsp;20601</code>** [Mattermost](http://www.mattermost.org/) - Open-source, on-prem Slack-alternative. It can be integrated with Gitlab. ([Source Code](https://github.com/mattermost/mattermost-server)) `AGPL-3.0/Apache-2.0` `Go`
+- **<code>&nbsp;16430</code>** [Jitsi Meet](https://jitsi.org/Projects/JitsiMeet) - Jitsi Meet is an OpenSource (MIT) WebRTC Javascript application that uses Jitsi Videobridge to provide high quality, scalable video conferences. ([Source Code](https://github.com/jitsi/jitsi-meet)) `MIT` `Javascript`
+- **<code>&nbsp;13920</code>** [Zulip](https://zulip.org) - Zulip is a powerful, open source group chat application. ([Source Code](https://github.com/zulip/zulip)) `Apache-2.0/Other` `Python`
+- **<code>&nbsp;&nbsp;9543</code>** [Chatwoot](https://www.chatwoot.com) - Self-hosted customer communication platform, an alternative to Intercom & Zendesk. ([Source Code](https://github.com/chatwoot/chatwoot)) `MIT` `Ruby`
+- **<code>&nbsp;&nbsp;8074</code>** [Synapse](http://matrix.org/docs/projects/server/synapse.html) - Server for [Matrix](https://matrix.org/), an open standard for decentralized persistent communication. ([Source Code](https://github.com/matrix-org/synapse)) `Apache-2.0` `Python`
+  - **<code>&nbsp;&nbsp;6837</code>** [Element](https://element.io) - Fully-featured Matrix client for Web, iOS & Android. ([Source Code](https://github.com/vector-im/element-web)) `Apache-2.0` `Javascript`
+- **<code>&nbsp;&nbsp;5948</code>** [Gotify](https://gotify.net/) - Self-hosted notification server with Android and CLI clients, similar to PushBullet. ([Source Code](https://github.com/gotify/server), [Clients](https://github.com/gotify/android)) `MIT` `Go`
+- **<code>&nbsp;&nbsp;5527</code>** [Tinode](https://github.com/tinode) - Instant messaging platform. Backend in Go. Clients: Swift iOS, Java Android, JS webapp, scriptable command line; chatbots. ([Demo](https://sandbox.tinode.co/), [Source Code](https://github.com/tinode/chat), [Clients](https://github.com/tinode/webapp)) `GPL-3.0` `Go`
+- **<code>&nbsp;&nbsp;5135</code>** [Centrifugo](https://github.com/centrifugal/centrifugo) - Language-agnostic real-time messaging (Websocket or SockJS) server. ([Demo](https://github.com/centrifugal/centrifugo#demo)) `MIT` `Go`
+- **<code>&nbsp;&nbsp;4292</code>** [Papercups](https://papercups.io/) - An open source live customer chat web app written in Elixir. ([Demo](https://app.papercups.io/demo), [Source Code](https://github.com/papercups-io/papercups)) `MIT` `Elixir`
 - **<code>&nbsp;&nbsp;4181</code>** [Mumble](https://wiki.mumble.info/wiki/Main_Page) - Low-latency, high quality voice/text chat software. ([Source Code](https://github.com/mumble-voip/mumble), [Clients](https://wiki.mumble.info/wiki/3rd_Party_Applications)) `BSD-3-Clause` `C++`
-- **<code>&nbsp;&nbsp;2415</code>** [Jitsi Video Bridge](https://jitsi.org/Projects/JitsiVideobridge) - WebRTC compatible Selective Forwarding Unit (SFU) that allows for multiuser video communication. ([Source Code](https://github.com/jitsi/jitsi-videobridge)) `Apache-2.0` `Java`
-- **<code>&nbsp;&nbsp;2201</code>** [TextBelt](https://github.com/typpo/textbelt) `⚠` - Outgoing SMS API that uses carrier-specific gateways to deliver your text messages for free, and without ads. `MIT` `Javascript`
+- **<code>&nbsp;&nbsp;2416</code>** [Jitsi Video Bridge](https://jitsi.org/Projects/JitsiVideobridge) - WebRTC compatible Selective Forwarding Unit (SFU) that allows for multiuser video communication. ([Source Code](https://github.com/jitsi/jitsi-videobridge)) `Apache-2.0` `Java`
+- **<code>&nbsp;&nbsp;2202</code>** [TextBelt](https://github.com/typpo/textbelt) `⚠` - Outgoing SMS API that uses carrier-specific gateways to deliver your text messages for free, and without ads. `MIT` `Javascript`
 - **<code>&nbsp;&nbsp;1523</code>** [Live Helper Chat](http://livehelperchat.com/) - Live Support chat for your website. ([Source Code](https://github.com/LiveHelperChat/livehelperchat)) `Apache-2.0` `PHP`
 - **<code>&nbsp;&nbsp;1457</code>** [Chaskiq](https://chaskiq.io) - Full featured livechat, helpcenter and CRM as an alternative to Intercom & Drift, Crisp and others. ([Source Code](https://github.com/chaskiq/chaskiq)) `AGPL-3.0` `Ruby`
 - **<code>&nbsp;&nbsp;1321</code>** [RetroShare](http://retroshare.org) - Secured and decentralized communication system. Offers decentralized chat, forums, messaging, file transfer. ([Source Code](https://github.com/RetroShare/RetroShare)) `GPL-2.0` `С++`
@@ -276,7 +294,7 @@ _See https://en.wikipedia.org/wiki/Comparison_of_CalDAV_and_CardDAV_implementati
 - **<code>&nbsp;&nbsp;&nbsp;847</code>** [Hawkpost](https://hawkpost.co) - HawkPost is a web app that lets you create unique links that you can share with a person that desires to send you important information but doesn't know how to encrypt it. The message is encrypted in their browser and sent to your email address. ([Source Code](https://github.com/whitesmith/hawkpost)) `MIT` `Python`
 - **<code>&nbsp;&nbsp;&nbsp;641</code>** [Darkwire.io](https://github.com/darkwire/darkwire.io) - End-to-end encrypted instant web chat. `MIT` `Nodejs`
 - **<code>&nbsp;&nbsp;&nbsp;498</code>** [MiAOU](https://miaou.dystroy.org/login) - Multi-room persistent chat server. ([Source Code](https://github.com/Canop/miaou)) `MIT` `Nodejs`
-- **<code>&nbsp;&nbsp;&nbsp;424</code>** [Mibew](https://mibew.org) - Mibew Messenger is an open-source live support application written in PHP and MySQL. It enables one-on-one chat assistance in real-time directly from your website. ([Demo](https://mibew.org/demo2), [Source Code](https://github.com/Mibew/mibew)) `Apache-2.0` `PHP`
+- **<code>&nbsp;&nbsp;&nbsp;425</code>** [Mibew](https://mibew.org) - Mibew Messenger is an open-source live support application written in PHP and MySQL. It enables one-on-one chat assistance in real-time directly from your website. ([Demo](https://mibew.org/demo2), [Source Code](https://github.com/Mibew/mibew)) `Apache-2.0` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;326</code>** [Spectrum 2](http://spectrum.im/) - Spectrum 2 is an open source instant messaging transport.  It allows users to chat together even when they are using different IM networks. ([Source Code](https://github.com/SpectrumIM/spectrum2)) `GPL-3.0` `C++`
 - **<code>&nbsp;&nbsp;&nbsp;324</code>** [Tuber](https://blog.trailofbits.com/2015/12/15/self-hosted-video-chat-with-tuber/) - Peer-to-peer video chat that works. ([Source Code](https://github.com/trailofbits/tubertc)) `MIT` `Javascript`
 - **<code>&nbsp;&nbsp;&nbsp;303</code>** [Rallly](http://rallly.co) - Rallly is a free collaborative scheduling service. ([Source Code](https://github.com/lukevella/Rallly)) `CC-BY-SA-4.0` `Nodejs`
@@ -297,23 +315,23 @@ _See https://en.wikipedia.org/wiki/Comparison_of_CalDAV_and_CardDAV_implementati
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Syndie](https://syndie.de) - Syndie is a libre system for operating distributed forums. `CC0-1.0` `Java`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Lets-Chat](http://sdelements.github.io/lets-chat/) - Self hosted chat suite written in Node. ([Source Code](https://github.com/sdelements/lets-chat)) `MIT` `Nodejs`
 
-### Email
+### Communication - Email
 
 **[`^        back to top        ^`](#)**
 
-#### Complete solutions
+### Communication - Email - Complete Solutions
 
 _Simple deployment of a mail server, e.g. for inexperienced or impatient admins._
 
-- **<code>&nbsp;&nbsp;4116</code>** [Mailcow](https://mailcow.email/) - Mail server suite based on Dovecot, Postfix and other open source software, that provides a modern Web UI for administration. ([Source Code](https://github.com/mailcow/mailcow-dockerized)) `GPL-2.0` `Docker/PHP`
+- **<code>&nbsp;&nbsp;4118</code>** [Mailcow](https://mailcow.email/) - Mail server suite based on Dovecot, Postfix and other open source software, that provides a modern Web UI for administration. ([Source Code](https://github.com/mailcow/mailcow-dockerized)) `GPL-2.0` `Docker/PHP`
 - **<code>&nbsp;&nbsp;2773</code>** [Mailu](https://mailu.io/) - Mailu is a simple yet full-featured mail server as a set of Docker images. ([Demo](https://github.com/Mailu/Mailu/wiki/Demo-server), [Source Code](https://github.com/Mailu/Mailu)) `MIT` `Docker/Python`
 - **<code>&nbsp;&nbsp;1843</code>** [Modoboa](http://modoboa.org/en/) - Modoboa is a mail hosting and management platform including a modern and simplified Web User Interface. ([Source Code](https://github.com/modoboa/modoboa)) `ISC` `Python`
-- **<code>&nbsp;&nbsp;1356</code>** [wildduck](https://wildduck.email/) - Scalable no-SPOF IMAP/POP3 mail server. ([Source Code](https://github.com/nodemailer/wildduck)) `EUPL-1.2` `Nodejs`
-- **<code>&nbsp;&nbsp;1352</code>** [SimpleLogin](https://simplelogin.io) - Open source email alias solution to protect your email address. Comes with browser extensions and mobile apps. ([Source Code](https://github.com/simple-login/app)) `MIT` `Docker/Python`
-- **<code>&nbsp;&nbsp;1208</code>** [AnonAddy](https://anonaddy.com) - Open source email forwarding service for creating aliases. ([Source Code](https://github.com/anonaddy/anonaddy)) `MIT` `PHP`
+- **<code>&nbsp;&nbsp;1357</code>** [wildduck](https://wildduck.email/) - Scalable no-SPOF IMAP/POP3 mail server. ([Source Code](https://github.com/nodemailer/wildduck)) `EUPL-1.2` `Nodejs`
+- **<code>&nbsp;&nbsp;1355</code>** [SimpleLogin](https://simplelogin.io) - Open source email alias solution to protect your email address. Comes with browser extensions and mobile apps. ([Source Code](https://github.com/simple-login/app)) `MIT` `Docker/Python`
+- **<code>&nbsp;&nbsp;1209</code>** [AnonAddy](https://anonaddy.com) - Open source email forwarding service for creating aliases. ([Source Code](https://github.com/anonaddy/anonaddy)) `MIT` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;784</code>** [DebOps](https://docs.debops.org/) - Your Debian-based data center in a box. A set of general-purpose Ansible roles that can be used to manage Debian or Ubuntu hosts. ([Source Code](https://github.com/debops/debops)) `GPL-3.0-only` `YAML/Ansible/Python`
-- **<code>&nbsp;&nbsp;&nbsp;681</code>** [emailwiz](https://github.com/LukeSmithxyz/emailwiz) - Luke Smith's bash script to completely automate the setup of a Postfix/Dovecot/SpamAssassin/OpenDKIM server on debian. `GPL-3.0` `Bash`
-- **<code>&nbsp;&nbsp;&nbsp;420</code>** [iRedMail](http://www.iredmail.org/) - Full-featured mail server solution based on Postfix and Dovecot. ([Source Code](https://github.com/iredmail/iRedMail)) `GPL-3.0` `Shell`
+- **<code>&nbsp;&nbsp;&nbsp;680</code>** [emailwiz](https://github.com/LukeSmithxyz/emailwiz) - Luke Smith's bash script to completely automate the setup of a Postfix/Dovecot/SpamAssassin/OpenDKIM server on debian. `GPL-3.0` `Bash`
+- **<code>&nbsp;&nbsp;&nbsp;422</code>** [iRedMail](http://www.iredmail.org/) - Full-featured mail server solution based on Postfix and Dovecot. ([Source Code](https://github.com/iredmail/iRedMail)) `GPL-3.0` `Shell`
 - **<code>&nbsp;&nbsp;&nbsp;272</code>** [homebox](https://github.com/progmaticltd/homebox) - Suite of Ansible scripts to deploy a fully functional mail server on Debian. Unobtrusive and automatic as much as possible, focusing on stability and security. `GPL-3.0` `Shell`
 - **<code>&nbsp;&nbsp;&nbsp;228</code>** [Inboxen](https://inboxen.org) - Inboxen is a service that provides you with an infinite number of unique inboxes. ([Source Code](https://github.com/Inboxen/Inboxen)) `GPL-3.0` `Python`
 - **<code>&nbsp;&nbsp;&nbsp;197</code>** [Ptorx](https://github.com/xyfir/ptorx) - Email privacy. Anonymously send and receive with alias forwarding. `GPL-3.0` `Nodejs`
@@ -323,15 +341,15 @@ _Simple deployment of a mail server, e.g. for inexperienced or impatient admins.
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Simple NixOS Mailserver](https://gitlab.com/simple-nixos-mailserver/nixos-mailserver) - Complete mailserver solution leveraging the Nix Ecosystem. `GPL-3.0` `Nix`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [docker-mailserver](https://docker-mailserver.github.io/docker-mailserver/edge/) - Fullstack but simple mail server (smtp, imap, antispam, antivirus, etc.). Only configuration files, no SQL database. Keep it simple and versioned. Easy to deploy and upgrade. ([Source Code](https://github.com/docker-mailserver/docker-mailserver)) `MIT` `Docker`
 
-#### Mail Transfer Agents
+### Communication - Email - Mail Transfer Agents
 
 _MTAs / SMTP servers_
 
-- **<code>&nbsp;&nbsp;8723</code>** [MailHog](https://github.com/mailhog/MailHog) - Small Golang executable which runs an SMTP MTA gateway that accepts all mail and displays in web interface. Useful for debugging or development. `MIT` `Go`
+- **<code>&nbsp;&nbsp;8724</code>** [MailHog](https://github.com/mailhog/MailHog) - Small Golang executable which runs an SMTP MTA gateway that accepts all mail and displays in web interface. Useful for debugging or development. `MIT` `Go`
 - **<code>&nbsp;&nbsp;5340</code>** [MailCatcher](http://mailcatcher.me/) - Ruby gem that deploys a simply SMTP MTA gateway that accepts all mail and displays in web interface. Useful for debugging or development. ([Source Code](https://github.com/sj26/mailcatcher)) `MIT` `Ruby`
 - **<code>&nbsp;&nbsp;&nbsp;449</code>** [chasquid](https://blitiri.com.ar/p/chasquid/) - SMTP (email) server with a focus on simplicity, security, and ease of operation. ([Source Code](https://blitiri.com.ar/git/r/chasquid/)) `Apache-2.0` `Go`
 - **<code>&nbsp;&nbsp;&nbsp;381</code>** [OpenSMTPD](https://opensmtpd.org/) - Secure SMTP server implementation from the OpenBSD project. ([Source Code](http://cvsweb.openbsd.org/cgi-bin/cvsweb/src/usr.sbin/smtpd/)) `ISC` `C`
-- **<code>&nbsp;&nbsp;&nbsp;146</code>** [Slimta](http://slimta.org) - Mail Transfer Library built on Python. ([Source Code](https://github.com/slimta/python-slimta)) `MIT` `Python`
+- **<code>&nbsp;&nbsp;&nbsp;147</code>** [Slimta](http://slimta.org) - Mail Transfer Library built on Python. ([Source Code](https://github.com/slimta/python-slimta)) `MIT` `Python`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;14</code>** [Haraka](http://haraka.github.io/) - High-performance, pluginable SMTP server written in Javascript. ([Source Code](https://github.com/haraka/Haraka)) `MIT` `Javascript`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Exim](https://www.exim.org/) - Message transfer agent (MTA) developed at the University of Cambridge. ([Source Code](http://git.exim.org/exim.git)) `GPL-3.0` `C`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Postfix](http://www.postfix.org/) - Fast, easy to administer, and secure Sendmail replacement. `IPL-1.0` `C`
@@ -340,7 +358,7 @@ _MTAs / SMTP servers_
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Maildrop](https://gitlab.com/markbeeson/maildrop) - Disposable email SMTP server, also useful for development. `MIT` `Scala`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Courier MTA](http://www.courier-mta.org/) - Fast, scalable, enterprise mail/groupware server providing ESMTP, IMAP, POP3, webmail, mailing list, basic web-based calendaring and scheduling services. ([Source Code](http://www.courier-mta.org/repo.html)) `GPL-3.0` `C`
 
-#### Mail Delivery Agents
+### Communication - Email - Mail Delivery Agents
 
 _MDAs - IMAP/POP3 software_
 
@@ -349,15 +367,15 @@ _MDAs - IMAP/POP3 software_
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3</code>** [MailForm](https://github.com/Feuerhamster/mailform) - Lightweight self-hosted open source alternative to Formspree and SendGrid. `Apache-2.0` `Nodejs`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Piler](http://www.mailpiler.org/wiki/start) - feature-rich open source email archiving solution. ([Source Code](https://bitbucket.org/jsuto/piler)) `GPL-3.0` `C`
 
-#### Mailing lists and Newsletters
+### Communication - Email - Mailing Lists and Newsletters
 
 _Mailing lists servers and mass mailing software - one message to many recipients._
 
-- **<code>&nbsp;10574</code>** [Postal](https://postal.atech.media/) - Fully featured open source mail delivery platform for incoming and outgoing e-mail. ([Source Code](https://github.com/postalhq/postal)) `MIT` `Ruby`
-- **<code>&nbsp;&nbsp;5444</code>** [Listmonk](https://listmonk.app/) - High performance, self-hosted newsletter and mailing list manager with a modern dashboard. ([Source Code](https://github.com/knadh/listmonk)) `AGPL-3.0` `Go`
-- **<code>&nbsp;&nbsp;4833</code>** [Mailtrain](https://mailtrain.org/) - self hosted newsletter application built on Node.js (v5+) and MySQL (v5.5+ or MariaDB). ([Source Code](https://github.com/Mailtrain-org/mailtrain)) `GPL-3.0` `Nodejs`
-- **<code>&nbsp;&nbsp;4623</code>** [Mautic](https://www.mautic.org/) - Mautic is marketing automation software (email, social and more). ([Source Code](https://github.com/mautic/mautic)) `GPL-3.0` `PHP`
-- **<code>&nbsp;&nbsp;3740</code>** [Postorius](https://docs.mailman3.org/projects/postorius/en/latest/) - Web user interface to access GNU Mailman. ([Source Code](https://gitlab.com/mailman/postorius/)) `GPL-3.0` `Python`
+- **<code>&nbsp;10576</code>** [Postal](https://postal.atech.media/) - Fully featured open source mail delivery platform for incoming and outgoing e-mail. ([Source Code](https://github.com/postalhq/postal)) `MIT` `Ruby`
+- **<code>&nbsp;&nbsp;5446</code>** [Listmonk](https://listmonk.app/) - High performance, self-hosted newsletter and mailing list manager with a modern dashboard. ([Source Code](https://github.com/knadh/listmonk)) `AGPL-3.0` `Go`
+- **<code>&nbsp;&nbsp;4834</code>** [Mailtrain](https://mailtrain.org/) - Self hosted newsletter application. ([Source Code](https://github.com/Mailtrain-org/mailtrain)) `GPL-3.0` `Nodejs`
+- **<code>&nbsp;&nbsp;4625</code>** [Mautic](https://www.mautic.org/) - Mautic is marketing automation software (email, social and more). ([Source Code](https://github.com/mautic/mautic)) `GPL-3.0` `PHP`
+- **<code>&nbsp;&nbsp;3741</code>** [Postorius](https://docs.mailman3.org/projects/postorius/en/latest/) - Web user interface to access GNU Mailman. ([Source Code](https://gitlab.com/mailman/postorius/)) `GPL-3.0` `Python`
 - **<code>&nbsp;&nbsp;&nbsp;569</code>** [MailyHerald](http://mailyherald.org/) - Self-hosted Mailchimp alternative that you can easily integrate with your site. Helps you send and manage your application mailings. It supports email marketing and conducting the daily stream of notifications you send to your users. ([Source Code](https://github.com/Sology/maily_herald)) `LGPL-3.0` `Ruby`
 - **<code>&nbsp;&nbsp;&nbsp;160</code>** [Sympa](https://www.sympa.org/) - Mailing list manager. `GPL-2.0` `Perl`
 - **<code>&nbsp;&nbsp;&nbsp;122</code>** [Dada Mail](http://dadamailproject.com/) - Web-based list management system that can be used for announcement lists and/or discussion lists. ([Source Code](https://github.com/justingit/dada-mail)) `GPL-2.0` `Perl`
@@ -366,11 +384,11 @@ _Mailing lists servers and mass mailing software - one message to many recipient
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Schleuder](https://schleuder.nadir.org/) - GPG-enabled mailing list manager with resending-capabilities. ([Source Code](https://0xacab.org/schleuder/schleuder/tree/master)) `GPL-3.0` `Ruby`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [phpList](https://phplist.org) - Newsletter and email marketing with advanced management of subscribers, bounces, and plugins. ([Source Code](https://github.com/phpList/)) `AGPL-3.0` `PHP`
 
-#### Webmail clients
+### Communication - Email - Webmail Clients
 
 - **<code>&nbsp;&nbsp;8422</code>** [Mailpile](https://www.mailpile.is/) - Webmail client with search, filtering, encryption features and more. ([Source Code](https://github.com/mailpile/Mailpile)) `AGPL-3.0` `Python`
 - **<code>&nbsp;&nbsp;3919</code>** [Roundcube](https://roundcube.net) - Browser-based IMAP client with an application-like user interface. ([Source Code](https://github.com/roundcube/roundcubemail)) `GPL-3.0` `PHP`
-- **<code>&nbsp;&nbsp;3516</code>** [RainLoop](http://www.rainloop.net/) - Simple, modern and fast webmail with IMAP/SMTP Support and multi accounting. ([Demo](http://demo.rainloop.net/), [Source Code](https://github.com/RainLoop/rainloop-webmail)). `AGPL-3.0` `PHP`
+- **<code>&nbsp;&nbsp;3517</code>** [RainLoop](http://www.rainloop.net/) - Simple, modern and fast webmail with IMAP/SMTP Support and multi accounting. ([Demo](http://demo.rainloop.net/), [Source Code](https://github.com/RainLoop/rainloop-webmail)). `AGPL-3.0` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;660</code>** [Cypht](http://cypht.org) - Feed reader for your email accounts. ([Source Code](https://github.com/jasonmunro/cypht)) `LGPL-2.1` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;217</code>** [Afterlogic WebMail Lite](http://www.afterlogic.org/webmail-lite) - Fast and easy-to-use webmail front-end for your existing IMAP mail server, Plesk or cPanel. ([Demo](https://lite.afterlogic.com/), [Source Code](https://github.com/afterlogic/webmail-lite)) `AGPL-3.0` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;175</code>** [MailCare](https://mailcare.io) - Open source disposable email address service. ([Source Code](https://github.com/mailcare/mailcare)) `MIT` `PHP`
@@ -378,39 +396,39 @@ _Mailing lists servers and mass mailing software - one message to many recipient
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;10</code>** [IMP](https://www.horde.org/apps/imp/) - HORDE application that provides webmail access to IMAP and POP3 accounts. ([Demo](http://demo.horde.org/), [Source Code](https://www.horde.org/download/imp)) `GPL-2.0` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [SquirrelMail](http://squirrelmail.org) - Another browser-based IMAP client. ([Source Code](https://sourceforge.net/p/squirrelmail/code/HEAD/tree/)) `GPL-2.0` `PHP`
 
-### IRC
+### Communication - IRC
 
 **[`^        back to top        ^`](#)**
 
 _[IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat) communication software_
 
-- **<code>&nbsp;&nbsp;4438</code>** [The Lounge](https://thelounge.chat/) - Self-hosted web IRC client. ([Demo](https://demo.thelounge.chat/), [Source Code](https://github.com/thelounge/thelounge)) `MIT` `Nodejs`
+- **<code>&nbsp;&nbsp;4439</code>** [The Lounge](https://thelounge.chat/) - Self-hosted web IRC client. ([Demo](https://demo.thelounge.chat/), [Source Code](https://github.com/thelounge/thelounge)) `MIT` `Nodejs`
 - **<code>&nbsp;&nbsp;1829</code>** [ZNC](http://wiki.znc.in/ZNC) - Advanced IRC bouncer. ([Source Code](https://github.com/znc/znc)) `Apache-2.0` `C++`
-- **<code>&nbsp;&nbsp;1255</code>** [Ergo](https://ergo.chat/) - Modern IRCv3 server written in Go, combining the features of an ircd, a services framework, and a bouncer. ([Source Code](https://github.com/ergochat/ergo)) `MIT` `Go`
+- **<code>&nbsp;&nbsp;1259</code>** [Ergo](https://ergo.chat/) - Modern IRCv3 server written in Go, combining the features of an ircd, a services framework, and a bouncer. ([Source Code](https://github.com/ergochat/ergo)) `MIT` `Go`
 - **<code>&nbsp;&nbsp;&nbsp;898</code>** [InspIRCd](https://www.inspircd.org/) - Modular IRC server written in C++ for Linux, BSD, Windows, and macOS. ([Source Code](https://github.com/inspircd/inspircd)) `GFDL-1.2-only` `C++`
   - **<code>&nbsp;&nbsp;&nbsp;854</code>** [Glowing Bear](https://github.com/glowing-bear/glowing-bear/) - A web frontend for WeeChat. ([Demo](https://www.glowing-bear.org)) `GPL-3.0` `Javascript`
 - **<code>&nbsp;&nbsp;&nbsp;824</code>** [Convos](https://convos.chat/) - Always online web IRC client. ([Demo](https://convos.chat/#instant-demo), [Source Code](http://github.com/nordaaker/convos)) `Artistic-2.0` `Perl`
 - **<code>&nbsp;&nbsp;&nbsp;617</code>** [Quassel IRC](http://quassel-irc.org/) - distributed IRC client, meaning that one (or multiple) client(s) can attach to and detach from a central core. ([Source Code](https://github.com/quassel/quassel)) `GPL-2.0` `C++`
 - **<code>&nbsp;&nbsp;&nbsp;608</code>** [Dispatch](https://github.com/khlieng/dispatch) - Self-hosted web IRC client written in Go. ([Demo](https://dispatch.khlieng.com/connect)) `MIT` `Go`
-- **<code>&nbsp;&nbsp;&nbsp;562</code>** [Kiwi IRC](https://kiwiirc.com/) - Responsive web IRC client with theming support. ([Demo](https://kiwiirc.com/nextclient/), [Source Code](https://github.com/kiwiirc/kiwiirc)) `Apache-2.0` `Nodejs`
+- **<code>&nbsp;&nbsp;&nbsp;563</code>** [Kiwi IRC](https://kiwiirc.com/) - Responsive web IRC client with theming support. ([Demo](https://kiwiirc.com/nextclient/), [Source Code](https://github.com/kiwiirc/kiwiirc)) `Apache-2.0` `Nodejs`
 - **<code>&nbsp;&nbsp;&nbsp;304</code>** [ngircd](https://ngircd.barton.de/) - Free, portable and lightweight Internet Relay Chat server for small or private networks. ([Source Code](https://github.com/ngircd/ngircd)) `GPL-2.0` `C`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;13</code>** [Robust IRC](https://robustirc.net/) - RobustIRC is IRC without netsplits. Distributed IRC server, based on RobustSession protocol. ([Source Code](https://github.com/robustirc/robustirc)) `BSD-3-Clause` `Go`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Tiny Tiny IRC](https://tt-rss.org/tt-irc/) - An open source AJAX-powered chat platform with support for IRC ([Source Code](https://git.tt-rss.org/fox/tt-irc)). `GPL-3.0` `PHP/Java`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Weechat](https://weechat.org/) - Fast, light and extensible chat client. `GPL-3.0` `C`
 
-### SIP
+### Communication - SIP
 
 **[`^        back to top        ^`](#)**
 
 _[SIP](https://en.wikipedia.org/wiki/Session_Initiation_Protocol)/[IPBX](https://en.wikipedia.org/wiki/IP_PBX) telephony software_
 
 - **<code>&nbsp;&nbsp;1438</code>** [Kamailio](http://www.kamailio.org/w/) - Modular SIP server (registrar/proxy/router/etc). ([Source Code](https://github.com/kamailio/kamailio)) `GPL-2.0` `C`
-- **<code>&nbsp;&nbsp;1372</code>** [FreeSWITCH](https://freeswitch.org/) - Scalable open source cross-platform telephony platform. ([Source Code](https://freeswitch.org/stash/projects/FS/repos/freeswitch/browse)) `MPL-2.0` `C`
-- **<code>&nbsp;&nbsp;&nbsp;919</code>** [Homer](https://www.sipcapture.org/) - Troubleshooting and monitoring VoIP calls. ([Source Code](https://github.com/sipcapture/homer)) `AGPL-3.0` `Angular/C`
+- **<code>&nbsp;&nbsp;1374</code>** [FreeSWITCH](https://freeswitch.org/) - Scalable open source cross-platform telephony platform. ([Source Code](https://freeswitch.org/stash/projects/FS/repos/freeswitch/browse)) `MPL-2.0` `C`
+- **<code>&nbsp;&nbsp;&nbsp;919</code>** [SIPCAPTURE Homer](https://www.sipcapture.org/) - Troubleshooting and monitoring VoIP calls. ([Source Code](https://github.com/sipcapture/homer)) `AGPL-3.0` `Angular/C`
 - **<code>&nbsp;&nbsp;&nbsp;843</code>** [Kazoo](http://2600hz.org/) - KAZOO is an open-source, highly scalable software platform designed to provide carrier-grade VoIP switch functions and features. ([Source Code](https://github.com/2600hz/KAZOO)) `MPL-1.1` `Erlang`
-- **<code>&nbsp;&nbsp;&nbsp;826</code>** [Routr](https://routr.io) - A lightweight sip proxy, location server, and registrar for a reliable and scalable SIP infrastructure. ([Source Code](https://github.com/fonoster/routr)) `MIT` `Javascript`
+- **<code>&nbsp;&nbsp;&nbsp;827</code>** [Routr](https://routr.io) - A lightweight sip proxy, location server, and registrar for a reliable and scalable SIP infrastructure. ([Source Code](https://github.com/fonoster/routr)) `MIT` `Javascript`
 - **<code>&nbsp;&nbsp;&nbsp;502</code>** [FusionPBX](https://www.fusionpbx.com/) - Open source project that provides a customizable and flexible web interface to the very powerful and highly scalable multi-platform voice switch called FreeSWITCH. ([Source Code](https://github.com/fusionpbx/fusionpbx)) `MPL-1.1` `PHP`
-- **<code>&nbsp;&nbsp;&nbsp;472</code>** [Wazo](http://wazo-platform.org/) - Full-featured IPBX solution built atop Asterisk with integrated Web administration interface and REST-ful API. ([Source Code](https://github.com/wazo-platform)) `GPL-3.0` `Python`
+- **<code>&nbsp;&nbsp;&nbsp;474</code>** [Wazo](http://wazo-platform.org/) - Full-featured IPBX solution built atop Asterisk with integrated Web administration interface and REST-ful API. ([Source Code](https://github.com/wazo-platform)) `GPL-3.0` `Python`
 - **<code>&nbsp;&nbsp;&nbsp;116</code>** [ASTPP](https://www.astppbilling.org/) - is an Open Source VoIP Billing Solution for Freeswitch. It supports prepaid and postpaid billing with call rating and credit control. It also provides many other features. ([Source Code](https://github.com/iNextrix/ASTPP)) `AGPL-3.0` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;29</code>** [SipXcom](http://sipxcom.org/) - Open source unified communications system. ([Source Code](https://github.com/sipXcom/sipxecs)) `AGPL-3.0` `Java`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Asterisk](http://www.asterisk.org/) - Easy to use but advanced IP PBX system, VoIP gateway and conference server. `GPL-2.0` `C`
@@ -419,40 +437,40 @@ _[SIP](https://en.wikipedia.org/wiki/Session_Initiation_Protocol)/[IPBX](https:/
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Yeti-Switch](https://yeti-switch.org/) - Transit class4 softswitch(SBC) with integrated billing and routing engine and REST API. ([Demo](https://yeti-switch.org/demo.html), [Source Code](https://github.com/yeti-switch)) `GPL-2.0` `C++/Ruby`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [SIP3](https://sip3.io/) - VoIP troubleshooting and monitoring platform. ([Demo](https://demo.sip3.io), [Source Code](https://github.com/sip3io/)) `Apache-2.0` `Kotlin`
 
-### Social Networks and Forums
+### Communication - Social Networks and Forums
 
 **[`^        back to top        ^`](#)**
 
-- **<code>&nbsp;33620</code>** [Discourse](http://www.discourse.org/) - Advanced forum / community solution based on Ruby and JS. ([Demo](https://try.discourse.org/), [Source Code](https://github.com/discourse/discourse)) `GPL-2.0` `Ruby`
-- **<code>&nbsp;24431</code>** [Mastodon](https://joinmastodon.org/) - Federated microblogging server, an alternative to GNU social. ([Source Code](https://github.com/tootsuite/mastodon)) `AGPL-3.0` `Ruby`
-- **<code>&nbsp;12023</code>** [NodeBB](https://nodebb.org/) - Node.js based forum software built for the modern web. ([Source Code](https://github.com/NodeBB/NodeBB)) `GPL-3.0` `Nodejs`
-- **<code>&nbsp;11673</code>** [Flarum](http://flarum.org) - Delightfully simple forums. Flarum is the next-generation forum software that makes online discussion fun again. ([Source Code](https://github.com/flarum/flarum)) `MIT` `PHP`
-- **<code>&nbsp;&nbsp;5457</code>** [HumHub](https://www.humhub.org/) - Flexible kit for private social networks. ([Source Code](https://github.com/humhub/humhub)) `AGPL-3.0` `PHP`
+- **<code>&nbsp;33619</code>** [Discourse](http://www.discourse.org/) - Advanced forum / community solution based on Ruby and JS. ([Demo](https://try.discourse.org/), [Source Code](https://github.com/discourse/discourse)) `GPL-2.0` `Ruby`
+- **<code>&nbsp;24435</code>** [Mastodon](https://joinmastodon.org/) - Federated microblogging server, an alternative to GNU social. ([Source Code](https://github.com/tootsuite/mastodon)) `AGPL-3.0` `Ruby`
+- **<code>&nbsp;12022</code>** [NodeBB](https://nodebb.org/) - Forum software built for the modern web. ([Source Code](https://github.com/NodeBB/NodeBB)) `GPL-3.0` `Nodejs`
+- **<code>&nbsp;11676</code>** [Flarum](http://flarum.org) - Delightfully simple forums. Flarum is the next-generation forum software that makes online discussion fun again. ([Source Code](https://github.com/flarum/flarum)) `MIT` `PHP`
+- **<code>&nbsp;&nbsp;5459</code>** [HumHub](https://www.humhub.org/) - Flexible kit for private social networks. ([Source Code](https://github.com/humhub/humhub)) `AGPL-3.0` `PHP`
 - **<code>&nbsp;&nbsp;5170</code>** [Lemmy](https://join-lemmy.org/) - A link aggregator / reddit clone for the fediverse. Reddit alternative built in Rust. ([Source Code](https://github.com/LemmyNet/lemmy)) `AGPL-3.0` `Rust`
-- **<code>&nbsp;&nbsp;4395</code>** [Isso](http://posativ.org/isso/) - Lightweight commenting server written in Python and Javascript. It aims to be a drop-in replacement for Disqus. ([Source Code](https://github.com/posativ/isso)) `MIT` `Python`
-- **<code>&nbsp;&nbsp;2969</code>** [PixelFed](https://pixelfed.social) - Pixelfed is an open-source, federated platform alternate to Instagram. ([Source Code](http://github.com/pixelfed/pixelfed)) `AGPL-3.0` `PHP`
-- **<code>&nbsp;&nbsp;2961</code>** [remark42](https://remark42.com/) - A lightweight and simple comment engine, which doesn't spy on users. It can be embedded into blogs, articles or any other place where readers add comments. ([Demo](https://remark42.com/demo/), [Source Code](https://github.com/umputun/remark42)) `MIT` `Go`
-- **<code>&nbsp;&nbsp;2726</code>** [Nitter](https://nitter.net) `⚠` - A alternative front end to twitter. ([Source Code](https://github.com/zedeus/nitter)) `AGPL-3.0` `Nimble`
-- **<code>&nbsp;&nbsp;2726</code>** [Teddit](https://teddit.net) `⚠` - Alternative Reddit front-end focused on privacy. ([Source Code](https://codeberg.org/teddit/teddit)) `AGPL-3.0` `Nodejs`
-- **<code>&nbsp;&nbsp;2370</code>** [Vanilla Forums](https://vanillaforums.org/) - Simple and flexible forum software. ([Source Code](https://github.com/vanilla/vanilla)) `GPL-2.0` `PHP`
+- **<code>&nbsp;&nbsp;4396</code>** [Isso](http://posativ.org/isso/) - Lightweight commenting server written in Python and Javascript. It aims to be a drop-in replacement for Disqus. ([Source Code](https://github.com/posativ/isso)) `MIT` `Python`
+- **<code>&nbsp;&nbsp;2979</code>** [PixelFed](https://pixelfed.social) - Pixelfed is an open-source, federated platform alternate to Instagram. ([Source Code](http://github.com/pixelfed/pixelfed)) `AGPL-3.0` `PHP`
+- **<code>&nbsp;&nbsp;2964</code>** [remark42](https://remark42.com/) - A lightweight and simple comment engine, which doesn't spy on users. It can be embedded into blogs, articles or any other place where readers add comments. ([Demo](https://remark42.com/demo/), [Source Code](https://github.com/umputun/remark42)) `MIT` `Go`
+- **<code>&nbsp;&nbsp;2732</code>** [Nitter](https://nitter.net) `⚠` - A alternative front end to twitter. ([Source Code](https://github.com/zedeus/nitter)) `AGPL-3.0` `Nimble`
+- **<code>&nbsp;&nbsp;2732</code>** [Teddit](https://teddit.net) `⚠` - Alternative Reddit front-end focused on privacy. ([Source Code](https://codeberg.org/teddit/teddit)) `AGPL-3.0` `Nodejs`
+- **<code>&nbsp;&nbsp;2368</code>** [Vanilla Forums](https://vanillaforums.org/) - Simple and flexible forum software. ([Source Code](https://github.com/vanilla/vanilla)) `GPL-2.0` `PHP`
 - **<code>&nbsp;&nbsp;2128</code>** [Misago](https://misago-project.org/) - Misago is fully featured modern forum application that is fast, scalable and responsive. ([Source Code](https://github.com/rafalp/Misago)) `GPL-2.0` `Python`
-- **<code>&nbsp;&nbsp;2087</code>** [Bootcamp](http://trybootcamp.vitorfs.com) - Enterprise social network. ([Source Code](https://github.com/vitorfs/bootcamp)) `MIT` `Python`
+- **<code>&nbsp;&nbsp;2088</code>** [Bootcamp](http://trybootcamp.vitorfs.com) - Enterprise social network. ([Source Code](https://github.com/vitorfs/bootcamp)) `MIT` `Python`
 - **<code>&nbsp;&nbsp;2068</code>** [Loomio](https://www.loomio.org/) - Loomio is a collaborative decision-making tool that makes it easy for anyone to participate in decisions which affect them. ([Source Code](https://github.com/loomio/loomio)) `AGPL-3.0` `Ruby`
 - **<code>&nbsp;&nbsp;2054</code>** [Pump.io](http://pump.io/) - Stream server that does most of what people really want from a social network. ([Source Code](https://github.com/pump-io/pump.io)) `Apache-2.0` `Nodejs`
-- **<code>&nbsp;&nbsp;2046</code>** [FlaskBB](https://flaskbb.org/) - FlaskBB is forum software written in Python using the microframework Flask. You can easily create new topics, posts and send other users private messages. It also includes basic administration and moderation tools. ([Source Code](https://github.com/flaskbb/flaskbb)) `BSD-3-Clause` `Python`
-- **<code>&nbsp;&nbsp;1791</code>** [Misskey](https://misskey.io/) - Decentralized app-like microblogging server/SNS for the Fediverse, using the ActivityPub protocol like GNU social and Mastodon. ([Source Code](https://github.com/misskey-dev/misskey)) `AGPL-3.0` `Nodejs`
+- **<code>&nbsp;&nbsp;2047</code>** [FlaskBB](https://flaskbb.org/) - FlaskBB is forum software written in Python using the microframework Flask. You can easily create new topics, posts and send other users private messages. It also includes basic administration and moderation tools. ([Source Code](https://github.com/flaskbb/flaskbb)) `BSD-3-Clause` `Python`
+- **<code>&nbsp;&nbsp;1793</code>** [Misskey](https://misskey.io/) - Decentralized app-like microblogging server/SNS for the Fediverse, using the ActivityPub protocol like GNU social and Mastodon. ([Source Code](https://github.com/misskey-dev/misskey)) `AGPL-3.0` `Nodejs`
 - **<code>&nbsp;&nbsp;1664</code>** [Coral](https://coralproject.net/) - A better commenting experience from Vox Media. ([Source Code](https://github.com/coralproject/talk)) `Apache-2.0` `Nodejs`
-- **<code>&nbsp;&nbsp;1481</code>** [Elgg](https://elgg.org/) - Powerful open source social networking engine. ([Source Code](https://github.com/Elgg/Elgg)) `GPL-2.0` `PHP`
-- **<code>&nbsp;&nbsp;1441</code>** [phpBB](https://www.phpbb.com/) - Flat-forum bulletin board software solution that can be used to stay in touch with a group of people or can power your entire website. ([Source Code](https://github.com/phpbb/phpbb)) `GPL-2.0` `PHP`
+- **<code>&nbsp;&nbsp;1482</code>** [Elgg](https://elgg.org/) - Powerful open source social networking engine. ([Source Code](https://github.com/Elgg/Elgg)) `GPL-2.0` `PHP`
+- **<code>&nbsp;&nbsp;1440</code>** [phpBB](https://www.phpbb.com/) - Flat-forum bulletin board software solution that can be used to stay in touch with a group of people or can power your entire website. ([Source Code](https://github.com/phpbb/phpbb)) `GPL-2.0` `PHP`
 - **<code>&nbsp;&nbsp;1379</code>** [twister](http://twister.net.co/) - Fully decentralized P2P microblogging platform leveraging the free software implementations of Bitcoin and BitTorrent protocols. ([Source Code](https://github.com/miguelfreitas/twister-core)) `MIT` `C++`
 - **<code>&nbsp;&nbsp;1282</code>** [Talkyard](https://www.talkyard.io/) - Create a community, where your users can suggest ideas and get questions answered. And have friendly open-ended discussions and chat (Slack/StackOverflow/Discourse/Reddit/Disqus hybrid). ([Demo](https://www.talkyard.io/forum/latest), [Source Code](https://github.com/debiki/talkyard)) `AGPL-3.0` `Scala`
-- **<code>&nbsp;&nbsp;1282</code>** [Thredded](https://github.com/thredded/thredded) - Forums, feature-rich and simple. `MIT` `Ruby`
+- **<code>&nbsp;&nbsp;1281</code>** [Thredded](https://github.com/thredded/thredded) - Forums, feature-rich and simple. `MIT` `Ruby`
 - **<code>&nbsp;&nbsp;1233</code>** [Movim](https://movim.eu/) - Modern, federated social network based on XMPP, with a fully featured group-chat, subscriptions and microblogging. ([Source Code](https://github.com/movim/movim)) `AGPL-3.0` `PHP`
-- **<code>&nbsp;&nbsp;&nbsp;962</code>** [Friendica](https://friendi.ca/) - Social Communication Server. ([Source Code](https://github.com/friendica/friendica)) `AGPL-3.0` `PHP`
-- **<code>&nbsp;&nbsp;&nbsp;781</code>** [MyBB](http://www.mybb.com/) - Free, extensible forum software package. ([Source Code](https://github.com/mybb/mybb)) `LGPL-3.0` `PHP`
+- **<code>&nbsp;&nbsp;&nbsp;963</code>** [Friendica](https://friendi.ca/) - Social Communication Server. ([Source Code](https://github.com/friendica/friendica)) `AGPL-3.0` `PHP`
+- **<code>&nbsp;&nbsp;&nbsp;782</code>** [MyBB](http://www.mybb.com/) - Free, extensible forum software package. ([Source Code](https://github.com/mybb/mybb)) `LGPL-3.0` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;755</code>** [OSSN](https://www.opensource-socialnetwork.org/) - Open Source Social Network (OSSN) is a social networking software written in PHP. It allows you to make a social networking website and helps your members build social relationships, with people who share similar professional or personal interests. ([Source Code](https://github.com/opensource-socialnetwork/opensource-socialnetwork)) `GPL-2.0` `PHP`
-- **<code>&nbsp;&nbsp;&nbsp;747</code>** [Libreddit](https://libredd.it/) `⚠` - Private front-end for Reddit written in Rust. ([Source Code](https://github.com/spikecodes/libreddit)) `AGPL-3.0` `Rust`
-- **<code>&nbsp;&nbsp;&nbsp;507</code>** [Scoold](https://scoold.com) - Stack Overflow in a JAR. An enterprise-ready Q&A platform with full-text search, SAML, LDAP integration and social login support. ([Demo](https://live.scoold.com), [Source Code](https://github.com/Erudika/scoold)) `Apache-2.0` `Java`
+- **<code>&nbsp;&nbsp;&nbsp;748</code>** [Libreddit](https://libredd.it/) `⚠` - Private front-end for Reddit written in Rust. ([Source Code](https://github.com/spikecodes/libreddit)) `AGPL-3.0` `Rust`
+- **<code>&nbsp;&nbsp;&nbsp;508</code>** [Scoold](https://scoold.com) - Stack Overflow in a JAR. An enterprise-ready Q&A platform with full-text search, SAML, LDAP integration and social login support. ([Demo](https://live.scoold.com), [Source Code](https://github.com/Erudika/scoold)) `Apache-2.0` `Java`
 - **<code>&nbsp;&nbsp;&nbsp;504</code>** [twtxt.net](https://twtxt.net) - a Self-Hosted, Twitter™-like Decentralised micro-logging platform. No ads, no tracking, your content, your data. ([Source Code](https://github.com/prologic/twtxt)) `MIT` `Go`
 - **<code>&nbsp;&nbsp;&nbsp;493</code>** [Satellity](https://satellity.org/) - Yet another open source forum written in Golang, React and PostgreSQL. ([Source Code](https://github.com/satellity/satellity)) `MIT` `Go`
 - **<code>&nbsp;&nbsp;&nbsp;441</code>** [FluxBB](https://fluxbb.org/) - Fast, light, user-friendly forum software for your website. ([Source Code](https://github.com/fluxbb/fluxbb)) `GPL-2.0` `PHP`
@@ -480,16 +498,16 @@ _[SIP](https://en.wikipedia.org/wiki/Session_Initiation_Protocol)/[IPBX](https:/
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [GNU social](https://gnu.io/social/) - Social communication software for both public and private communications. ([Source Code](https://notabug.org/diogo/gnu-social)) `AGPL-3.0` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [diaspora*](https://diasporafoundation.org/) - Distributed social networking server. ([Demo](https://podupti.me/go.php), [Source Code](https://github.com/diaspora/diaspora)) `AGPL-3.0` `Ruby`
 
-### XMPP
+### Communication - XMPP
 
 **[`^        back to top        ^`](#)**
 
 _[Extensible Messaging and Presence Protocol](https://en.wikipedia.org/wiki/XMPP) software_
 
-#### XMPP Servers
+### Communication - XMPP - Servers
 
-- **<code>&nbsp;&nbsp;4913</code>** [ejabberd](https://www.ejabberd.im/) - XMPP instant messaging server. ([Source Code](https://github.com/processone/ejabberd)) `GPL-2.0` `Erlang`
-- **<code>&nbsp;&nbsp;2349</code>** [Openfire](http://www.igniterealtime.org/projects/openfire/) - Real time collaboration (RTC) server. ([Source Code](https://github.com/igniterealtime/Openfire)) `Apache-2.0` `Java`
+- **<code>&nbsp;&nbsp;4915</code>** [ejabberd](https://www.ejabberd.im/) - XMPP instant messaging server. ([Source Code](https://github.com/processone/ejabberd)) `GPL-2.0` `Erlang`
+- **<code>&nbsp;&nbsp;2351</code>** [Openfire](http://www.igniterealtime.org/projects/openfire/) - Real time collaboration (RTC) server. ([Source Code](https://github.com/igniterealtime/Openfire)) `Apache-2.0` `Java`
 - **<code>&nbsp;&nbsp;1418</code>** [MongooseIM](https://www.erlang-solutions.com/products/mongooseim.html) - Mobile messaging platform with a focus on performance and scalability. ([Source Code](https://github.com/esl/MongooseIM)) `GPL-2.0` `Erlang`
 - **<code>&nbsp;&nbsp;1099</code>** [jackal](https://github.com/ortuman/jackal) - XMPP server with focus on stability, simple configuration and low resource consumption. `Apache-2.0` `Go`
 - **<code>&nbsp;&nbsp;&nbsp;144</code>** [Metronome IM](https://metronome.im/) - Fork of Prosody IM. ([Source Code](https://github.com/maranda/metronome)) `MIT` `Lua`
@@ -498,7 +516,7 @@ _[Extensible Messaging and Presence Protocol](https://en.wikipedia.org/wiki/XMPP
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Prosody IM](http://prosody.im/) - Feature-rich and easy to configure XMPP server. ([Source Code](http://hg.prosody.im/)) `MIT` `Lua`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Tigase](http://www.tigase.net/content/tigase-xmpp-server) - XMPP server implementation in Java. `GPL-3.0` `Java`
 
-#### XMPP Web Clients
+### Communication - XMPP - Web Clients
 
 - **<code>&nbsp;&nbsp;2673</code>** [Converse.js](https://conversejs.org/) - Free and open-source XMPP chat client in your browser. ([Source Code](https://github.com/conversejs/converse.js)) `MPL-2.0` `Javascript`
 - **<code>&nbsp;&nbsp;&nbsp;625</code>** [JSXC](https://jsxc.org) - Real-time XMPP web chat application with video calls, file transfer and encrypted communication. There are also versions for Nextcloud/Owncloud and SOGo. ([Source Code](https://github.com/jsxc/jsxc)) `MIT` `Javascript`
@@ -506,39 +524,41 @@ _[Extensible Messaging and Presence Protocol](https://en.wikipedia.org/wiki/XMPP
   - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Libervia](http://wiki.goffi.org/wiki/Libervia/en) - Web frontend from Salut à Toi. ([Source Code](http://repos.goffi.org/libervia)) `AGPL-3.0` `Python`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Candy](http://candy-chat.github.io/candy/) - Multi user XMPP client written in Javascript. ([Source Code](https://github.com/candy-chat/candy)) `MIT` `Javascript`
 
-## Conference Management
+### Conference Management
 
 **[`^        back to top        ^`](#)**
 
-- **<code>&nbsp;&nbsp;6814</code>** [BigBlueButton](https://bigbluebutton.org/) - Supports real-time sharing of audio, video, slides (with whiteboard controls), chat, and the screen. Instructors can engage remote students with polling, emojis, and breakout rooms. ([Demo](https://demo.bigbluebutton.org/gl), [Source Code](https://github.com/bigbluebutton/bigbluebutton)) `LGPL-3.0` `Java`
+- **<code>&nbsp;&nbsp;6818</code>** [BigBlueButton](https://bigbluebutton.org/) - Supports real-time sharing of audio, video, slides (with whiteboard controls), chat, and the screen. Instructors can engage remote students with polling, emojis, and breakout rooms. ([Demo](https://demo.bigbluebutton.org/gl), [Source Code](https://github.com/bigbluebutton/bigbluebutton)) `LGPL-3.0` `Java`
 - **<code>&nbsp;&nbsp;1208</code>** [indico](https://getindico.io/) - A feature-rich event management system, made @ CERN, the place where the Web was born. ([Demo](https://sandbox.getindico.io/), [Source Code](https://github.com/indico/indico)) `MIT` `Python`
 - **<code>&nbsp;&nbsp;&nbsp;668</code>** [osem](http://osem.io/) - Event management tailored to free Software conferences. ([Demo](http://demo.osem.io/), [Source Code](https://github.com/openSUSE/osem)) `MIT` `Ruby`
 - **<code>&nbsp;&nbsp;&nbsp;542</code>** [OpenCFP](https://github.com/opencfp/opencfp) - OpenCFP is a PHP-based conference talk submission system. `MIT` `PHP`
-- **<code>&nbsp;&nbsp;&nbsp;381</code>** [pretalx](https://pretalx.org) - Web-based event management, including running a Call for Papers, reviewing submissions, and scheduling talks. Exports and imports for various related tools. ([Source Code](https://github.com/pretalx/pretalx)) `Apache-2.0` `Python`
+- **<code>&nbsp;&nbsp;&nbsp;382</code>** [pretalx](https://pretalx.org) - Web-based event management, including running a Call for Papers, reviewing submissions, and scheduling talks. Exports and imports for various related tools. ([Source Code](https://github.com/pretalx/pretalx)) `Apache-2.0` `Python`
 - **<code>&nbsp;&nbsp;&nbsp;212</code>** [Open Conference Systems (OCS)](https://pkp.sfu.ca/ocs/) - is a free Web publishing tool that will create a complete Web presence for your scholarly conference. ([Demo](https://pkp.sfu.ca/ocs/ocs_demo/), [Source Code](https://github.com/pkp/ocs)) `GPL-1.0` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Conference Organizing Distribution (COD)](http://usecod.com/) - Create conference and event websites built on top of Drupal. ([Source Code](http://cgit.drupalcode.org/cod)) `GPL-1.0` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [frab](https://frab.github.io/frab/) - web-based conference planning and management system. It helps to collect submissions, to manage talks and speakers and to create a schedule. ([Source Code](https://github.com/frab/frab)) `MIT` `Ruby`
 
-## Content Management Systems (CMS)
+### Content Management Systems (CMS)
 
 **[`^        back to top        ^`](#)**
 
-_CMS are a practical way to setup a website with many features. CMS often come with third party plugins, themes and functionality that is easy to add and customize to your needs. See also [Blogging Platforms](#blogging-platforms) and [Static Site Generators](#static-site-generators)_
+_CMS are a practical way to setup a website with many features. CMS often come with third party plugins, themes and functionality that is easy to add and customize to your needs._
+
+_Related: [Blogging Platforms](#blogging-platforms), [Static Site Generators](#static-site-generators)_
 
 - **<code>&nbsp;15233</code>** [WordPress](https://wordpress.org/) - World's most-used blogging and CMS engine. ([Source Code](https://github.com/WordPress/WordPress)) `GPL-2.0` `PHP`
-- **<code>&nbsp;11457</code>** [Directus](http://getdirectus.com/) - Directus is a powerful and intuitive headless CMS for managing SQL databases with custom architectures. Built around a robust and extensible API, this decoupled content management framework is perfect for websites, apps, or multi-client projects. ([Source Code](https://github.com/directus/directus)) `GPL-3.0` `PHP`
-- **<code>&nbsp;10811</code>** [Wagtail](https://wagtail.io/) - Django content management system focused on flexibility and user experience. ([Source Code](https://github.com/wagtail/wagtail)) `BSD-3-Clause` `Python`
+- **<code>&nbsp;11467</code>** [Directus](http://getdirectus.com/) - Directus is a powerful and intuitive headless CMS for managing SQL databases with custom architectures. Built around a robust and extensible API, this decoupled content management framework is perfect for websites, apps, or multi-client projects. ([Source Code](https://github.com/directus/directus)) `GPL-3.0` `PHP`
+- **<code>&nbsp;10812</code>** [Wagtail](https://wagtail.io/) - Django content management system focused on flexibility and user experience. ([Source Code](https://github.com/wagtail/wagtail)) `BSD-3-Clause` `Python`
 - **<code>&nbsp;10679</code>** [october](http://octobercms.com/) - Free, open-source, self-hosted CMS platform. ([Source Code](https://github.com/octobercms/october)) `MIT` `PHP`
 - **<code>&nbsp;&nbsp;5450</code>** [Pagekit](https://pagekit.com/) - New modern CMS to create and share. ([Source Code](https://github.com/pagekit/pagekit)) `MIT` `PHP`
-- **<code>&nbsp;&nbsp;5035</code>** [Cockpit](http://getcockpit.com) - Simple Content Platform to manage any structured content. ([Source Code](https://github.com/agentejo/cockpit)) `MIT` `PHP`
-- **<code>&nbsp;&nbsp;4236</code>** [KeystoneJS](http://keystonejs.com/) - CMS and Web Application Platform. ([Demo](http://demo.keystonejs.com/), [Source Code](https://github.com/keystonejs/keystone)) `MIT` `Nodejs`
+- **<code>&nbsp;&nbsp;5036</code>** [Cockpit](http://getcockpit.com) - Simple Content Platform to manage any structured content. ([Source Code](https://github.com/agentejo/cockpit)) `MIT` `PHP`
+- **<code>&nbsp;&nbsp;4246</code>** [KeystoneJS](http://keystonejs.com/) - CMS and Web Application Platform. ([Demo](http://demo.keystonejs.com/), [Source Code](https://github.com/keystonejs/keystone)) `MIT` `Nodejs`
 - **<code>&nbsp;&nbsp;4113</code>** [Bolt CMS](https://bolt.cm/) - Open source Content Management Tool, which strives to be as simple and straightforward as possible. ([Demo](https://try.bolt.cm/), [Source Code](https://github.com/bolt/bolt)) `MIT` `PHP`
 - **<code>&nbsp;&nbsp;3802</code>** [Joomla!](https://www.joomla.org/) - Advanced Content Management System (CMS). ([Source Code](https://github.com/joomla/joomla-cms)) `GPL-2.0` `PHP`
-- **<code>&nbsp;&nbsp;3640</code>** [Apostrophe](http://apostrophecms.org/) - Node.js CMS with a focus on extensible in-context editing tools. ([Demo](http://demo.apostrophecms.org/), [Source Code](https://github.com/apostrophecms/apostrophe)) `MIT` `Nodejs`
-- **<code>&nbsp;&nbsp;3436</code>** [Pico](http://picocms.org/) - Stupidly simple, blazing fast, flat file CMS. ([Source Code](https://github.com/picocms/Pico)) `MIT` `PHP`
+- **<code>&nbsp;&nbsp;3641</code>** [Apostrophe](http://apostrophecms.org/) - CMS with a focus on extensible in-context editing tools. ([Demo](http://demo.apostrophecms.org/), [Source Code](https://github.com/apostrophecms/apostrophe)) `MIT` `Nodejs`
+- **<code>&nbsp;&nbsp;3438</code>** [Pico](http://picocms.org/) - Stupidly simple, blazing fast, flat file CMS. ([Source Code](https://github.com/picocms/Pico)) `MIT` `PHP`
 - **<code>&nbsp;&nbsp;3368</code>** [Umbraco](https://umbraco.com/) - The friendly CMS. Free and open source with an amazing community. ([Source Code](https://github.com/umbraco/Umbraco-CMS)) `MIT` `.NET`
-- **<code>&nbsp;&nbsp;2212</code>** [WriteFreely](https://writefreely.org) - Writing software for starting a minimalist, federated blog — or an entire community. ([Source Code](https://github.com/writefreely/writefreely)) `AGPL-3.0` `Go`
-- **<code>&nbsp;&nbsp;2157</code>** [Pimcore](https://www.pimcore.org/) - Multi-Channel Experience and Engagement Management Platform. ([Source Code](https://github.com/pimcore/pimcore)) `GPL-3.0-or-later` `PHP`
+- **<code>&nbsp;&nbsp;2291</code>** [WriteFreely](https://writefreely.org) - Writing software for starting a minimalist, federated blog — or an entire community. ([Source Code](https://github.com/writefreely/writefreely)) `AGPL-3.0` `Go`
+- **<code>&nbsp;&nbsp;2158</code>** [Pimcore](https://www.pimcore.org/) - Multi-Channel Experience and Engagement Management Platform. ([Source Code](https://github.com/pimcore/pimcore)) `GPL-3.0-or-later` `PHP`
 - **<code>&nbsp;&nbsp;1775</code>** [Publify](https://publify.github.io/) - Simple but full featured web publishing software. ([Source Code](https://github.com/publify/publify)) `MIT` `Ruby`
 - **<code>&nbsp;&nbsp;1501</code>** [Squidex](http://squidex.io) - Headless CMS, based on MongoDB, CQRS and Event Sourcing. ([Demo](http://cloud.squidex.io), [Source Code](https://github.com/Squidex/squidex)) `MIT` `.NET`
 - **<code>&nbsp;&nbsp;1234</code>** [MODX](http://modx.com/) - MODX is an advanced content management and publishing platform. The current version is called 'Revolution'. ([Source Code](https://github.com/modxcms/revolution)) `GPL-2.0` `PHP`
@@ -572,78 +592,75 @@ _CMS are a practical way to setup a website with many features. CMS often come w
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [SilverStripe](https://www.silverstripe.org) - Easy to use CMS with powerful MVC framework underlying. ([Demo](http://demo.silverstripe.org/), [Source Code](https://github.com/silverstripe)) `BSD-3-Clause` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Strapi](https://strapi.io/) - The most advanced open-source Content Management Framework (headless-CMS) to build powerful API with no effort. ([Source Code](https://github.com/strapi/strapi)) `MIT` `Nodejs`
 
-### Recipe management
+### Recipe Management
 
-- **<code>&nbsp;&nbsp;&nbsp;851</code>** [Tandoor Recipes](https://docs.tandoor.dev/) - Django application to manage, tag and search recipes using either built-in models or external storage providers hosting PDFs, Images or other files. ([Demo](https://app.tandoor.dev/), [Source Code](https://github.com/vabene1111/recipes/)) `MIT` `Python`
+- **<code>&nbsp;&nbsp;&nbsp;854</code>** [Tandoor Recipes](https://docs.tandoor.dev/) - Django application to manage, tag and search recipes using either built-in models or external storage providers hosting PDFs, Images or other files. ([Demo](https://app.tandoor.dev/), [Source Code](https://github.com/vabene1111/recipes/)) `MIT` `Python`
 - **<code>&nbsp;&nbsp;&nbsp;555</code>** [OpenEats](https://github.com/open-eats/OpenEats) - Recipe management site that allows users to create, store, share and rate recipes, create grocery lists, and more. ([Demo](https://open-eats.github.io/)) `MIT` `Python`
-- **<code>&nbsp;&nbsp;&nbsp;&nbsp;67</code>** [RecipeSage](https://github.com/julianpoy/recipesage) - A recipe keeper, meal plan organizer, and shopping list manager that can import recipes directly from any URL. ([Demo](https://recipesage.com)) `AGPL-3.0` `Nodejs`
-- **<code>&nbsp;&nbsp;&nbsp;&nbsp;52</code>** [kcal](https://github.com/kcal-app/kcal) - Track nutritional information about foods and recipes, set goals, and record a food journal to help along the way. Kcal is a personal system that focuses on direct control of inputs and a minimal, easy to use recipe presentation for preparing meals. ([Demo](http://demo.kcal.cooking/login)) `MPL-2.0` `PHP`
+- **<code>&nbsp;&nbsp;&nbsp;&nbsp;68</code>** [RecipeSage](https://github.com/julianpoy/recipesage) - A recipe keeper, meal plan organizer, and shopping list manager that can import recipes directly from any URL. ([Demo](https://recipesage.com)) `AGPL-3.0` `Nodejs`
+- **<code>&nbsp;&nbsp;&nbsp;&nbsp;61</code>** [kcal](https://github.com/kcal-app/kcal) - Track nutritional information about foods and recipes, set goals, and record a food journal to help along the way. Kcal is a personal system that focuses on direct control of inputs and a minimal, easy to use recipe presentation for preparing meals. ([Demo](http://demo.kcal.cooking/login)) `MPL-2.0` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Mealie](https://hay-kot.github.io/mealie/) - Material design inspired recipe manager with category and tag management, shopping-lists, meal-planner, and site customizations. Mealie is focused on simple user interactions to keep the whole family using the app. ([Source Code](https://github.com/hay-kot/mealie)) `MIT` `Python`
 
 ### E-commerce
 
-- **<code>&nbsp;13339</code>** [Saleor](http://getsaleor.com/) - Django based open-sourced e-commerce storefront. ([Demo](https://demo.getsaleor.com/), [Source Code](https://github.com/mirumee/saleor)) `BSD-3-Clause` `Python`
+- **<code>&nbsp;13353</code>** [Saleor](http://getsaleor.com/) - Django based open-sourced e-commerce storefront. ([Demo](https://demo.getsaleor.com/), [Source Code](https://github.com/mirumee/saleor)) `BSD-3-Clause` `Python`
 - **<code>&nbsp;11345</code>** [Reaction Commerce](https://reactioncommerce.com/) - Customizable, real-time reactive, Javascript commerce platform. ([Source Code](https://github.com/reactioncommerce/reaction)) `GPL-3.0` `Nodejs`
-- **<code>&nbsp;11306</code>** [Spree Commerce](https://spreecommerce.org) - Spree is a complete, modular & API-driven open source e-commerce solution for Ruby on Rails. ([Demo](http://new-ux.spreecommerce.org/), [Source Code](https://github.com/spree/spree)) `BSD-3-Clause` `Ruby`
-- **<code>&nbsp;&nbsp;9521</code>** [Magento](https://magento.com/) - Leading provider of open omnichannel innovation. ([Demo](https://magento.com/schedule-a-demo), [Source Code](https://github.com/magento/magento2)) `OSL-3.0` `PHP`
-- **<code>&nbsp;&nbsp;7130</code>** [WooCommerce](https://woocommerce.com/) - WordPress based e-commerce solution. ([Source Code](https://github.com/woocommerce/woocommerce)) `GPL-3.0` `PHP`
+- **<code>&nbsp;11308</code>** [Spree Commerce](https://spreecommerce.org) - Spree is a complete, modular & API-driven open source e-commerce solution for Ruby on Rails. ([Demo](http://new-ux.spreecommerce.org/), [Source Code](https://github.com/spree/spree)) `BSD-3-Clause` `Ruby`
+- **<code>&nbsp;&nbsp;9523</code>** [Magento](https://magento.com/) - Leading provider of open omnichannel innovation. ([Demo](https://magento.com/schedule-a-demo), [Source Code](https://github.com/magento/magento2)) `OSL-3.0` `PHP`
+- **<code>&nbsp;&nbsp;7131</code>** [WooCommerce](https://woocommerce.com/) - WordPress based e-commerce solution. ([Source Code](https://github.com/woocommerce/woocommerce)) `GPL-3.0` `PHP`
 - **<code>&nbsp;&nbsp;6371</code>** [Sylius](http://sylius.org/) - Symfony2 powered open source full-stack platform for eCommerce. ([Demo](http://sylius.org/demo), [Source Code](https://github.com/Sylius/Sylius)) `MIT` `PHP`
-- **<code>&nbsp;&nbsp;6111</code>** [OpenCart](https://www.opencart.com) - Free open source shopping cart solution. ([Source Code](https://github.com/opencart/opencart)) `GPL-3.0` `PHP`
+- **<code>&nbsp;&nbsp;6112</code>** [OpenCart](https://www.opencart.com) - Free open source shopping cart solution. ([Source Code](https://github.com/opencart/opencart)) `GPL-3.0` `PHP`
 - **<code>&nbsp;&nbsp;6002</code>** [PrestaShop](https://www.prestashop.com/) - PrestaShop offers a free, open-source and fully scalable e-commerce solution. ([Demo](http://demo.prestashop.com/), [Source Code](https://github.com/PrestaShop/PrestaShop)) `OSL-3.0` `PHP`
-- **<code>&nbsp;&nbsp;3768</code>** [Solidus](https://solidus.io/) - A free, open-source ecommerce platform that gives you complete control over your store. ([Demo](http://demo.solidus.io/), [Source Code](https://github.com/solidusio/solidus)) `BSD-3-Clause` `Ruby`
-- **<code>&nbsp;&nbsp;3713</code>** [Bagisto](https://bagisto.com/en/) - Leading Laravel open source e-commerce framework with multi-inventory sources, taxation, localization, dropshipping and more exciting features. ([Demo](https://demo.bagisto.com/), [Source Code](https://github.com/bagisto/bagisto)) `MIT` `PHP`
-- **<code>&nbsp;&nbsp;3156</code>** [Attendize](https://www.attendize.com/) - Ticket selling and event management platform. ([Source Code](https://github.com/attendize/attendize)) `AAL` `PHP`
+- **<code>&nbsp;&nbsp;3769</code>** [Solidus](https://solidus.io/) - A free, open-source ecommerce platform that gives you complete control over your store. ([Demo](http://demo.solidus.io/), [Source Code](https://github.com/solidusio/solidus)) `BSD-3-Clause` `Ruby`
+- **<code>&nbsp;&nbsp;3714</code>** [Bagisto](https://bagisto.com/en/) - Leading Laravel open source e-commerce framework with multi-inventory sources, taxation, localization, dropshipping and more exciting features. ([Demo](https://demo.bagisto.com/), [Source Code](https://github.com/bagisto/bagisto)) `MIT` `PHP`
+- **<code>&nbsp;&nbsp;3159</code>** [Attendize](https://www.attendize.com/) - Ticket selling and event management platform. ([Source Code](https://github.com/attendize/attendize)) `AAL` `PHP`
 - **<code>&nbsp;&nbsp;2251</code>** [Open Source POS](https://www.opensourcepos.org/) - Open Source Point of Sale is a web based point of sale system. ([Source Code](https://github.com/opensourcepos/opensourcepos)) `MIT` `PHP`
 - **<code>&nbsp;&nbsp;2058</code>** [Microweber](https://microweber.com/) - Drag and Drop CMS and online shop. ([Demo](http://demo.microweber.org/), [Source Code](https://github.com/microweber/microweber)) `Apache-2.0` `PHP`
-- **<code>&nbsp;&nbsp;1641</code>** [Shuup](https://www.shuup.com/) - Django powered fully customizable open source e-commerce framework for small and large sites. ([Source Code](https://github.com/shuup/shuup)) `AGPL-3.0` `Python`
-- **<code>&nbsp;&nbsp;1408</code>** [Shopware Community Edition](https://shopware.com/community/) - PHP based open source e-commerce software made in Germany. ([Demo](https://www.shopware.com/en/test-demo/), [Source Code](https://github.com/shopware/platform)) `MIT` `PHP`
+- **<code>&nbsp;&nbsp;1643</code>** [Shuup](https://www.shuup.com/) - Django powered fully customizable open source e-commerce framework for small and large sites. ([Source Code](https://github.com/shuup/shuup)) `AGPL-3.0` `Python`
+- **<code>&nbsp;&nbsp;1409</code>** [Shopware Community Edition](https://shopware.com/community/) - PHP based open source e-commerce software made in Germany. ([Demo](https://www.shopware.com/en/test-demo/), [Source Code](https://github.com/shopware/platform)) `MIT` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;933</code>** [OpenBazaar](https://www.openbazaar.org) - Decentralized marketplace using cryptocurrency. ([Source Code](https://github.com/openbazaar/openbazaar-go)) `MIT` `Go`
 - **<code>&nbsp;&nbsp;&nbsp;762</code>** [Thelia](http://thelia.net/) - Thelia is an open source and flexible e-commerce solution. ([Demo](http://demo.thelia.net/), [Source Code](https://github.com/thelia/thelia)) `LGPL-3.0` `PHP`
-- **<code>&nbsp;&nbsp;&nbsp;729</code>** [Open Food Network](https://openfoodnetwork.org/) - Online marketplace for local food. It enables a network of independent online food stores that connect farmers and food hubs with individuals and local businesses. ([Source Code](https://github.com/openfoodfoundation/openfoodnetwork)) `AGPL-3.0` `Ruby`
+- **<code>&nbsp;&nbsp;&nbsp;730</code>** [Open Food Network](https://openfoodnetwork.org/) - Online marketplace for local food. It enables a network of independent online food stores that connect farmers and food hubs with individuals and local businesses. ([Source Code](https://github.com/openfoodfoundation/openfoodnetwork)) `AGPL-3.0` `Ruby`
 - **<code>&nbsp;&nbsp;&nbsp;356</code>** [Drupal Commerce](https://drupalcommerce.org) - Drupal Commerce is a popular e-commerce module for Drupal CMS, with support for dozens of payment, shipping, and shopping related modules. ([Source Code](https://github.com/drupalcommerce/commerce)) `GPL-2.0` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;282</code>** [Yclas](https://yclas.com/) - Free open-source, self-hosted CMS for classifieds sites. ([Source Code](https://github.com/yclas/yclas)) `GPL-3.0` `PHP`
-- **<code>&nbsp;&nbsp;&nbsp;206</code>** [CoreShop](https://www.coreshop.org) - CoreShop is a e-commerce plugin for Pimcore. ([Source Code](https://github.com/coreshop/CoreShop)) `GPL-3.0` `PHP`
+- **<code>&nbsp;&nbsp;&nbsp;207</code>** [CoreShop](https://www.coreshop.org) - CoreShop is a e-commerce plugin for Pimcore. ([Source Code](https://github.com/coreshop/CoreShop)) `GPL-3.0` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;194</code>** [OXID eShop](http://oxidforge.org) - OXID eShop is a flexible open source e-commerce software with a wide range of functionalities. ([Demo](http://demoshop.oxid-esales.com/community-edition/), [Source Code](https://github.com/OXID-eSales/oxideshop_ce)) `GPL-3.0` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Pretix](https://pretix.eu/) - Django based ticket sales platform for events. ([Source Code](https://github.com/pretix)) `Apache-2.0` `Python`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Aimeos](https://aimeos.org/) - Ultra fast, Open Source e-commerce framework for building custom online shops, market places and complex B2B applications scaling to billions of items with Laravel. ([Demo](https://demo.aimeos.org/), [Source Code](https://github.com/aimeos)) `LGPL-3.0/MIT` `PHP`
 
-## DNS
+
+### DNS
 
 **[`^        back to top        ^`](#)**
 
-_See https://github.com/awesome-foss/awesome-sysadmin#dns_
+_See also: [awesome-sysadmin/DNS](https://github.com/awesome-foss/awesome-sysadmin#dns)_
 
-- **<code>&nbsp;&nbsp;7852</code>** [CoreDNS](https://coredns.io/) - Plugin driven DNS Server with support for proxying to Google's DNS-over-HTTPS. ([Source Code](https://github.com/coredns/coredns)) `Apache-2.0` `Go`
+- **<code>&nbsp;&nbsp;7860</code>** [CoreDNS](https://coredns.io/) - Plugin driven DNS Server with support for proxying to Google's DNS-over-HTTPS. ([Source Code](https://github.com/coredns/coredns)) `Apache-2.0` `Go`
 - **<code>&nbsp;&nbsp;1514</code>** [Maza ad blocking](https://maza-ad-blocking.andros.dev/) - Local ad blocker. Like Pi-hole but local and using your operating system. ([Source Code](https://github.com/tanrax/maza-ad-blocking)) `Apache-2.0` `Bash`
-- **<code>&nbsp;&nbsp;&nbsp;773</code>** [blocky](https://github.com/0xERR0R/blocky) - Fast and lightweight DNS proxy (like Pi-hole) as ad-blocker for local network with many features. `Apache-2.0` `Go`
+- **<code>&nbsp;&nbsp;&nbsp;775</code>** [blocky](https://github.com/0xERR0R/blocky) - Fast and lightweight DNS proxy (like Pi-hole) as ad-blocker for local network with many features. `Apache-2.0` `Go`
 - **<code>&nbsp;&nbsp;&nbsp;751</code>** [nsupdate.info](https://www.nsupdate.info/) - nsupdate.info is a dynamic DNS service. ([Demo](https://www.nsupdate.info/account/register/), [Source Code](https://github.com/nsupdate-info/nsupdate.info)) `BSD-3-Clause` `Python`
 - **<code>&nbsp;&nbsp;&nbsp;152</code>** [SPF Toolbox](http://spftoolbox.com) - Application to look up DNS records such as SPF, MX, Whois, and more. ([Source Code](https://github.com/charlesabarnes/SPFtoolbox)) `MIT` `PHP`
 
-## Document Management
+
+### Document Management
 
 **[`^        back to top        ^`](#)**
 
-- **<code>&nbsp;&nbsp;1737</code>** [Paperless-ng](https://github.com/jonaswinkler/paperless-ng) - A fork of paperless, adding a new interface and many other changes under the hood. Scan, index, and archive all of your paper documents. `GPL-3.0` `Python`
-- **<code>&nbsp;&nbsp;1317</code>** [Papermerge](https://www.papermerge.com) - Open Source Document Management System focused on scanned documents (electronic archives). Features file browsing in similar way to dropbox/google drive. OCR, full text search, text overlay/selection. ([Source Code](https://github.com/ciur/papermerge)) `Apache-2.0` `Python`
-- **<code>&nbsp;&nbsp;&nbsp;927</code>** [Teedy](https://teedy.io/) - (Ex SismicsDocs) Lightweight document management system packed with all the features you can expect from big expensive solutions. ([Source Code](https://github.com/sismics/docs)) `GPL-2.0` `Java`
+- **<code>&nbsp;&nbsp;1768</code>** [Paperless-ng](https://github.com/jonaswinkler/paperless-ng) - A fork of paperless, adding a new interface and many other changes under the hood. Scan, index, and archive all of your paper documents. `GPL-3.0` `Python`
+- **<code>&nbsp;&nbsp;1324</code>** [Papermerge](https://www.papermerge.com) - Open Source Document Management System focused on scanned documents (electronic archives). Features file browsing in similar way to dropbox/google drive. OCR, full text search, text overlay/selection. ([Source Code](https://github.com/ciur/papermerge)) `Apache-2.0` `Python`
+- **<code>&nbsp;&nbsp;&nbsp;932</code>** [Teedy](https://teedy.io/) - (Ex SismicsDocs) Lightweight document management system packed with all the features you can expect from big expensive solutions. ([Source Code](https://github.com/sismics/docs)) `GPL-2.0` `Java`
 - **<code>&nbsp;&nbsp;&nbsp;387</code>** [Docspell](https://docspell.org) - Auto-tagging document organizer and archive. ([Source Code](https://github.com/eikek/docspell)) `GPL-3.0` `Scala/Java`
-- **<code>&nbsp;&nbsp;&nbsp;250</code>** [Mayan EDMS](http://www.mayan-edms.com) - Free Open Source Electronic Document Management System. An electronic vault for your documents with preview generation, OCR, and automatic categorization among other features. ([Source Code](https://gitlab.com/mayan-edms/mayan-edms)) `Apache-2.0` `Python`
+- **<code>&nbsp;&nbsp;&nbsp;251</code>** [Mayan EDMS](http://www.mayan-edms.com) - Free Open Source Electronic Document Management System. An electronic vault for your documents with preview generation, OCR, and automatic categorization among other features. ([Source Code](https://gitlab.com/mayan-edms/mayan-edms)) `Apache-2.0` `Python`
 - **<code>&nbsp;&nbsp;&nbsp;140</code>** [DOCAT](https://github.com/randombenj/docat) - Host your docs. Simple. Versioned. Fancy. `MIT` `Python/Docker`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;48</code>** [I, Librarian](https://i-librarian.net) - I, Librarian can organize PDF papers and office documents. It provides a lot of extra features for students and research groups both in industry and academia. ([Demo](https://i-librarian.net/demo/), [Source Code](https://github.com/mkucej/i-librarian-free)) `GPL-3.0` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;27</code>** [EveryDocs](https://github.com/jonashellmann/everydocs-core/) - A simple Document Management System for private use with basic functionality to organize your documents digitally. `GPL-3.0` `Ruby`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [paper{s}pace](https://dedicatedcode.com/projects/) - a small web application to manage all your offline documents. Provides a searchable storage for your documents and reminds you of upcoming tasks. ([Source Code](https://gitlab.com/dedicatedcode/paperspace)) `MIT` `Java`
 
-## E-books and Integrated Library Systems (ILS)
 
-**[`^        back to top        ^`](#)**
+### Document Management - E-books
 
-_Some [Content Management System](#content-management-systems-cms) and [Archiving and Digital Preservation](#archiving-and-digital-preservation-dp) solutions also overlap with library and institutional repository software._
-
-### Personal e-book management software.
-
-  - **<code>&nbsp;&nbsp;4879</code>** [Calibre Web](https://github.com/janeczku/calibre-web) - Web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database. `GPL-3.0` `Python`
+  - **<code>&nbsp;&nbsp;4884</code>** [Calibre Web](https://github.com/janeczku/calibre-web) - Web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database. `GPL-3.0` `Python`
   - **<code>&nbsp;&nbsp;1165</code>** [COPS](https://blog.slucas.fr/en/oss/calibre-opds-php-server) - Lightweight e-book server alternative to Calibre content server or Calibre2OPDS. ([Demo](http://cops-demo.slucas.fr/index.php), [Source Code](https://github.com/seblucas/cops)) `GPL-2.0` `PHP`
-- **<code>&nbsp;&nbsp;&nbsp;799</code>** [Komga](https://komga.org) - Media server for comics/mangas/BDs with API and OPDS support, a modern web interface for exploring your libraries, as well as a web reader. ([Source Code](https://github.com/gotson/komga)) `MIT` `Java/Docker`
+- **<code>&nbsp;&nbsp;&nbsp;803</code>** [Komga](https://komga.org) - Media server for comics/mangas/BDs with API and OPDS support, a modern web interface for exploring your libraries, as well as a web reader. ([Source Code](https://github.com/gotson/komga)) `MIT` `Java/Docker`
 - **<code>&nbsp;&nbsp;&nbsp;763</code>** [Mango](https://github.com/hkalexling/Mango) - Manga server and web reader with a built-in MangaDex downloader. `MIT` `Crystal`
   - **<code>&nbsp;&nbsp;&nbsp;347</code>** [BicBucStriim](http://projekte.textmulch.de/bicbucstriim/) - Provides web-based access to your Calibre Library's e-book collection. ([Source Code](https://github.com/rvolz/BicBucStriim)) `MIT` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;301</code>** [pyShelf](https://github.com/th3r00t/pyShelf) - Lightweight Ebook Server. `GPL-3.0` `Python`
@@ -652,13 +669,15 @@ _Some [Content Management System](#content-management-systems-cms) and [Archivin
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Calibre](https://calibre-ebook.com/) - E-book library manager that can view, convert, and catalog e-books in most of the major e-book formats and provides a built-in Web server for remote clients. ([Demo](https://calibre-ebook.com/demo), [Source Code](https://launchpad.net/calibre)) `GPL-3.0` `Python`
 
 
-### Enterprise-class library management software.
+### Document Management - Integrated Library Systems (ILS)
+
+_Related: [Content Management Systems (CMS)](#content-management-systems-cms), [Archiving and Digital Preservation (DP)](#archiving-and-digital-preservation-dp)_
 
 - **<code>&nbsp;&nbsp;&nbsp;364</code>** [Koha](https://koha-community.org/) - Enterprise-class ILS with modules for acquisitions, circulation, cataloging, label printing, offline circulation for when Internet access is not available, and much more. ([Demo](https://koha-community.org/demo/), [Source Code](https://github.com/Koha-Community/Koha)) `GPL-3.0` `Perl`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;88</code>** [Evergreen](https://evergreen-ils.org) - Highly-scalable software for libraries that helps library patrons find library materials, and helps libraries manage, catalog, and circulate those materials. ([Source Code](https://github.com/evergreen-library-system/Evergreen)) `GPL-2.0` `PL/pgSQL`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;33</code>** [RERO ILS](https://rero21.ch/) - Large-scale ILS that can be run as a service with consortial features, intended primarily for library networks. Includes most standard modules (circulation, acquisitions, cataloging,...) and a web-based public and professional interface. ([Demo](https://ils.test.rero.ch/), [Source Code](https://github.com/rero/rero-ils)) `AGPL-3.0` `Python/Other`
 
-### Institutional repository and digital library software.
+### Document Management - Institutional Repository and Digital Library Software
 
 - **<code>&nbsp;&nbsp;&nbsp;570</code>** [DSpace](http://dspace.org/) - Turnkey repository application providing durable access to digital resources. ([Source Code](https://github.com/DSpace/DSpace)) `BSD-3-Clause` `Java`
 - **<code>&nbsp;&nbsp;&nbsp;148</code>** [Fedora Commons Repository](https://fedorarepository.org/) - Robust and modular repository system for the management and dissemination of digital content especially suited for digital libraries and archives, both for access and preservation. ([Source Code](https://github.com/fcrepo/fcrepo)) `Apache-2.0` `Java`
@@ -666,22 +685,23 @@ _Some [Content Management System](#content-management-systems-cms) and [Archivin
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;56</code>** [EPrints](https://www.eprints.org/) - Digital document management system with a flexible metadata and workflow model primarily aimed at academic institutions. ([Demo](http://demoprints.eprints.org/), [Source Code](https://github.com/eprints/eprints)) `GPL-3.0` `Perl`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8</code>** [Islandora](https://islandora.ca/) - Drupal module for browsing and managing Fedora-based digital repositories. ([Source Code](https://github.com/Islandora/islandora)) `GPL-3.0` `PHP`
 
-## Federated Identity/Authentication
+### Federated Identity & Authentication
 
 **[`^        back to top        ^`](#)**
 
-_See https://github.com/awesome-foss/awesome-sysadmin#identity-management_
+**Please visit [awesome-sysadmin/Identity Management](https://github.com/awesome-foss/awesome-sysadmin#identity-management)**
 
-## Feed Readers
+
+### Feed Readers
 
 **[`^        back to top        ^`](#)**
 
-- **<code>&nbsp;&nbsp;8378</code>** [Winds](https://getstream.io/winds/) `⚠` - Open source and beautiful RSS reader built using React/Redux/Sails/Node and Stream. It showcases personalized feeds powered by the Stream API. ([Demo](https://winds.getstream.io/), [Source Code](https://github.com/GetStream/Winds)) `BSD-3-Clause` `Nodejs`
-- **<code>&nbsp;&nbsp;5777</code>** [NewsBlur](http://www.newsblur.com/) - NewsBlur is a personal news reader that brings people together to talk about the world. A new sound of an old instrument. ([Source Code](https://github.com/samuelclay/NewsBlur)) `MIT` `Python`
-- **<code>&nbsp;&nbsp;3340</code>** [FreshRSS](http://freshrss.org/) - Self-hostable RSS feed aggregator. ([Demo](http://demo.freshrss.org/i/), [Source Code](https://github.com/FreshRSS/FreshRSS), [Clients](https://github.com/Alkarex/EasyRSS)) `AGPL-3.0` `PHP`
+- **<code>&nbsp;&nbsp;8382</code>** [Winds](https://getstream.io/winds/) `⚠` - Open source and beautiful RSS reader built using React/Redux/Sails/Node and Stream. It showcases personalized feeds powered by the Stream API. ([Demo](https://winds.getstream.io/), [Source Code](https://github.com/GetStream/Winds)) `BSD-3-Clause` `Nodejs`
+- **<code>&nbsp;&nbsp;5778</code>** [NewsBlur](http://www.newsblur.com/) - NewsBlur is a personal news reader that brings people together to talk about the world. A new sound of an old instrument. ([Source Code](https://github.com/samuelclay/NewsBlur)) `MIT` `Python`
+- **<code>&nbsp;&nbsp;3343</code>** [FreshRSS](http://freshrss.org/) - Self-hostable RSS feed aggregator. ([Demo](http://demo.freshrss.org/i/), [Source Code](https://github.com/FreshRSS/FreshRSS), [Clients](https://github.com/Alkarex/EasyRSS)) `AGPL-3.0` `PHP`
 - **<code>&nbsp;&nbsp;3304</code>** [Stringer](https://github.com/swanson/stringer) - Work-in-progress self-hosted, anti-social RSS reader. `MIT` `Ruby`
-- **<code>&nbsp;&nbsp;2955</code>** [Miniflux](https://miniflux.app/) - Miniflux is a minimalist and open source news reader, written in Go and PostgreSQL. ([Source Code](https://github.com/miniflux/v2)) `Apache-2.0` `Go`
-- **<code>&nbsp;&nbsp;2011</code>** [Selfoss](http://selfoss.aditu.de/) - New multipurpose rss reader, live stream, mashup, aggregation web application. ([Source Code](https://github.com/fossar/selfoss)) `GPL-3.0` `PHP`
+- **<code>&nbsp;&nbsp;2957</code>** [Miniflux](https://miniflux.app/) - Miniflux is a minimalist and open source news reader, written in Go and PostgreSQL. ([Source Code](https://github.com/miniflux/v2)) `Apache-2.0` `Go`
+- **<code>&nbsp;&nbsp;2010</code>** [Selfoss](http://selfoss.aditu.de/) - New multipurpose rss reader, live stream, mashup, aggregation web application. ([Source Code](https://github.com/fossar/selfoss)) `GPL-3.0` `PHP`
 - **<code>&nbsp;&nbsp;1801</code>** [CommaFeed](https://www.commafeed.com/) - Google Reader inspired self-hosted RSS reader. ([Source Code](https://github.com/Athou/commafeed)) `Apache-2.0` `Java`
 - **<code>&nbsp;&nbsp;&nbsp;532</code>** [FeedHQ](https://feedhq.org/) - FeedHQ is a web-based feed reader. ([Source Code](https://github.com/feedhq/feedhq)) `BSD-3-Clause` `Python`
 - **<code>&nbsp;&nbsp;&nbsp;354</code>** [Sismics Reader](http://sismics.com/reader/) - Free and open source feeds reader, including all major Google Reader features. ([Demo](https://www.sismics.com/reader/#!/demo), [Source Code](https://github.com/sismics/reader)) `GPL-2.0` `Java`
@@ -703,7 +723,7 @@ _See https://github.com/awesome-foss/awesome-sysadmin#identity-management_
 
 _RSS/Atom automation_
 
-- **<code>&nbsp;&nbsp;3537</code>** [RSS-Bridge](https://github.com/RSS-Bridge/rss-bridge) - rss-bridge is a PHP project capable of generating ATOM feeds for websites which don't have one. `Unlicense` `PHP`
+- **<code>&nbsp;&nbsp;3540</code>** [RSS-Bridge](https://github.com/RSS-Bridge/rss-bridge) - rss-bridge is a PHP project capable of generating ATOM feeds for websites which don't have one. `Unlicense` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;239</code>** [PolitePol](https://github.com/taroved/pol) - Online tool for creation of RSS feeds for any web page. ([Demo](http://politepol.com)) `MIT` `Python`
 - **<code>&nbsp;&nbsp;&nbsp;159</code>** [Screaming Liquid Tiger](https://github.com/herrbischoff/screaming-liquid-tiger) - Simple script to automatically generate valid RSS and Atom feeds from a list of media files in the same folder. `MIT` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;144</code>** [RSS2EMail](https://github.com/rss2email/rss2email) - Fetches RSS/Atom-feeds and pushes new Content to any email-receiver, supports OPML. `GPL-2.0` `Python`
@@ -714,19 +734,16 @@ _RSS/Atom automation_
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Full-Text RSS](https://fivefilters.org/content-only) - Extract article content from news sites and blogs and convert RSS feeds that contain only extracts of stories to full-text feeds. Developed by FiveFilters.org. ([Source Code](https://bitbucket.org/fivefilters/full-text-rss)) `GPL-3.0` `PHP`
 
 
-## File Sharing and Synchronization
+### Distributed Filesystems
 
 **[`^        back to top        ^`](#)**
 
-_Some [Groupware](#groupware) solutions also feature file sharing and synchronization._
+**Please visit [awesome-sysadmin/Distributed Filesystems](https://github.com/awesome-foss/awesome-sysadmin#distributed-filesystems)**
 
-### Distributed filesystems
 
-**[`^        back to top        ^`](#)**
+### File Transfer & Synchronization
 
-_See https://github.com/awesome-foss/awesome-sysadmin#distributed-filesystems_
-
-### File transfer/synchronization
+_Related: [Groupware](#groupware)_
 
 - **<code>&nbsp;&nbsp;4098</code>** [Kinto](https://kinto.readthedocs.org) - Kinto is a minimalist JSON storage service with synchronisation and sharing abilities. ([Source Code](https://github.com/Kinto)) `Apache-2.0` `Python`
 - **<code>&nbsp;&nbsp;2457</code>** [myDrive](https://github.com/subnub/myDrive) - Fully featured online storage solution, upload/download files, photo/video viewer, and more, all through the web client. ([Demo](https://mydrive-demo.herokuapp.com/)) `GPL-3.0` `Nodejs`
@@ -743,7 +760,8 @@ _See https://github.com/awesome-foss/awesome-sysadmin#distributed-filesystems_
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Syncany](https://www.syncany.org/) - Secure file sync software for arbitrary storage backends, an open-source cloud storage and filesharing application. Securely synchronize your files to any kind of storage. `GPL-3.0` `Java`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Syncthing](https://syncthing.net/) - Syncthing is an open source peer-to-peer file synchronisation tool. ([Source Code](https://github.com/syncthing/syncthing)) `MPL-2.0` `Go`
 
-### Peer-to-peer filesharing
+
+### File Transfer - Peer-to-peer Filesharing
 
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Opentracker](http://erdgeist.org/arts/software/opentracker/) - Open and free bittorrent tracker. It aims for minimal resource usage and is intended to run at your wlan router. ([Source Code](http://erdgeist.org/gitweb/opentracker/)) `Beerware` `C`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Torrents.csv](https://gitlab.com/dessalines/torrents.csv) - A self-hostable torrent search engine. `GPL-3.0` `Rust`
@@ -760,14 +778,16 @@ _See https://github.com/awesome-foss/awesome-sysadmin#distributed-filesystems_
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [instant.io](https://github.com/webtorrent/instant.io) - Streaming file transfer over WebTorrent. ([Demo](https://instant.io)) `MIT` `Nodejs`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [bittorrent-tracker](https://webtorrent.io/) - Simple, robust, BitTorrent tracker (client and server) implementation. ([Source Code](https://github.com/webtorrent/bittorrent-tracker)) `MIT` `Nodejs`
 
-### Object storage/file servers
+
+### File Transfer - Object Storage & File Servers
 
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [SeaweedFS](https://github.com/chrislusf/seaweedfs) - SeaweedFS is an open source distributed file system supporting WebDAV, S3 API, FUSE mount, HDFS, etc, optimized for lots of small files, and easy to add capacity. `Apache-2.0` `Go`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [SFTPGo](https://github.com/drakkan/sftpgo) - Flexible, fully featured and highly configurable SFTP server with optional FTP/S and WebDAV support. `AGPL-3.0` `Go`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Minio](https://minio.io/) - Minio is an open source object storage server compatible with Amazon S3 APIs. ([Source Code](https://github.com/minio/minio)) `Apache-2.0` `Go`
-- **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Zenko CloudServer](https://www.zenko.io/cloudserver) - Zenko CloudServer, an open-source Node.js implementation of a server handling the Amazon S3 protocol. ([Source Code](https://github.com/scality/cloudserver)) `Apache-2.0` `Nodejs`
+- **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Zenko CloudServer](https://www.zenko.io/cloudserver) - Zenko CloudServer, an open-source implementation of a server handling the Amazon S3 protocol. ([Source Code](https://github.com/scality/cloudserver)) `Apache-2.0` `Nodejs`
 
-### Single-click/drag-n-drop upload
+
+### File Transfer - Single-click & Drag-n-drop Upload
 
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [lufi](https://framagit.org/fiat-tux/hat-softwares/lufi) - Let's Upload that FIle, client-side encrypted. ([Demo](https://demo.lufi.io), [Source Code](https://framagit.org/fiat-tux/hat-softwares/lufi/tree/master)) `AGPL-3.0` `Perl`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Jirafeau](https://gitlab.com/mojo42/Jirafeau) - Jirafeau is a web site permitting to upload a file in a simple way and give an unique link to it. ([Demo](http://jirafeau.net/)) `AGPL-3.0` `PHP`
@@ -803,11 +823,13 @@ _See https://github.com/awesome-foss/awesome-sysadmin#distributed-filesystems_
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Plik](https://github.com/root-gg/plik) - Plik is a scalable and friendly temporary file upload system. ([Demo](https://plik.root.gg/)) `MIT` `Go`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [ass](https://github.com/tycrek/ass) - The superior self-hosted ShareX server. For use with clients such as ShareX (Windows), Flameshot (Linux), & MagicCap (Linux, macOS). `ISC` `Nodejs`
 
-### Command-line file upload
+
+### File Transfer - Command-line File Upload
 
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [transfer.sh](https://transfer.sh) - Easy file sharing from the command line. ([Source Code](https://github.com/dutchcoders/transfer.sh)) `MIT` `Go`
 
-### Web based file managers
+
+### File Transfer - Web-based File Managers
 
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [ResourceSpace](https://www.resourcespace.com) - ResourceSpace open source digital asset management software is the simple, fast, and free way to organise your digital assets. ([Demo](https://www.resourcespace.com/trial), [Source Code](https://www.resourcespace.com/svn)) `Other` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Surfer](https://git.cloudron.io/cloudron/surfer) - Simple static file server with webui to manage files. `MIT` `Nodejs`
@@ -822,9 +844,10 @@ _See https://github.com/awesome-foss/awesome-sysadmin#distributed-filesystems_
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [TagSpaces](https://www.tagspaces.org/) - TagSpaces is an offline, cross-platform file manager and organiser that also can function as a note taking app. The WebDAV version of the application can be installed on top of a WebDAV servers such as Nextcloud or ownCloud. ([Demo](http://demo.tagspaces.org), [Source Code](https://github.com/tagspaces/tagspaces)) `AGPL-3.0` `Javascript`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [goBrowser](https://github.com/xataz/gobrowser) - Simple http file browser. `GPL-3.0` `Go`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Apaxy](https://oupala.github.io/apaxy/) - Theme built to enhance the experience of browsing web directories, using the mod_autoindex Apache module and some CSS to override the default style of a directory listing. ([Source Code](https://github.com/oupala/apaxy)) `GPL-3.0` `HTML`
-- **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [explorer](https://soyuka.github.io/explorer/) - Highly-configurable directory listing made with nodejs. ([Source Code](https://github.com/soyuka/explorer)) `MIT` `Nodejs`
+- **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [explorer](https://soyuka.github.io/explorer/) - Highly-configurable directory listing. ([Source Code](https://github.com/soyuka/explorer)) `MIT` `Nodejs`
 
-## Games
+
+### Games
 
 **[`^        back to top        ^`](#)**
 
@@ -850,7 +873,8 @@ _Games, game servers and control panels._
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Teeworlds](https://www.teeworlds.com) - Open source 2D retro multiplayer shooter. ([Source Code](https://github.com/teeworlds/teeworlds)) `BSD-3-Clause/Other` `C++`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [The Battle for Wesnoth](https://github.com/wesnoth/wesnoth) - The Battle for Wesnoth is an Open Source, turn-based tactical strategy game with a high fantasy theme, featuring both singleplayer and online/hotseat multiplayer combat. `GPL-2.0` `C++`
 
-## Gateways and terminal sharing
+
+### Gateways and Terminal Sharing
 
 **[`^        back to top        ^`](#)**
 
@@ -864,15 +888,17 @@ _Games, game servers and control panels._
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [ShellHub](https://www.shellhub.io) - ShellHub is a modern SSH server for remotely accessing linux devices via command line (using any SSH client) or web-based user interface, designed as an alternative to sshd. Think ShellHub as centralized SSH for the the edge and cloud computing. ([Source Code](https://github.com/shellhub-io/shellhub)) `Apache-2.0` `Go/Other`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [tmate](https://tmate.io/) - Instant terminal sharing. ([Source Code](https://github.com/tmate-io/tmate)) `ISC` `C`
 
-## Genealogy
+
+### Genealogy
 
 **[`^        back to top        ^`](#)**
 
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [webtrees](https://www.webtrees.net) - Webtrees is the web's leading on-line collaborative genealogy application. ([Demo](https://dev.webtrees.net/demo-stable/index.php?ctype=gedcom&ged=demo), [Source Code](https://github.com/fisharebest/webtrees)) `GPL-3.0` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Genea.app](https://genea.app/) - Genea is a privacy by design and open source tool anyone can use to author or edit their family tree. Data is stored in the GEDCOM format and all processing is done in the browser. ([Source Code](https://github.com/genea-app/genea-app)) `MIT` `Javascript`
-- **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [GeneWeb](https://geneweb.tuxfamily.org/wiki/GeneWeb) - GeneWeb is an open source genealogy software written in OCaml. It comes with a Web interface and can be used off-line or as a Web service. ([Demo](https://demo.geneweb.tuxfamily.org/gw7/), [Source Code](https://github.com/geneweb/geneweb)) `GPL-2.0` `OCAML`
+- **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [GeneWeb](https://geneweb.tuxfamily.org/wiki/GeneWeb) - GeneWeb is an open source genealogy software written in OCaml. It comes with a Web interface and can be used off-line or as a Web service. ([Demo](https://demo.geneweb.tuxfamily.org/gw7/), [Source Code](https://github.com/geneweb/geneweb)) `GPL-2.0` `OCaml`
 
-## Groupware
+
+### Groupware
 
 **[`^        back to top        ^`](#)**
 
@@ -892,7 +918,8 @@ _Games, game servers and control panels._
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [SuiteCRM](http://www.suitecrm.com/) - The award-winning, enterprise-class open source CRM. ([Source Code](https://github.com/salesagility/SuiteCRM)) `AGPL-3.0` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [HRCloud2](https://github.com/zelon88/HRCloud2) - Full-featured home hosted Cloud Drive, Personal Assistant, App Launcher, File Converter, Streamer, Share Tool and more. `GPL-3.0` `PHP`
 
-## Human Resources Management (HRM)
+
+### Human Resources Management (HRM)
 
 **[`^        back to top        ^`](#)**
 
@@ -902,7 +929,8 @@ _Games, game servers and control panels._
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Sentrifugo](http://www.sentrifugo.com/) - Sentrifugo is a HRM system that can be easily configured to meet your organizational needs. ([Source Code](https://github.com/sapplica/sentrifugo)) `GPL-3.0` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [TimeOff.Management](https://timeoff.management) - Simple yet powerful absence management software for small and medium size business. ([Demo](https://app.timeoff.management), [Source Code](https://github.com/timeoff-management/timeoff-management-application)) `MIT` `Nodejs`
 
-## Internet Of Things (IoT)
+
+### Internet of Things (IoT)
 
 **[`^        back to top        ^`](#)**
 
@@ -918,7 +946,8 @@ _Games, game servers and control panels._
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [OpenRemote](https://openremote.io) - 100% Open Source IoT Platform - IoT Asset management, Flow Rules and WHEN-THEN rules, Data visualization, Edge Gateway. ([Demo](https://demo.openremote.io/), [Source Code](https://github.com/openremote/openremote)) `AGPL-3.0` `Java`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Thingsboard](https://thingsboard.io/) - Open-source IoT Platform - Device management, data collection, processing and visualization. ([Demo](https://demo.thingsboard.io/signup), [Source Code](https://github.com/thingsboard/thingsboard)) `Apache-2.0` `Java`
 
-## Knowledge Management Tools
+
+### Knowledge Management Tools
 
 **[`^        back to top        ^`](#)**
 
@@ -926,7 +955,8 @@ _Games, game servers and control panels._
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [My Mind](https://github.com/ondras/my-mind) - Web application for creating and managing mind maps. ([Demo](https://my-mind.github.io/?url=examples%2Ffeatures.mymind)) `MIT` `Javascript`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Weaviate](https://github.com/semi-technologies/weaviate) - A cloud-native, realtime vector search engine integrating scalable machine learning models (GraphQL and RESTful APIs). ([Demo](https://www.semi.technology/documentation/weaviate/current/)) `BSD-3-Clause` `Go`
 
-## Learning and Courses
+
+### Learning and Courses
 
 **[`^        back to top        ^`](#)**
 
@@ -943,36 +973,39 @@ _Games, game servers and control panels._
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Moodle](https://moodle.org/) - Moodle is a learning and courses platform with one of the largest open source communities worldwide. ([Demo](https://moodle.org/demo/), [Source Code](https://git.moodle.org/gw)) `GPL-3.0` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Sakai](https://www.sakaiproject.org/) - The Sakai project provides a flexible and feature-rich environment for teaching, learning, research and other collaboration. ([Demo](https://www.sakaiproject.org/try-sakai), [Source Code](https://github.com/sakaiproject/sakai)) `ECL-2.0` `Java`
 
-## Maps and Global Positioning System (GPS)
+
+### Maps and Global Positioning System (GPS)
 
 **[`^        back to top        ^`](#)**
 
-_See also [awesome-gis](https://github.com/sshuair/awesome-gis)._
+_See also: [awesome-gis](https://github.com/sshuair/awesome-gis)._
 
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [OpenGTS](http://www.opengts.org/) - Entry-level fleet tracking system. Supports variety of tracking devices and protocols. Comes with rich web-interface and reporting features. ([Demo](http://track.opengts.org/track/Track), [Source Code](https://sourceforge.net/projects/opengts/files/server-base/)) `Apache-2.0` `Java`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Traccar](https://www.traccar.org/) - Java application to track GPS positions. Supports loads of tracking devices and protocols, has an Android and iOS App. Has a web interface to view your trips. ([Demo](http://demo.traccar.org/), [Source Code](https://github.com/traccar)) `Apache-2.0` `Java`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Orion](https://github.com/LINKIWI/orion-web) - Powerful OwnTracks API-compliant location data visualization frontend for the web. ([Demo](https://linkiwi.github.io/orion-web/)) `MIT` `Python/Nodejs`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [MapBBCodeShare](https://github.com/MapBBCode/share.mapbbcode.org) - Tool for sharing custom OSM maps. Support for annotated markers, polygons, lines, multi-format import/export, multiple layers, shortlinks. ([Demo](http://share.mapbbcode.org/)) `WTFPL/Other` `PHP`
-- **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Open Source Routing Machine (OSRM)](http://project-osrm.org/) - High performance routing engine designed to run on OpenStreetMap data and offering an HTTP API, C++ library interface, and NodeJS wrapper. ([Demo](https://map.project-osrm.org/), [Source Code](https://github.com/Project-OSRM/osrm-backend)) `BSD-2-Clause` `C++`
+- **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Open Source Routing Machine (OSRM)](http://project-osrm.org/) - High performance routing engine designed to run on OpenStreetMap data and offering an HTTP API, C++ library interface, and Nodejs wrapper. ([Demo](https://map.project-osrm.org/), [Source Code](https://github.com/Project-OSRM/osrm-backend)) `BSD-2-Clause` `C++`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [μlogger](https://github.com/bfabiszewski/ulogger-server) - Collect geolocation from users in real-time and display their GPS tracks on a website. ([Demo](http://ulogger.fabiszewski.net/)) `GPL-3.0` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Hauk](https://github.com/bilde2910/Hauk) - Easy to setup location sharing platform that lets you temporarily share your location with anyone in real-time. ([Demo](https://github.com/bilde2910/Hauk#demo-server)) `Apache-2.0` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [GraphHopper](https://graphhopper.com/) - Fast routing library and server using OpenStreetMap. ([Source Code](https://github.com/graphhopper/graphhopper)) `Apache-2.0` `Java`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [TileServer GL](http://tileserver.readthedocs.io/) - Vector and raster maps with GL styles. Server side rendering by Mapbox GL Native. Map tile server for Mapbox GL JS, Android, iOS, Leaflet, OpenLayers, GIS via WMTS, etc. ([Source Code](https://github.com/maptiler/tileserver-gl)) `BSD-2-Clause` `Nodejs`
-- **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [TileServer PHP](http://tileserver.maptiler.com/) - Serve map tiles from any PHP hosting. ([Source Code](https://github.com/maptiler/tileserver-php) `BSD-2-Clause` `PHP`
+- **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [TileServer PHP](http://tileserver.maptiler.com/) - Serve map tiles from any PHP hosting. ([Source Code](https://github.com/maptiler/tileserver-php)) `BSD-2-Clause` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Geo2tz](https://github.com/noandrea/geo2tz) - Get the timezone from geo coordinates (lat, lon). `MIT` `Go/Docker`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [OpenStreetMap](https://www.openstreetmap.org/) - Collaborative project to create a free editable map of the world. ([Source Code](https://github.com/openstreetmap/openstreetmap-website), [Clients](https://wiki.openstreetmap.org/wiki/Software)) `GPL-2.0` `Ruby`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [OpenTripPlanner](https://www.opentripplanner.org/) - Multimodal trip planning software based on OpenStreetMap data and consuming published GTFS-formatted data to suggest routes using local public transit systems. ([Source Code](https://github.com/opentripplanner/OpenTripPlanner)) `LGPL-3.0` `Java/Javascript`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Nominatim](https://nominatim.org/) - Server application for reverse geocoding (address -> coordinates) on OpenStreetMap data. ([Source Code](https://github.com/osm-search/Nominatim)) `GPL-2.0` `C`
-- **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [OwnTracks Recorder](https://github.com/owntracks/recorder) `⚠` - Store and access data published by [OwnTracks](http://owntracks.org/) location tracking apps. `GPL-2.0` `C`/`Lua`
+- **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [OwnTracks Recorder](https://github.com/owntracks/recorder) `⚠` - Store and access data published by [OwnTracks](http://owntracks.org/) location tracking apps. `GPL-2.0` `C/Lua`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [uMap](https://umap.openstreetmap.fr/en/) - Create maps with OpenStreetMap layers in a minute and embed them in your site. ([Source Code](https://github.com/umap-project/umap)) `WTFPL` `Python`
 
-## Media Streaming
+
+### Media Streaming
 
 **[`^        back to top        ^`](#)**
 
-_See also <https://en.wikipedia.org/wiki/List_of_streaming_media_systems>, <https://en.wikipedia.org/wiki/Comparison_of_streaming_media_systems>_
+_See also: [List of streaming media systems - Wikipedia](https://en.wikipedia.org/wiki/List_of_streaming_media_systems), [Comparison of streaming media systems - Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_streaming_media_systems)_
 
-### Multimedia Streaming
+
+### Media Streaming - Multimedia Streaming
 
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [ReadyMedia](http://sourceforge.net/projects/minidlna/) - Simple media server software, with the aim of being fully compliant with DLNA/UPnP-AV clients. Formerly known as MiniDLNA. ([Source Code](https://sourceforge.net/p/minidlna/git/ci/master/tree/)) `GPL-2.0` `C`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Rygel](https://wiki.gnome.org/action/show/Projects/Rygel) - Rygel is a UPnP AV MediaServer that allows you to easily share audio, video, and pictures. Media player software may use Rygel to become a MediaRenderer that may be controlled remotely by a UPnP or DLNA Controller. ([Source Code](https://gitlab.gnome.org/GNOME/rygel/)) `GPL-3.0` `C`
@@ -988,7 +1021,7 @@ _See also <https://en.wikipedia.org/wiki/List_of_streaming_media_systems>, <http
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [homehost](https://github.com/ridhwaans/homehost) `⚠` - Self-hosted React + Redux app that streams your media collection (music, movies, books, podcasts, comics etc). `MIT` `Nodejs`
 
 
-### Audio Streaming
+### Media Streaming - Audio Streaming
 
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Funkwhale](https://funkwhale.audio/) - Modern, web-based, convivial, multi-user and free music server. ([Demo](https://demo.funkwhale.audio/), [Source Code](https://code.eliotberriot.com/funkwhale/funkwhale)) `BSD-3-Clause` `Python/Django`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [GNU FM](https://gnu.io/fm/) - Running music community websites, alternative to last.fm. ([Source Code](http://git.savannah.gnu.org/cgit/librefm.git/)) `AGPL-3.0` `PHP`
@@ -1021,7 +1054,8 @@ _See also <https://en.wikipedia.org/wiki/List_of_streaming_media_systems>, <http
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [FriendsRadio](https://github.com/xouabita/friends-radio) `⚠` - Share music with your friends from Youtube and Soundcloud. ([Demo](https://friends-radio.herokuapp.com/)) `MIT` `Nodejs`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [mpd](http://www.musicpd.org/) - Daemon to remotely play music, stream music, handle and organize playlists. Many clients available. ([Source Code](https://github.com/MusicPlayerDaemon/MPD), [Clients](https://www.musicpd.org/clients/)) `GPL-2.0` `C++`
 
-### Video Streaming
+
+### Media Streaming - Video Streaming
 
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Oddworks](https://gitlab.com/oddnetworks/oddworks/core) - Oddworks is an open source video distribution platform built to destroy the barriers to streaming television with SDKs for Roku, Apple iOS/tvOS, Google Android, and Amazon FireTV. `MIT` `Nodejs`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [crtmpserver](https://packages.debian.org/stable/crtmpserver) - High performance RTMP/RTSP streaming server. `GPL-3.0` `C++`
@@ -1046,7 +1080,8 @@ _See also <https://en.wikipedia.org/wiki/List_of_streaming_media_systems>, <http
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Restreamer](https://datarhei.github.io/restreamer/) - Restreamer allows you to do h.264 real-time video streaming on your website without a streaming provider. ([Source Code](https://github.com/datarhei/restreamer)) `Apache-2.0` `Nodejs/Docker`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Tube](https://prologic.github.io/tube) - a Youtube-like (_without censorship and features you don't need!_) Video Sharing App written in Go which also supports automatic transcoding to MP4 H.265 AAC, multiple collections and RSS feed. ([Demo](https://tube.mills.io), [Source Code](https://github.com/prologic/tube)) `MIT` `Go`
 
-## Misc/Other
+
+### Miscellaneous
 
 **[`^        back to top        ^`](#)**
 
@@ -1097,11 +1132,12 @@ _See also <https://en.wikipedia.org/wiki/List_of_streaming_media_systems>, <http
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [graph-vl](https://github.com/verifid/graph-vl) - Identity document verification using Machine Learning and GraphQL. `MIT` `Python`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [PassCheck](https://apacketofsweets.github.io/PassCheck/) - A web application featuring some handy password tools, including a password generator, strength checker and HaveIBeenPwned breach checker. ([Source Code](https://github.com/apacketofsweets/PassCheck)) `MIT` `Javascript`
 
-## Money, Budgeting and Management
+
+### Money, Budgeting & Management
 
 **[`^        back to top        ^`](#)**
 
-_See also https://github.com/awesome-foss/awesome-sysadmin#it-asset-management_
+_See also: [awesome-sysadmin/IT Asset Management](https://github.com/awesome-foss/awesome-sysadmin#it-asset-management)_
 
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Hospital Run](http://hospitalrun.io/) - Hospital Run is offline enabled hospital management software. ([Demo](http://hospitalrun.io/demo/), [Source Code](https://github.com/HospitalRun/hospitalrun-server)) `GPL-3.0` `Nodejs`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [InvoicePlane](https://github.com/InvoicePlane/InvoicePlane) - Manage quotes, invoices, payments and customers for your small business. `MIT` `PHP`
@@ -1131,17 +1167,19 @@ _See also https://github.com/awesome-foss/awesome-sysadmin#it-asset-management_
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [IHateMoney](http://ihatemoney.org/) - Manage your shared expenses, easily. ([Demo](https://ihatemoney.org/demo/), [Source Code](https://github.com/spiral-project/ihatemoney)) `BSD-3-Clause` `Python`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Fava](https://beancount.github.io/fava/) - Fava is the web frontend of Beancount, a text based double-entry accounting system. ([Demo](https://fava.pythonanywhere.com/example-with-budgets/income_statement/), [Source Code](https://github.com/beancount/fava)) `MIT` `Python`
 
-## Monitoring
+
+### Monitoring
 
 **[`^        back to top        ^`](#)**
 
-_See https://github.com/awesome-foss/awesome-sysadmin#monitoring and https://github.com/awesome-foss/awesome-sysadmin#metric--metric-collection_
+**Please visit [awesome-sysadmin/Monitoring](https://github.com/awesome-foss/awesome-sysadmin#monitoring), [awesome-sysadmin/Metric and Metric Collection](https://github.com/awesome-foss/awesome-sysadmin#metric--metric-collection)**
 
-## Note-taking and Editors
+
+### Note-taking & Editors
 
 **[`^        back to top        ^`](#)**
 
-_See also [Wikis](#wikis)_
+_Related: [Wikis](#wikis)_
 
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [BulletNotes](https://bulletnotes.io/) - Workflowy / Dynalist clone with Kanban (Trello) and Calendar functionality. Organize everything. ([Source Code](https://gitlab.com/NickBusey/BulletNotes)) `MIT` `Nodejs`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Turtl](https://turtl.it/) - Totally private personal database and note taking app. ([Source Code](https://github.com/turtl)) `GPL-3.0` `CommonLisp`
@@ -1172,7 +1210,8 @@ _See also [Wikis](#wikis)_
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Writing](https://josephernest.github.io/writing/) - Lightweight distraction-free text editor, in the browser (Markdown and LaTeX supported). No lag when writing. ([Source Code](https://github.com/josephernest/writing)) `MIT` `Javascript`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [turndown](https://mixmark-io.github.io/turndown/) - HTML to Markdown converter written in Javascript. ([Source Code](https://github.com/mixmark-io/turndown)) `MIT` `Javascript`
 
-## Office Suites
+
+### Office Suites
 
 **[`^        back to top        ^`](#)**
 
@@ -1186,7 +1225,8 @@ _See also [Wikis](#wikis)_
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [WebODF](http://webodf.org/) - Tools and libraries to view and edit Open Document Format (ODF) files. ([Source Code](https://github.com/webodf/WebODF)) `AGPL-3.0` `HTML5`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [CryptPad](https://cryptpad.fr/) - CryptPad is the zero knowledge realtime collaborative editor (rich-text, files, source-code, ...). ([Source Code](https://github.com/xwiki-labs/cryptpad)) `AGPL-3.0` `Nodejs`
 
-## Password Managers
+
+### Password Managers
 
 **[`^        back to top        ^`](#)**
 
@@ -1204,14 +1244,14 @@ _See also [Wikis](#wikis)_
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [PassWall](https://github.com/passwall/passwall-server) - Open source password manager. `AGPL-3.0` `Go`
 
 
-## Pastebins
+### Pastebins
 
 **[`^        back to top        ^`](#)**
 
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [FlashPaper](https://github.com/AndrewPaglusch/FlashPaper) - A one-time encrypted zero-knowledge password/secret sharing application focused on simplicity and security. No database or complicated set-up required. ([Demo](https://flashpaper.io)) `MIT` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [PrivateBin](https://privatebin.info/) - PrivateBin is a minimalist, opensource online pastebin/discussion board where the server has zero knowledge of hosted data. ([Demo](https://privatebin.net/), [Source Code](https://github.com/PrivateBin/PrivateBin)) `Zlib` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [PurritoBin](https://github.com/PurritoBin/PurritoBin) - Ultra fast, minimalistic, encrypted command line paste-bin, where the server has no knowledge of the paste data. `ISC` `C++`
-- **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [0bin](https://github.com/Tygs/0bin) - Client side encrypted pastebin. ([Demo](https://0bin.net/) `WTFPL` `Python`
+- **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [0bin](https://github.com/Tygs/0bin) - Client side encrypted pastebin. ([Demo](https://0bin.net/)) `WTFPL` `Python`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [cryptonote](https://cryptonote.me/) - Simple open source web application that lets users encrypt and share messages that can only be read once. ([Source Code](https://github.com/alainmeier/cryptonote)) `MIT` `Ruby`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Sup3rS3cretMes5age](https://github.com/algolia/sup3rS3cretMes5age) - Very simple (to deploy and to use) secret message service using Hashicorp Vault as a secrets storage. `MIT` `Go`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [dpaste](https://dpaste.org/) - simple pastebin with multiple text and code option, with short url result easy to remember. ([Source Code](https://github.com/bartTC/dpaste)) `MIT` `Docker`
@@ -1238,13 +1278,14 @@ _See also [Wikis](#wikis)_
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [fiche](https://github.com/solusipse/fiche) - Command line pastebin, all you need is netcat. ([Demo](http://termbin.com/)) `MIT` `C`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Spacebin](https://docs.spaceb.in) - Text-sharing for the final frontier — Reliable Pastebin server in Golang and Fiber. ([Demo](https://spaceb.in), [Source Code](https://github.com/spacebin-org/spirit)) `Apache-2.0` `Go`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [bin](https://github.com/w4/bin) - a paste bin. `WTFPL/0BSD` `Rust`
-- **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Hastebin](https://haste.zneix.eu/about.md) - Open source pastebin written in Node.js (This is a fork with extended maintenance). ([Demo](https://haste.zneix.eu), [Source Code](https://github.com/zneix/haste-server)) `MIT` `Nodejs`
+- **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Hastebin](https://haste.zneix.eu/about.md) - Open source pastebin. (This is a fork with extended maintenance). ([Demo](https://haste.zneix.eu), [Source Code](https://github.com/zneix/haste-server)) `MIT` `Nodejs`
 
-## Personal Dashboards
+
+### Personal Dashboards
 
 **[`^        back to top        ^`](#)**
 
-_See also [Monitoring](#monitoring)_
+_Related: [Monitoring](#monitoring)_
 
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Habitica](https://habitica.com/) - Habit tracker app which treats your goals like a Role Playing Game. Previously called HabitRPG. ([Source Code](https://github.com/HabitRPG/habitica)) `GPL-3.0/CC-BY-NC-SA-3.0/CC-BY-SA-3.0` `Nodejs`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Smashing](https://smashing.github.io/) - Smashing, the spiritual successor to Dashing, is a Sinatra based framework that lets you build excellent dashboards. It looks especially great on TVs. ([Source Code](https://github.com/Smashing/smashing)) `MIT` `Ruby`
@@ -1264,7 +1305,8 @@ _See also [Monitoring](#monitoring)_
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Homepage](https://github.com/tomershvueli/homepage) - Simple, standalone, self-hosted PHP page that is your window to your server and the web. `MIT` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [wger](http://wger.de/) - Web-based personal workout, fitness and weight logger/tracker. It can also be used as a simple gym management utility and offers a full REST API as well. ([Demo](https://wger.de/en/dashboard), [Source Code](https://github.com/wger-project/wger)) `AGPL-3.0` `Python`
 
-## Photo and Video Galleries
+
+### Photo and Video Galleries
 
 **[`^        back to top        ^`](#)**
 
@@ -1292,7 +1334,8 @@ _See also [Monitoring](#monitoring)_
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Gallery CSS](https://benschwarz.github.io/gallery-css/) - Gallery.css is all CSS. Think: Simple, maintainable and understandable galleries without the use of Javascript. ([Source Code](https://github.com/benschwarz/gallery-css)) `MIT` `CSS`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [PiGallery 2](https://bpatrik.github.io/pigallery2/) - A directory-first photo gallery website, with a rich UI, optimised for running on low resource servers. ([Source Code](https://github.com/bpatrik/pigallery2)) `MIT` `Docker/Nodejs`
 
-## Polls and Events
+
+### Polls and Events
 
 **[`^        back to top        ^`](#)**
 
@@ -1313,13 +1356,15 @@ _See also [Monitoring](#monitoring)_
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [dudle](http://primelife.ercim.eu/results/opensource/63-dudle) - Online scheduling application. ([Demo](https://dudle.inf.tu-dresden.de/), [Source Code](https://github.com/kellerben/dudle)) `AGPL-3.0` `Ruby`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Gancio](https://gancio.org/) - A shared agenda for local communities. ([Demo](https://demo.gancio.org/), [Source Code](https://framagit.org/les/gancio)) `AGPL-3.0` `Nodejs`
 
+
 ### Booking and Scheduling
 
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Easy!Appointments](http://easyappointments.org/) - A highly customizable web application that allows your customers to book appointments with you via the web. ([Demo](http://easyappointments.org/demo/), [Source Code](https://github.com/alextselegidis/easyappointments)) `GPL-3.0` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Alf.io](https://alf.io/) - The open source ticket reservation system. ([Demo](https://demo.alf.io/authentication), [Source Code](https://github.com/alfio-event/alf.io)) `GPL-3.0` `Java`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Calendso](https://calendso.com/) - The open-source online appointment scheduling system. ([Demo](https://app.calendso.com/bailey), [Source Code](https://github.com/calendso/calendso)) `MIT` `Nodejs`
 
-## Proxy
+
+### Proxy
 
 **[`^        back to top        ^`](#)**
 
@@ -1341,14 +1386,16 @@ _See also [Monitoring](#monitoring)_
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Traefik](https://traefik.io/) - Træfɪk is a modern HTTP reverse proxy and load balancer made to deploy microservices with ease. It supports several backends (Docker, Swarm, Mesos/Marathon, …) to manage its configuration automatically and dynamically. ([Source Code](https://github.com/traefik/traefik)) `MIT` `Go`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [iodine](http://code.kryo.se/iodine/) - IPv4 over DNS tunnel solution, enabling you to start up a socks5 proxy listener. ([Source Code](https://github.com/yarrick/iodine)) `ISC` `C`
 
-## Read it Later Lists
+
+### Read-it-later Lists
 
 **[`^        back to top        ^`](#)**
 
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Wallabag](https://www.wallabag.org) - Wallabag, formerly Poche, is a web application allowing you to save articles to read them later with improved readability. ([Demo](https://app.wallabag.it/register/), [Source Code](https://github.com/wallabag/wallabag)) `MIT` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Readflow](https://readflow.app) - Lightweight news reader with modern interface and features: full-text search, automatic categorization, archiving, offline support, notifications... ([Source Code](https://github.com/ncarlier/readflow)) `MIT` `Go`
 
-## Resource Planning
+
+### Resource Planning
 
 **[`^        back to top        ^`](#)**
 
@@ -1356,7 +1403,10 @@ _See also [Monitoring](#monitoring)_
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [farmOS](http://farmos.org/) - Web-based farm record keeping application. ([Source Code](https://github.com/farmOS/farmOS)) `GPL-2.0` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [grocy](https://grocy.info/) - ERP beyond your fridge - grocy is a web-based self-hosted groceries & household management solution for your home. ([Demo](https://en.demo.grocy.info/), [Source Code](https://github.com/grocy/grocy)) `MIT` `PHP`
 
-### Enterprise Resource Planning
+
+### Resource Planning - Enterprise Resource Planning
+
+**[`^        back to top        ^`](#)**
 
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [OFBiz](https://ofbiz.apache.org/) - FOSS enterprise resource planning system with a suite of business applications flexible enough to be used across any industry. ([Source Code](https://svn.apache.org/viewvc/ofbiz/)) `Apache-2.0` `Java`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Tryton](http://www.tryton.org/) - Free open source business solution. ([Demo](http://www.tryton.org/download.html), [Source Code](https://hg.tryton.org/)) `GPL-3.0` `Python`
@@ -1365,7 +1415,8 @@ _See also [Monitoring](#monitoring)_
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [LedgerSMB](https://ledgersmb.org/) - Integrated accounting and ERP system for small and midsize businesses, with double entry accounting, budgeting, invoicing, quotations, projects, orders and inventory management, shipping and more. ([Demo](https://demo.cloud.efficito.com/erp/1.5/login.pl), [Source Code](https://github.com/ledgersmb/LedgerSMB)) `GPL-2.0` `Perl`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Odoo](http://odoo.com) - Free open source ERP system. ([Demo](https://demo.odoo.com/), [Source Code](https://github.com/odoo/odoo)) `LGPL-3.0` `Python`
 
-## Search Engines
+
+### Search Engines
 
 **[`^        back to top        ^`](#)**
 
@@ -1378,13 +1429,17 @@ _See also [Monitoring](#monitoring)_
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Yacy](http://yacy.net/en/index.html) - Peer based, decentralized search engine server. ([Demo](http://search.yacy.net/), [Source Code](https://github.com/yacy/yacy_search_server)) `GPL-2.0` `Java`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Searx](https://searx.github.io/searx/) - Privacy-respecting, hackable metasearch engine. ([Demo](https://searx.me/), [Source Code](https://github.com/searx/searx)) `AGPL-3.0` `Python`
 
-## Software Development
+
+### Software Development
 
 **[`^        back to top        ^`](#)**
 
-### Project Management
 
-_See also [Ticketing](#ticketing), [Task management/To-do lists](#task-managementto-do-lists), [awesome-sysadmin/Code Review](https://github.com/awesome-foss/awesome-sysadmin#code-review)_
+### Software Development - Project Management
+
+_Related: [Ticketing](#ticketing), [Task management & To-do lists](#task-management--to-do-lists)_
+
+_See also: [awesome-sysadmin/Code Review](https://github.com/awesome-foss/awesome-sysadmin#code-review)_
 
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [RhodeCode](https://rhodecode.com/) - RhodeCode is an open source platform for software development teams. It unifies and simplifies repository management for Git, Subversion, and Mercurial. ([Source Code](https://code.rhodecode.com/)) `AGPL-3.0` `Python`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Fossil](https://www.fossil-scm.org/index.html/doc/trunk/www/index.wiki) - Distributed version control system featuring wiki and bug tracker. `BSD-2-Clause-FreeBSD` `C`
@@ -1421,11 +1476,12 @@ _See also [Ticketing](#ticketing), [Task management/To-do lists](#task-managemen
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [GitPrep](http://gitprep.yukikimoto.com/) - Portable Github clone. ([Demo](http://perlcodesample.sakura.ne.jp/gitprep/gitprep.cgi), [Source Code](https://github.com/yuki-kimoto/gitprep)) `Artistic-2.0` `Perl`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [gitbucket](https://gitbucket.github.io/gitbucket-news/) - Easily installable GitHub clone powered by Scala. ([Source Code](https://github.com/gitbucket/gitbucket)) `Apache-2.0` `Scala/Java`
 
-### Bug Trackers
+### Software Development - Bug Trackers
 
-_See [Ticketing](#ticketing)_
+**Please visit [Ticketing](#ticketing)**
 
-### IDE/Tools
+
+### Software Development - IDE & Tools
 
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Atheos](https://www.atheos.io) - Web-based IDE framework with a small footprint and minimal requirements, continued from Codiad. ([Source Code](https://github.com/Atheos/Atheos)) `MIT` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Appsmith](https://www.appsmith.com/) - Cloud or self-hosted open-source platform to build admin panels, CRUD apps and workflows. Build everything you need, 10x faster. ([Source Code](https://github.com/appsmithorg/appsmith)) `Apache-2.0` `Java/Docker`
@@ -1439,7 +1495,7 @@ _See [Ticketing](#ticketing)_
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [ICEcoder](https://icecoder.net/) - ICEcoder is a web IDE / browser based code editor, which allows you to develop websites directly within the web browser. ([Demo](http://demo.icecoder.net/ICEcoder/), [Source Code](https://github.com/icecoder/ICEcoder)) `MIT` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [JS Bin](http://jsbin.com/) - Open source collaborative web development debugging tool. ([Source Code](https://github.com/jsbin/jsbin)) `MIT` `Nodejs`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Judge0 CE](https://judge0.com) - Open source API to compile and run source code. ([Source Code](https://github.com/judge0/judge0)) `GPL-3.0` `Ruby`
-- **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Lowdefy](https://www.lowdefy.com/) - Build internal tools, BI dashboards, admin panels, CRUD apps and workflows in minutes using YAML / JSON on an self-hosted, open-source platform. Connect to your data sources, host via Serverless, Netlify or Docker. ([Source Code](https://github.com/lowdefy/lowdefy)) `Apache-2.0` `NodeJs`
+- **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Lowdefy](https://www.lowdefy.com/) - Build internal tools, BI dashboards, admin panels, CRUD apps and workflows in minutes using YAML / JSON on an self-hosted, open-source platform. Connect to your data sources, host via Serverless, Netlify or Docker. ([Source Code](https://github.com/lowdefy/lowdefy)) `Apache-2.0` `Nodejs`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [ML Workspace](https://github.com/ml-tooling/ml-workspace) - All-in-one web-based IDE for machine learning and data science. `Apache-2.0` `Docker`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Wakapi](https://wakapi.dev/) - Tracking tool for coding statistics, compatible with WakaTime. ([Source Code](https://github.com/muety/wakapi)) `GPL-3.0` `Go`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Hakatime](https://github.com/mujx/hakatime) - WakaTime server implementation with analytics dashboard. `Unlicense` `Haskell`
@@ -1447,18 +1503,20 @@ _See [Ticketing](#ticketing)_
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [sourcegraph](https://sourcegraph.com) - Sourcegraph is a fast, open-source, fully-featured code search and navigation engine written in Go. ([Source Code](https://github.com/sourcegraph/sourcegraph)) `Apache-2.0` `Go`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [JupyterLab](http://jupyterlab.github.io/jupyterlab/) - Web-based environment for interactive and reproducible computing. ([Demo](https://mybinder.org/v2/gh/jupyterlab/jupyterlab-demo/try.jupyter.org?urlpath=lab), [Source Code](https://github.com/jupyterlab/jupyterlab/)) `BSD-3-Clause` `Python/Docker`
 
-### Continuous Integration
+### Software Development - Continuous Integration & Deployment
 
-_See [awesome-sysadmin/Continuous Integration & Continuous Deployment](https://github.com/awesome-foss/awesome-sysadmin#continuous-integration--continuous-deployment)_
+**Please visit [awesome-sysadmin/Continuous Integration & Continuous Deployment](https://github.com/awesome-foss/awesome-sysadmin#continuous-integration--continuous-deployment)**
 
-### UX testing
+
+### Software Development - UX Testing
 
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Selenoid](http://aerokube.com/selenoid/latest/) - Lightweight Selenium hub implementation launching browsers within Docker containers. ([Source Code](https://github.com/aerokube/selenoid)) `Apache-2.0` `Go`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Uier](https://github.com/sjoerdvanderhoorn/Uier) - Codeless or low-code User Experience test editing and management using Selenium to perform testing or UI automation. Uier tends to be a free self hostable alternative to Applitools, Endtest, Ghost Inspector, Usetrace, Screenster and many others. `Apache-2.0` `Nodejs`
 
-### FaaS/Serverless
 
-_[Serverless computing on Wikipedia](https://en.wikipedia.org/wiki/Serverless_computing)_
+### Software Development - FaaS & Serverless
+
+_[Serverless computing - Wikipedia](https://en.wikipedia.org/wiki/Serverless_computing)_
 
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Appwrite](https://appwrite.io) - End to end backend server for web, native, and mobile developers 🚀. ([Source Code](https://github.com/appwrite/appwrite)) `BSD-3-Clause` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [IronFunctions](https://github.com/iron-io/functions) - The serverless microservices platform by [iron.io](https://www.iron.io/). `Apache-2.0` `Go`
@@ -1467,7 +1525,8 @@ _[Serverless computing on Wikipedia](https://en.wikipedia.org/wiki/Serverless_co
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [OpenFaaS](https://www.openfaas.com/) - Serverless Functions Made Simple for Docker & Kubernetes. ([Source Code](https://github.com/openfaas/faas)) `MIT` `Go`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Trusted-CGI](https://github.com/reddec/trusted-cgi) - Lightweight self-hosted lambda/applications/cgi/serverless-functions platform. `MIT` `Go`
 
-### API Management
+
+### Software Development - API Management
 
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Kong](https://konghq.com/kong/) - The World’s Most Popular Open Source Microservice API Gateway and Platform. ([Source Code](https://github.com/Kong/kong)) `Apache-2.0` `Lua`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Tyk](https://tyk.io) - Fast and scalable open source API Gateway. Out of the box, Tyk offers an API Management Platform with an API Gateway, API Analytics, Developer Portal and API Management Dashboard. ([Source Code](https://github.com/TykTechnologies/tyk)) `MPL-2.0` `Go`
@@ -1481,16 +1540,18 @@ _[Serverless computing on Wikipedia](https://en.wikipedia.org/wiki/Serverless_co
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Hapttic](https://github.com/jsoendermann/hapttic) - Simple HTTP server that forwards all requests to a shell script to handle webhooks you receive. `Apache-2.0` `Go`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Lura](https://luraproject.org/) - Open source High-Performance API Gateway. ([Source Code](https://github.com/luraproject/lura)) `Apache-2.0` `Go`
 
-### Documentation Generators
 
-_See also [Static site generators](#static-site-generators)_
+### Software Development - Documentation Generators
+
+_Related: [Static site generators](#static-site-generators)_
 
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Flatdoc](http://ricostacruz.com/flatdoc/) - Small Javascript file that fetches Markdown files and renders them as full pages. `MIT` `Javascript`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Docstore](http://haldean.org/) - Static document hosting without any server-side processing, does not require you to recompile every time you change an article. Clone the repository and add articles in the text/ directory to get started. ([Source Code](https://github.com/haldean/docstore)) `BSD-3-Clause` `Javascript`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [markdown-tree](https://github.com/mil/markdown-tree) - Serve a hierarchy / tree directory of markdown files. Use intended for small sites built in markdown. `MIT` `Ruby`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Read the Docs](https://readthedocs.org/) - Host documentation, making it fully searchable and easy to find; import your docs using any major version control system, including Mercurial, Git, Subversion, and Bazaar. ([Demo](https://readthedocs.org/projects/), [Source Code](https://github.com/readthedocs/readthedocs.org)) `MIT` `Python`
 
-### Localization
+
+### Software Development - Localization
 
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Weblate](https://weblate.org) - Web-based translation tool with tight version control integration. ([Demo](https://demo.weblate.org), [Source Code](https://github.com/WeblateOrg/weblate)) `GPL-3.0` `Python`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Localizer](https://localizer.dev) - Free self-hosted open-source crowd-translating service for your product. ([Demo](https://localize.todorant.com), [Source Code](https://github.com/backmeupplz/localizer-backend)) `MIT` `Nodejs/Docker`
@@ -1499,17 +1560,19 @@ _See also [Static site generators](#static-site-generators)_
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Pootle](http://pootle.translatehouse.org) - Online translation and localization tool. ([Source Code](https://github.com/translate/pootle)) `GPL-3.0` `Python`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Zanata](http://zanata.org) - Web-based translation platform for translators, content creators and developers to manage localisation projects. ([Source Code](https://github.com/zanata/zanata-platform)) `GPL-2.0` `Java`
 
-## Static site generators
+
+### Static Site Generators
 
 **[`^        back to top        ^`](#)**
 
-_See https://staticsitegenerators.net and https://www.staticgen.com_
+**Please visit [staticsitegenerators.net](https://staticsitegenerators.net), [staticgen.com](https://www.staticgen.com)**
 
-## Task management/To-do lists
+
+### Task Management & To-do Lists
 
 **[`^        back to top        ^`](#)**
 
-_See also [Project Management](#project-management) and [Ticketing](#ticketing)._
+_Related: [Software Development - Project Management](#software-development---project-management), [Ticketing](#ticketing)._
 
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Vikunja](https://vikunja.io/) - The to-do app to organize your life. ([Demo](https://try.vikunja.io/login), [Source Code](https://kolaente.dev/vikunja/)) `GPL-3.0` `Go`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Taskfreak](http://www.taskfreak.com/original) - Simple but efficient web based task manager written in PHP. `GPL-3.0` `PHP`
@@ -1532,11 +1595,12 @@ _See also [Project Management](#project-management) and [Ticketing](#ticketing).
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [thewhitetulip Tasks](https://github.com/thewhitetulip/Tasks) - Kanban based to-do list manager written in Go. `MIT` `Go`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Wekan](https://wekan.github.io/) - Open-source Trello-like kanban. ([Source Code](https://github.com/wekan/wekan)) `MIT` `Nodejs`
 
-## Ticketing
+
+### Ticketing
 
 **[`^        back to top        ^`](#)**
 
-_See also [Task management/To-do lists](#task-managementto-do-lists) and [Project Management](#project-management)_
+_Related: [Task management & To-do lists](#task-management--to-do-lists), [Software Development - Project Management](#software-development---project-management)_
 
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Flyspray](http://www.flyspray.org/) - Uncomplicated, web-based bug tracking system. ([Source Code](https://github.com/Flyspray/flyspray)) `GPL-2.0` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Request Tracker](https://www.bestpractical.com/rt/) - An enterprise-grade issue tracking system. ([Source Code](https://github.com/bestpractical/rt)) `GPL-2.0` `Perl`
@@ -1555,7 +1619,8 @@ _See also [Task management/To-do lists](#task-managementto-do-lists) and [Projec
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [TheBugGenie](http://www.thebuggenie.org) - friendly project management and issue tracking tool, with extensive user rights system. ([Source Code](https://github.com/thebuggenie/thebuggenie)) `MPL-2.0` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Zammad](https://zammad.org/) - Easy to use but powerful open-source support and ticketing system. ([Source Code](https://github.com/zammad/zammad)) `AGPL-3.0` `Ruby`
 
-## URL Shorteners
+
+### URL Shorteners
 
 _Before hosting one, please see [shortcomings](https://en.wikipedia.org/wiki/URL_shortening#Shortcomings) of URL shorteners._
 
@@ -1578,23 +1643,28 @@ _Before hosting one, please see [shortcomings](https://en.wikipedia.org/wiki/URL
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Link-shortener-bot](https://github.com/tommyku/link-shortener-front-end) `⚠` - URL shortener using a Telegram Bot. ([Demo](http://t.me/GiveMeShortLinkBot)) `MIT` `Ruby`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [reduc.io](https://github.com/ziyasal/reducio) - URL shortener service written in Scala, using Akka-Http and Redis. `MIT` `Scala`
 
-## VPN
+
+### VPN
 
 **[`^        back to top        ^`](#)**
 
-_See https://github.com/awesome-foss/awesome-sysadmin#vpn_
+**Please visit [awesome-sysadmin/VPN](https://github.com/awesome-foss/awesome-sysadmin#vpn)**
 
-## Web servers
 
-**[`^        back to top        ^`](#)**
-
-_See https://github.com/awesome-foss/awesome-sysadmin#web_
-
-## Wikis
+### Web Servers
 
 **[`^        back to top        ^`](#)**
 
-_See also [Documentation Generators](#documentation-generators), [Wikimatrix](http://www.wikimatrix.org/), [Wiki Engines on WikiIndex](http://wikiindex.org/Category:Wiki_Engine), [List of wiki software on wikipedia](https://en.wikipedia.org/wiki/List_of_wiki_software), [Comparison of wiki software on wikipedia](https://en.wikipedia.org/wiki/Comparison_of_wiki_software)._
+**Please visit [awesome-sysadmin/Web](https://github.com/awesome-foss/awesome-sysadmin#web)**
+
+
+### Wikis
+
+**[`^        back to top        ^`](#)**
+
+_Related: [Software Development - Documentation Generators](#software-development---documentation-generators)_
+
+_See also: [Wikimatrix](http://www.wikimatrix.org/), [Wiki Engines - WikiIndex](http://wikiindex.org/Category:Wiki_Engine), [List of wiki software - Wikipedia](https://en.wikipedia.org/wiki/List_of_wiki_software), [Comparison of wiki software - Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_wiki_software)._
 
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Mediawiki](https://www.mediawiki.org/wiki/MediaWiki) - MediaWiki is a free and open-source wiki software package written in PHP. It serves as the platform for Wikipedia and the other Wikimedia projects, used by hundreds of millions of people each month. ([Demo](https://en.wikipedia.org/wiki/Main_Page), [Source Code](https://phabricator.wikimedia.org/diffusion/MW/)) `GPL-2.0` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [WiKiss](http://wikiss.tuxfamily.org/) - Wiki, simple to use and install. ([Source Code](https://svnweb.tuxfamily.org/listing.php?repname=wikiss/svn&path=%2F&sc=0)) `GPL-2.0` `PHP`
@@ -1603,7 +1673,7 @@ _See also [Documentation Generators](#documentation-generators), [Wikimatrix](ht
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Tiki](https://tiki.org) - Wiki CMS Groupware with the most built-in features. ([Demo](https://tiki.org/Demo), [Source Code](https://sourceforge.net/p/tikiwiki/code/HEAD/tree/)) `LGPL-2.1` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [BookStack](https://www.bookstackapp.com/) - BookStack is a simple, self-hosted, easy-to-use platform for organizing and storing information. It allows for documentation to be stored in a book like fashion. ([Demo](https://www.bookstackapp.com/#demo), [Source Code](https://github.com/BookStackApp/BookStack)) `MIT` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [TiddlyWiki](http://tiddlywiki.com/) - Reusable non-linear personal web notebook. ([Source Code](https://github.com/Jermolene/TiddlyWiki5)) `BSD-3-Clause` `Nodejs`
-- **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Wiki.js](https://wiki.js.org/) - Modern, lightweight and powerful wiki app built on NodeJS, Git and Markdown. ([Demo](https://docs.requarks.io)) `AGPL-3.0` `Nodejs`
+- **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Wiki.js](https://wiki.js.org/) - Modern, lightweight and powerful wiki app using Git and Markdown. ([Demo](https://docs.requarks.io)) `AGPL-3.0` `Nodejs`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [jingo](https://github.com/claudioc/jingo) - Git based wiki engine written for node.js, with a decent design, a search capability and good typography. `MIT` `Nodejs`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [django-wiki](https://github.com/django-wiki/django-wiki) - Wiki system with complex functionality for simple integration and a superb interface. Store your knowledge with style: Use django models. ([Demo](https://demo.django-wiki.org/)) `GPL-3.0` `Python`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Documize](https://documize.com) - Modern Docs + Wiki software with built-in workflow, single binary executable, just bring MySQL/Percona. ([Source Code](https://github.com/documize/community)) `AGPL-3.0` `Go`
@@ -1611,7 +1681,7 @@ _See also [Documentation Generators](#documentation-generators), [Wikimatrix](ht
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Gollum](https://github.com/gollum/gollum) - Simple, Git-powered wiki with a sweet API and local frontend. `MIT` `Ruby`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Gitit](https://github.com/jgm/gitit) - Wiki program that stores pages and uploaded files in a git repository, which can then be modified using the VCS command line tools or the wiki's web interface. `GPL-2.0` `Haskell`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [MoinMoin](https://moinmo.in/) - Advanced, easy to use and extensible WikiEngine with a large community of users. ([Source Code](https://github.com/moinwiki/moin-1.9)) `GPL-2.0` `Python`
-- **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Outline](https://www.getoutline.com/) `⚠` - An open, extensible, wiki for your team built using React and Node.js. ([Source Code](https://github.com/outline/outline)) `BSD-3-Clause` `Nodejs`
+- **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Outline](https://www.getoutline.com/) `⚠` - An open, extensible, wiki for your team. ([Source Code](https://github.com/outline/outline)) `BSD-3-Clause` `Nodejs`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [wiki](https://github.com/prologic/wiki) - Simple Markdown based wiki engine. ([Demo](https://wiki.mills.io)) `MIT` `Go`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Pepperminty Wiki](https://github.com/sbrl/Pepperminty-Wiki) - Complete markdown-powered wiki contained in a single PHP file. ([Demo](https://starbeamrainbowlabs.com/labs/peppermint/build/)) `MPL-2.0` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Cowyo](https://github.com/schollz/cowyo) - Cowyo is a feature-rich wiki for minimalists. ([Demo](https://cowyo.com)) `MIT` `Go`
@@ -1620,7 +1690,8 @@ _See also [Documentation Generators](#documentation-generators), [Wikimatrix](ht
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [PineDocs](https://github.com/xy2z/PineDocs) - Simple, fast, customizable and lightweight site for browsing files. `GPL-3.0` `PHP`
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Zim](https://zim-wiki.org/) - Graphical text editor used to maintain a collection of wiki pages. Each page can contain links to other pages, simple formatting and images. ([Source Code](https://github.com/zim-desktop-wiki/zim-desktop-wiki)) `GPL-2.0` `Python`
 
-## Self-hosting Solutions
+
+### Self-hosting Solutions
 
 **[`^        back to top        ^`](#)**
 
@@ -1709,7 +1780,7 @@ _See also [Documentation Generators](#documentation-generators), [Wikimatrix](ht
 
 --------------------
 
-## External links
+## External Links
 
 **[`^        back to top        ^`](#)**
 
